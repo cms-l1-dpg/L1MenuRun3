@@ -22,5 +22,6 @@ This is the current organization of the PS columns:
 8.  1.30E+34 => MET plus jets
 9.  1.20E+34 => Menu v0 + all suggestions (bmubmu option 2)
 10. 1.10E+34 => Only  DoubleEG seeds for low-mass diphoton search
+11. 1.00E+34 => Only  TauTo3Mu
 
 
