@@ -108,7 +108,7 @@
     <ul class="list-group">
       <li class="list-group-item"><strong>Comment:</strong> Menu for November 2021 Trigger Review for Run3. [Scale set reference, for grammar version 0.9]</li>
       <li class="list-group-item"><strong>Firmware UUID:</strong> 00000000-0000-0000-0000-000000000000</li>
-      <li class="list-group-item"><strong>Menu UUID:</strong> 7f4b35d8-595f-4d57-ba68-edecfec92eb2</li>
+      <li class="list-group-item"><strong>Menu UUID:</strong> 72d82512-da21-403f-beef-6c2bb6d6c7ab</li>
       <li class="list-group-item"><strong>Grammar Version:</strong> 0.9</li>
       <li class="list-group-item"><strong>Scale Set:</strong> scales_2021_03_02</li>
       <li class="list-group-item"><strong>External Signals Set:</strong> L1ExternalConditionsCabling_20180319</li>
@@ -376,6 +376,11 @@
       <tr>
         <td><a href=#L1_DoubleMu18er2p1_SQ>51</a></td>
         <td><a href=#L1_DoubleMu18er2p1_SQ>L1_DoubleMu18er2p1_SQ</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_DoubleMu18er2p1>52</a></td>
+        <td><a href=#L1_DoubleMu18er2p1>L1_DoubleMu18er2p1</a></td>
         <td></td>
       </tr>
       <tr>
@@ -4732,6 +4737,83 @@
 
         <p><strong>VHDL Expression</strong></p>
         <p><pre class="vhdl"><span class="vhdlsig">l1_double_mu18er2p1_sq</span> <span class="vhdlop"><=</span> <span class="vhdlsig">double_mu_i45</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>https://its.cern.ch/jira/browse/CMSLITDPG-116</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>comb{MU18[MU-QLTY_SNGL, MU-ETA_2p10], MU18[MU-QLTY_SNGL, MU-ETA_2p10]}</strong> : <code>double_mu_i45</code>
+          <ul>
+            <li>Object: MU18
+              <ul>
+                <li>
+                  
+                    Threshold: 18.0 GeV
+                    : <code>0x25</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Quality: <a href="#MU-QLTY_SNGL">MU-QLTY_SNGL</a>:
+                    <code>0xf000</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#MU-ETA_2p10">MU-ETA_2p10</a> [-2.104, 2.104]
+                    : <code>[0x13f, 0xc1]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: MU18
+              <ul>
+                <li>
+                  
+                    Threshold: 18.0 GeV
+                    : <code>0x25</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Quality: <a href="#MU-QLTY_SNGL">MU-QLTY_SNGL</a>:
+                    <code>0xf000</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#MU-ETA_2p10">MU-ETA_2p10</a> [-2.104, 2.104]
+                    : <code>[0x13f, 0xc1]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_DoubleMu18er2p1"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>52 L1_DoubleMu18er2p1 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression"><span class="function">comb</span><span class="curl">{</span>MU18[MU-QLTY_SNGL, MU-ETA_2p10], MU18[MU-QLTY_SNGL, MU-ETA_2p10]<span class="curl">}</span></pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_double_mu18er2p1</span> <span class="vhdlop"><=</span> <span class="vhdlsig">double_mu_i45</span></pre></p>
         <p><strong>Comment</strong></p>
         <p>https://its.cern.ch/jira/browse/CMSLITDPG-116</p>
   
@@ -9432,15 +9514,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_0to14">MASS_MASS_0to14</a></li>
             <ul><li>
                 Mass: [0.0, 14.0]
                 : <code>[0.0, 98.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -9567,15 +9649,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>os</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_8to14">MASS_MASS_8to14</a></li>
             <ul><li>
                 Mass: [8.0, 14.0]
                 : <code>[32.0, 98.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>os</code>
             </li></ul>
           </ul>
         </li>
@@ -21748,17 +21830,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_150">MASS_MIN_150</a></li>
-            <ul><li>
-                Mass: [150.0, 151982.0]
-                : <code>[11250.0, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_150">MASS_MIN_150</a></li>
+            <ul><li>
+                Mass: [150.0, 151982.0]
+                : <code>[11250.0, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -21823,17 +21905,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_200">MASS_MIN_200</a></li>
-            <ul><li>
-                Mass: [200.0, 151982.0]
-                : <code>[20000.0, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_200">MASS_MIN_200</a></li>
+            <ul><li>
+                Mass: [200.0, 151982.0]
+                : <code>[20000.0, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -21973,17 +22055,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_300">MASS_MIN_300</a></li>
-            <ul><li>
-                Mass: [300.0, 151982.0]
-                : <code>[45000.0, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_300">MASS_MIN_300</a></li>
+            <ul><li>
+                Mass: [300.0, 151982.0]
+                : <code>[45000.0, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -22123,17 +22205,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_360">MASS_MIN_360</a></li>
-            <ul><li>
-                Mass: [360.0, 151982.0]
-                : <code>[64800.0, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_360">MASS_MIN_360</a></li>
+            <ul><li>
+                Mass: [360.0, 151982.0]
+                : <code>[64800.0, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -23269,17 +23351,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#ORMDR_0p2">ORMDR_0p2</a></li>
-            <ul><li>
-                ORM-Delta-R: [0.0, 0.2]
-                : <code>[0.0, 0.041]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_450">MASS_MIN_450</a></li>
             <ul><li>
                 Mass: [450.0, 151982.0]
                 : <code>[101250.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#ORMDR_0p2">ORMDR_0p2</a></li>
+            <ul><li>
+                ORM-Delta-R: [0.0, 0.2]
+                : <code>[0.0, 0.041]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -28551,7 +28633,7 @@
     </table>
 
     <footer class="footer">
-      <p>Generated by tm-reporter v2.9.0 on 2021-11-26 11:28:16.</p>
+      <p>Generated by tm-reporter v2.9.0 on 2022-01-21 14:52:30.</p>
     </fooer>
 
   </main><!-- /container -->
