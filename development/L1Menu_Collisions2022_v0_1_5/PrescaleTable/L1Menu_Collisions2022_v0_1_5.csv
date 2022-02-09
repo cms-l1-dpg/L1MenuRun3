@@ -23,7 +23,7 @@ Index,Name,Emergency,2.2E+34,2E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9E+33,6E+33
 21,L1_SingleMu22_OMTF,0,0,0,0,0,0,0,0,0
 22,L1_SingleMu22_EMTF,0,0,0,0,0,0,0,0,0
 23,L1_SingleMu25,0,1,1,1,1,1,1,1,1
-24,L1_SingleJet35_llp,1,1,1,1,1,1,1,1,1
+24,L1_SingleJet35_llp,0,1,1,1,1,1,1,1,1
 25,L1_SingleMu6er1p5,0,0,0,0,0,0,0,0,0
 26,L1_SingleMu7er1p5,0,0,0,0,0,0,0,1,1
 27,L1_SingleMu8er1p5,0,0,0,0,0,0,1,1,1
@@ -50,7 +50,7 @@ Index,Name,Emergency,2.2E+34,2E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9E+33,6E+33
 49,L1_DoubleMu_15_7_SQ,0,1,1,1,1,1,1,1,1
 50,L1_DoubleMu_15_7_Mass_Min1,0,0,0,0,0,0,0,0,0
 51,L1_DoubleMu18er2p1_SQ,0,0,0,0,0,0,0,0,0
-52,L1_DoubleMu18er2p1,1,1,1,1,1,1,1,1,1
+52,L1_DoubleMu18er2p1,0,1,1,1,1,1,1,1,1
 53,L1_DoubleMu0er2p0_SQ_dR_Max1p4,0,0,0,0,0,0,0,0,0
 54,L1_DoubleMu0er2p0_SQ_OS_dR_Max1p4,0,0,0,0,0,0,0,0,0
 55,L1_DoubleMu0er1p5_SQ,0,0,0,0,0,0,0,0,0
@@ -109,9 +109,9 @@ Index,Name,Emergency,2.2E+34,2E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9E+33,6E+33
 113,L1_DoubleMu5Upsilon_OS_DoubleEG3,0,1,1,1,1,1,1,1,1
 114,L1_DoubleMu0_upt15_upt7,0,0,0,0,0,0,0,0,0
 115,L1_DoubleMu0_upt6ip123_upt4,0,0,0,0,0,0,0,0,0
-116,L1_DoubleIsoTau35er2p1,1,1,1,1,1,1,1,1,1
-117,L1_DoubleIsoTau26er2p1_Jet55_OvRm_dR0p5,1,1,1,1,1,1,1,1,1
-118,L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5,1,1,1,1,1,1,1,1,1
+116,L1_DoubleIsoTau35er2p1,0,1,1,1,1,1,1,1,1
+117,L1_DoubleIsoTau26er2p1_Jet55_OvRm_dR0p5,0,1,1,1,1,1,1,1,1
+118,L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5,0,1,1,1,1,1,1,1,1
 119,L1_Mu3_Jet30er2p5,0,11000,11000,11000,11000,11000,11000,11000,11000
 121,L1_Mu3_Jet16er2p5_dR_Max0p4,0,400,400,320,280,240,200,160,100
 122,L1_Mu3_Jet35er2p5_dR_Max0p4,0,400,256,205,180,154,128,100,64
@@ -126,9 +126,9 @@ Index,Name,Emergency,2.2E+34,2E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9E+33,6E+33
 134,L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6,0,0,0,0,0,0,0,0,0
 135,L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6,0,1,1,1,1,1,1,1,1
 136,L1_Mu12er2p3_Jet40er2p1_dR_Max0p4_DoubleJet40er2p1_dEta_Max1p6,0,1,1,1,1,1,1,1,1
-137,L1_SingleIsoTau30er2p1,1,1,1,1,1,1,1,1,1
-138,L1_SingleIsoTau32er2p1,1,1,1,1,1,1,1,1,1
-139,L1_SingleIsoTau36er2p1,1,1,1,1,1,1,1,1,1
+137,L1_SingleIsoTau30er2p1,0,1,1,1,1,1,1,1,1
+138,L1_SingleIsoTau32er2p1,0,1,1,1,1,1,1,1,1
+139,L1_SingleIsoTau36er2p1,0,1,1,1,1,1,1,1,1
 142,L1_DoubleMu0_dR_Max1p6_Jet90er2p5_dR_Max0p8,0,1,1,1,1,1,1,1,1
 143,L1_DoubleMu3_dR_Max1p6_Jet90er2p5_dR_Max0p8,0,1,1,1,1,1,1,1,1
 145,L1_DoubleMu3_SQ_ETMHF50_HTT60er,0,0,0,0,0,0,0,0,0
