@@ -1,10 +1,10 @@
-# Prescale and masks tables for the L1Menu_Collisions2022_v0_1_5
+# Prescale and mask tables for the L1Menu_Collisions2022_v0_1_5
 
 **Description of the different formats** 
-* The PS table in csv format is used in the context of the rate estimation. It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools). 
-* The PS table in xlsx format is used to allow easily changes; it represents the baseline to run TSG Tools in the context of the data-taking to produce an xml PS table used online. The xml file is included in L1+HLT keys using L1CE (L1 Configuration Editor). It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools).
-* The PS table in xml file is also used to run the L1 emulation of the prescales. This is the format accepted by the uGT emulator code. 
-* The mask table in xml file is used together with the xml PS table to run the L1 emulation of the prescales.  
+* The PS table in **csv format** is used in the context of the rate estimation. It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools). 
+* The PS table in **xlsx format** is used to allow easily changes; it represents the baseline to run TSG Tools in the context of the data-taking to produce an xml PS table used online. The xml file is included in L1+HLT keys using L1CE (L1 Configuration Editor). It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools).
+* The PS table in **xml format** is also used to run the L1 emulation of the prescales. This is the format accepted by the uGT emulator code. 
+* The mask table in **xml format** is used together with the xml PS table to run the L1 emulation of the prescales.  
 
 The following recipe allows to emulate L1 prescales instead of to take into account the full list of unprescaled algorithms by default.
 ```
