@@ -15,5 +15,15 @@ process.L1TGlobalPrescalesVetos.PrescaleXMLFile = cms.string('l1prescales_L1Menu
 process.L1TGlobalPrescalesVetos.FinOrMaskXMLFile = cms.string('mask_L1MenuCollisions2022_v5.xml')  
 process.simGtStage2Digis.AlgorithmTriggersUnmasked = cms.bool(False)
 process.simGtStage2Digis.AlgorithmTriggersUnprescaled = cms.bool(False)
-process.simGtStage2Digis.PrescaleSet = cms.uint32(1)
+process.simGtStage2Digis.PrescaleSet = cms.uint32(2)
 ```
+**NOTE:** The default PrescaleSet is set to 2. This column corresponds to the set of prescales for an instantaneous luminosity 2E+34. See below the correspondence between the column identifier and the corresponding instantaneous luminosity scenario under consideration:
+* 0: Emergency
+* 1: 2.2E+34
+* 2: 2E+34
+* 3: 1.7E+34
+* 4: 1.5E+34
+* 5: 1.3E+34
+* 6: 1.1E+34
+* 7: 9E+33
+* 8: 6E+33
