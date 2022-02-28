@@ -3,8 +3,11 @@
 **Description of the different formats** 
 * The PS table in **csv format** is used in the context of the rate estimation. It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools). 
 * The PS table in **xlsx format** is used to allow easily changes; it represents the baseline to run TSG Tools in the context of the data-taking to produce an xml PS table used online. The xml file is included in L1+HLT keys using L1CE (L1 Configuration Editor). It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools).
-* The PS table in **xml format** is also used to run the L1 emulation of the prescales. This is the format accepted by the uGT emulator code. 
-* The mask table in **xml format** is used together with the xml PS table to run the L1 emulation of the prescales.  
+* The PS table in **xml format** is also used to run the L1 emulation of the prescales. This is the format accepted by the uGT emulator code. Both online and offline, it is provided together with a set of three additional xml files:
+  - UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v5.xml
+  - UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v5.xml
+  - UGT_BASE_RS_VETO_MASK_L1MenuCollisions2022_v5.xml
+  - UGT_BASE_RS_ALGOBX_MASK_L1MenuCollisions2022_v5.xml   
 
 The following recipe allows to emulate L1 prescales instead of to take into account the full list of unprescaled algorithms by default.
 ```
@@ -13,9 +16,9 @@ cd CMSSW_12_3_0_pre5/src
 cmsenv
 git cms-init 
 git-cms-addpkg EventFilter/L1TRawToDigi
-git-cms-addpkg L1Trigger/L1TCaloLayer1/
-git-cms-addpkg L1Trigger/L1TCalorimeter/
-git-cms-addpkg L1Trigger/L1TNtuples/
+git-cms-addpkg L1Trigger/L1TCaloLayer1
+git-cms-addpkg L1Trigger/L1TCalorimeter
+git-cms-addpkg L1Trigger/L1TNtuples
 git-cms-addpkg SimCalorimetry/HcalTrigPrimAlgos
 git-cms-addpkg L1Trigger/L1TGlobal
 git cms-merge-topic 36919
@@ -28,8 +31,8 @@ scram b -j 8
 process.load('L1Trigger.L1TGlobal.PrescalesVetos_cff')
 process.load('L1Trigger.L1TGlobal.simGtStage2Digis_cfi')
 process.load('L1Trigger.L1TGlobal.hackConditions_cff')                                                                                                       
-process.L1TGlobalPrescalesVetosFract.PrescaleXMLFile = cms.string('l1prescales_L1MenuCollisions2022_v5.xml')      
-process.L1TGlobalPrescalesVetosFract.FinOrMaskXMLFile = cms.string('mask_L1MenuCollisions2022_v5.xml')  
+process.L1TGlobalPrescalesVetosFract.PrescaleXMLFile = cms.string('UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v5.xml')      
+process.L1TGlobalPrescalesVetosFract.FinOrMaskXMLFile = cms.string('UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v5.xml')  
 process.simGtStage2Digis.AlgorithmTriggersUnmasked = cms.bool(False)
 process.simGtStage2Digis.AlgorithmTriggersUnprescaled = cms.bool(False)
 process.simGtStage2Digis.PrescaleSet = cms.uint32(2)
