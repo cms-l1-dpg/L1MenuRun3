@@ -8,8 +8,18 @@
 
 The following recipe allows to emulate L1 prescales instead of to take into account the full list of unprescaled algorithms by default.
 ```
-> Setup CMSSW environment:
-git cms-addpkg L1Trigger/L1TGlobal
+cmsrel CMSSW_12_3_0_pre5
+cd CMSSW_12_3_0_pre5/src
+cmsenv
+git cms-init 
+git-cms-addpkg EventFilter/L1TRawToDigi
+git-cms-addpkg L1Trigger/L1TCaloLayer1/
+git-cms-addpkg L1Trigger/L1TCalorimeter/
+git-cms-addpkg L1Trigger/L1TNtuples/
+git-cms-addpkg SimCalorimetry/HcalTrigPrimAlgos
+git-cms-addpkg L1Trigger/L1TGlobal
+git cms-merge-topic 36919
+git cms-merge-topic 37046
 mkdir -p L1Trigger/L1TGlobal/data/Luminosity/startup
 cp  YOURXML.xml   L1Trigger/L1TGlobal/data/Luminosity/startup/.
 git cms-checkdeps -A -a
