@@ -8,11 +8,18 @@
 
 The following recipe allows to emulate L1 prescales instead of to take into account the full list of unprescaled algorithms by default.
 ```
+> Setup CMSSW environment:
+git cms-addpkg L1Trigger/L1TGlobal
+mkdir -p L1Trigger/L1TGlobal/data/Luminosity/startup
+cp  YOURXML.xml   L1Trigger/L1TGlobal/data/Luminosity/startup/.
+git cms-checkdeps -A -a
+scram b -j 8
+
 process.load('L1Trigger.L1TGlobal.PrescalesVetos_cff')
 process.load('L1Trigger.L1TGlobal.simGtStage2Digis_cfi')
 process.load('L1Trigger.L1TGlobal.hackConditions_cff')                                                                                                       
-process.L1TGlobalPrescalesVetos.PrescaleXMLFile = cms.string('l1prescales_L1MenuCollisions2022_v5.xml')      
-process.L1TGlobalPrescalesVetos.FinOrMaskXMLFile = cms.string('mask_L1MenuCollisions2022_v5.xml')  
+process.L1TGlobalPrescalesVetosFract.PrescaleXMLFile = cms.string('l1prescales_L1MenuCollisions2022_v5.xml')      
+process.L1TGlobalPrescalesVetosFract.FinOrMaskXMLFile = cms.string('mask_L1MenuCollisions2022_v5.xml')  
 process.simGtStage2Digis.AlgorithmTriggersUnmasked = cms.bool(False)
 process.simGtStage2Digis.AlgorithmTriggersUnprescaled = cms.bool(False)
 process.simGtStage2Digis.PrescaleSet = cms.uint32(2)
