@@ -11,20 +11,19 @@
 
 The following recipe allows to emulate L1 prescales instead of to take into account the full list of unprescaled algorithms by default.
 ```
-cmsrel CMSSW_12_3_0_pre5
-cd CMSSW_12_3_0_pre5/src
+cmsrel CMSSW_12_3_X_2022-03-01-1100
+cd CMSSW_12_3_X_2022-03-01-1100/src/
 cmsenv
-git cms-init 
-git-cms-addpkg EventFilter/L1TRawToDigi
-git-cms-addpkg L1Trigger/L1TCaloLayer1
-git-cms-addpkg L1Trigger/L1TCalorimeter
-git-cms-addpkg L1Trigger/L1TNtuples
-git-cms-addpkg SimCalorimetry/HcalTrigPrimAlgos
-git-cms-addpkg L1Trigger/L1TGlobal
-git cms-merge-topic 36919
-git cms-merge-topic 37046
+git cms-init
+git cms-addpkg L1Trigger/L1TGlobal
 mkdir -p L1Trigger/L1TGlobal/data/Luminosity/startup
-cp  YOURXML.xml   L1Trigger/L1TGlobal/data/Luminosity/startup/.
+cd L1Trigger/L1TGlobal/data/Luminosity/startup
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_5/L1Menu_Collisions2022_v0_1_5.xml
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_5/PrescaleTable/UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v5.xml
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_5/PrescaleTable/UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v5.xml
+cd -
+git cms-addpkg L1Trigger/Configuration
+emacs -nw L1Trigger/Configuration/python/customiseUtils.py ###change the menu name to L1Menu_Collisions2022_v0_1_5.xml
 git cms-checkdeps -A -a
 scram b -j 8
 
@@ -35,15 +34,16 @@ process.L1TGlobalPrescalesVetosFract.PrescaleXMLFile = cms.string('UGT_BASE_RS_P
 process.L1TGlobalPrescalesVetosFract.FinOrMaskXMLFile = cms.string('UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v5.xml')  
 process.simGtStage2Digis.AlgorithmTriggersUnmasked = cms.bool(False)
 process.simGtStage2Digis.AlgorithmTriggersUnprescaled = cms.bool(False)
-process.simGtStage2Digis.PrescaleSet = cms.uint32(2)
+process.simGtStage2Digis.PrescaleSet = cms.uint32(3)
 ```
-**NOTE:** The default PrescaleSet is set to 2. This column corresponds to the set of prescales for an instantaneous luminosity 2E+34. See below the correspondence between the column identifier and the corresponding instantaneous luminosity scenario under consideration:
-* 0: Emergency
-* 1: 2.2E+34
-* 2: 2E+34
-* 3: 1.7E+34
-* 4: 1.5E+34
-* 5: 1.3E+34
-* 6: 1.1E+34
-* 7: 9E+33
-* 8: 6E+33
+**NOTE:** The default PrescaleSet is set to 3. This column corresponds to the set of prescales for an instantaneous luminosity 2E+34. See below the correspondence between the column identifier and the corresponding instantaneous luminosity scenario under consideration:
+* 0: Emergency (all PS=0)
+* 1: Unprescaled (all PS=1)
+* 2: 2.2E+34
+* 3: 2E+34
+* 4: 1.7E+34
+* 5: 1.5E+34
+* 6: 1.3E+34
+* 7: 1.1E+34
+* 8: 9E+33
+* 9: 6E+33
