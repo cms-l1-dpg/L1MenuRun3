@@ -225,7 +225,7 @@ Index,Name,Emergency,2.2E+34,2E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9E+33,6E+33
 267,L1_DoubleTau70er2p1,0,1,1,1,1,1,1,1,1
 268,L1_DoubleIsoTau28er2p1,0,0,0,0,0,0,0,0,0
 269,L1_DoubleIsoTau30er2p1,0,0,0,1,1,1,1,1,1
-270,L1_DoubleIsoTau32er2p1,0,0,1,1,1,1,1,1,1
+270,L1_DoubleIsoTau32er2p1,0,0,0,0,0,0,0,0,0
 271,L1_DoubleIsoTau34er2p1,0,1,1,1,1,1,1,1,1
 272,L1_DoubleIsoTau35er2p1,0,0,0,0,0,0,0,0,0
 273,L1_DoubleIsoTau36er2p1,0,1,1,1,1,1,1,1,1
