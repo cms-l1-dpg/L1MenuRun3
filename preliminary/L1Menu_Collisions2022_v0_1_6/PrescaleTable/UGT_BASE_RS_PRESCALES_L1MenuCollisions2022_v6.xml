@@ -33,7 +33,7 @@
         <row>21, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleMu22_OMTF-->
         <row>22, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleMu22_EMTF-->
         <row>23, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_SingleMu25-->
-        <row>24, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_HTT120_SingleLLPJet40 NEW--> 
+        <row>24, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_HTT120_SingleLLPJet40 - Run 3 (2022)--> 
         <row>25, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleMu6er1p5-->
         <row>26, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1</row> <!--L1_SingleMu7er1p5-->
         <row>27, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1</row> <!--L1_SingleMu8er1p5-->
@@ -43,10 +43,10 @@
         <row>31, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1</row> <!--L1_SingleMu14er1p5-->
         <row>32, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1</row> <!--L1_SingleMu16er1p5-->
         <row>33, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1</row> <!--L1_SingleMu18er1p5-->
-        <row>34, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6 NEW-->
-        <row>35, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p5 NEW-->
-        <row>36, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMuOpen_er1p4_OS_dEta_Max1p6 NEW-->
-        <row>37, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu3er2p0_SQ_OS_dR_Max1p4 NEW-->
+        <row>34, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6 - Run 3 (2022)-->
+        <row>35, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p5 - Run 3 (2022)-->
+        <row>36, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMuOpen_er1p4_OS_dEta_Max1p6 - Run 3 (2022)-->
+        <row>37, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu3er2p0_SQ_OS_dR_Max1p4 - Run 3 (2022)-->
         <row>39, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0_OQ-->
         <row>40, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0-->
         <row>41, 0, 1, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500</row> <!--L1_DoubleMu0_SQ-->
@@ -75,10 +75,10 @@
         <row>64, 0, 1, 90, 80, 55, 35, 35, 35, 35, 35</row> <!--L1_DoubleMu4p5er2p0_SQ_OS-->
         <row>65, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu4p5er2p0_SQ_OS_Mass_Min7-->
         <row>66, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu4p5er2p0_SQ_OS_Mass7to18-->
-        <row>67, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleMu_2_1p5_0OQ_Mass_Max_15 NEW-->
-        <row>68, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max_15 NEW-->
-        <row>69, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_MuShower_OneNominal NEW-->
-        <row>70, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_MuShower_OneTight NEW-->
+        <row>67, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleMu_2_1p5_0OQ_Mass_Max_15 - Run 3 (2022)-->
+        <row>68, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max_15 - Run 3 (2022)-->
+        <row>69, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_MuShower_OneNominal - Run 3 (2022)-->
+        <row>70, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_MuShower_OneTight - Run 3 (2022)-->
         <row>71, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleMu0_OQ-->
         <row>72, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleMu0-->
         <row>73, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleMu0_SQ-->
@@ -97,11 +97,11 @@
         <row>88, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_QuadMu0_OQ-->
         <row>89, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_QuadMu0-->
         <row>90, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_QuadMu0_SQ-->
-        <row>91, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso16_LooseIso12_er1p5 NEW-->
-        <row>92, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso18_LooseIso12_er1p5 NEW-->
-        <row>93, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso20_LooseIso12_er1p5 NEW-->
-        <row>94, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso22_LooseIso12_er1p5 NEW-->
-        <row>95, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso25_LooseIso12_er1p5 NEW-->
+        <row>91, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso16_LooseIso12_er1p5 - Run 3 (2022)-->
+        <row>92, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso18_LooseIso12_er1p5 - Run 3 (2022)-->
+        <row>93, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso20_LooseIso12_er1p5 - Run 3 (2022)-->
+        <row>94, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso22_LooseIso12_er1p5 - Run 3 (2022)-->
+        <row>95, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso25_LooseIso12_er1p5 - Run 3 (2022)-->
         <row>96, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_Mu5_EG23er2p5-->
         <row>97, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_Mu7_EG23er2p5-->
         <row>98, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_Mu7_EG23er2p5-->
@@ -117,11 +117,11 @@
         <row>110, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu5_SQ_EG9er2p5-->
         <row>112, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu3_OS_DoubleEG7p5Upsilon-->
         <row>113, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu5Upsilon_OS_DoubleEG3-->
-        <row>114, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0_upt15_upt7 NEW-->
-        <row>115, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0_upt6ip123_upt4 NEW-->
-        <row>116, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleIsoTau35er2p1 NEW-->
-        <row>117, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleIsoTau26er2p1_Jet55_OvRm_dR0p5 NEW-->
-        <row>118, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5 NEW-->
+        <row>114, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0_upt15_upt7 - Run 3 (2022)-->
+        <row>115, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0_upt6ip123_upt4 - Run 3 (2022)-->
+        <row>116, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleIsoTau35er2p1 - Run 3 (2022)-->
+        <row>117, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleIsoTau26er2p1_Jet55_OvRm_dR0p5 - Run 3 (2022)-->
+        <row>118, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5 - Run 3 (2022)-->
         <row>119, 0, 1, 11000, 11000, 11000, 11000, 11000, 11000, 11000, 11000</row> <!--L1_Mu3_Jet30er2p5-->
         <row>121, 0, 1, 400, 400, 320, 280, 240, 200, 160, 100</row> <!--L1_Mu3_Jet16er2p5_dR_Max0p4-->
         <row>122, 0, 1, 400, 256, 205, 180, 154, 128, 100, 64</row> <!--L1_Mu3_Jet35er2p5_dR_Max0p4-->
@@ -136,9 +136,9 @@
         <row>134, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6-->
         <row>135, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6-->
         <row>136, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_Mu12er2p3_Jet40er2p1_dR_Max0p4_DoubleJet40er2p1_dEta_Max1p6-->
-        <row>137, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleIsoTau30er2p1 NEW-->
-        <row>138, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleIsoTau32er2p1 NEW-->
-        <row>139, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleIsoTau36er2p1 NEW-->
+        <row>137, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleIsoTau30er2p1 - Run 3 (2022)-->
+        <row>138, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleIsoTau32er2p1 - Run 3 (2022)-->
+        <row>139, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_SingleIsoTau36er2p1 - Run 3 (2022)-->
         <row>142, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu0_dR_Max1p6_Jet90er2p5_dR_Max0p8-->
         <row>143, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu3_dR_Max1p6_Jet90er2p5_dR_Max0p8-->
         <row>145, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu3_SQ_ETMHF50_HTT60er-->
@@ -148,8 +148,8 @@
         <row>150, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu3_SQ_HTT220er-->
         <row>151, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu3_SQ_HTT240er-->
         <row>152, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu3_SQ_HTT260er-->
-        <row>153, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_HTT200_SingleLLPJet60 NEW-->
-        <row>154, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_HTT160_SingleLLPJet50 NEW-->
+        <row>153, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_HTT200_SingleLLPJet60 - Run 3 (2022)-->
+        <row>154, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_HTT160_SingleLLPJet50 - Run 3 (2022)-->
         <row>159, 0, 1, 220000, 44000, 44000, 44000, 44000, 44000, 44000, 44000</row> <!--L1_SingleEG8er2p5-->
         <row>160, 0, 1, 38000, 7600, 7600, 7600, 7600, 7600, 7600, 7600</row> <!--L1_SingleEG10er2p5-->
         <row>161, 0, 1, 2700, 1350, 1350, 1350, 1350, 1350, 1350, 1350</row> <!--L1_SingleEG15er2p5-->
@@ -191,30 +191,30 @@
         <row>197, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_IsoEG32er2p5_Mt40-->
         <row>198, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_IsoEG32er2p5_Mt44-->
         <row>199, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_IsoEG32er2p5_Mt48-->
-        <row>200, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG10p5er1p22_dR_0p6 NEW-->
-        <row>201, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG10er1p22_dR_0p6 NEW-->
-        <row>202, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG9p5er1p22_dR_0p6 NEW-->
-        <row>203, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG9er1p22_dR_0p7 NEW-->
-        <row>204, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG8p5er1p22_dR_0p7 NEW-->
+        <row>200, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG10p5er1p22_dR_0p6 - Run 3 (2022)-->
+        <row>201, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG10er1p22_dR_0p6 - Run 3 (2022)-->
+        <row>202, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG9p5er1p22_dR_0p6 - Run 3 (2022)-->
+        <row>203, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG9er1p22_dR_0p7 - Run 3 (2022)-->
+        <row>204, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG8p5er1p22_dR_0p7 - Run 3 (2022)-->
         <row>205, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_15_10_er2p5-->
         <row>206, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_20_10_er2p5-->
         <row>207, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_22_10_er2p5-->
         <row>208, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleEG_25_12_er2p5-->
         <row>209, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleEG_25_14_er2p5-->
         <row>210, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleEG_27_14_er2p5-->
-        <row>211, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG8er1p22_dR_0p7 NEW-->
+        <row>211, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG8er1p22_dR_0p7 - Run 3 (2022)-->
         <row>212, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso20_10_er2p5-->
         <row>213, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG_LooseIso22_10_er2p5-->
         <row>214, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleEG_LooseIso22_12_er2p5-->
         <row>215, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleEG_LooseIso25_12_er2p5-->
-        <row>216, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG7p5er1p22_dR_0p7 NEW-->
+        <row>216, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG7p5er1p22_dR_0p7 - Run 3 (2022)-->
         <row>217, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleLooseIsoEG22er2p1-->
         <row>218, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleLooseIsoEG24er2p1-->
-        <row>219, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG7er1p22_dR_0p8 NEW-->
-        <row>220, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG6p5er1p22_dR_0p8 NEW-->
-        <row>221, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG6er1p22_dR_0p8 NEW-->
-        <row>222, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG5p5er1p22_dR_0p8 NEW-->
-        <row>223, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG5er1p22_dR_0p9 NEW-->
+        <row>219, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG7er1p22_dR_0p8 - Run 3 (2022)-->
+        <row>220, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG6p5er1p22_dR_0p8 - Run 3 (2022)-->
+        <row>221, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG6er1p22_dR_0p8 - Run 3 (2022)-->
+        <row>222, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG5p5er1p22_dR_0p8 - Run 3 (2022)-->
+        <row>223, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleEG5er1p22_dR_0p9 - Run 3 (2022)-->
         <row>224, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleEG_16_12_8_er2p5-->
         <row>225, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_TripleEG_16_15_8_er2p5-->
         <row>226, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_TripleEG_18_17_8_er2p5-->
@@ -235,10 +235,10 @@
         <row>257, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3-->
         <row>258, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3-->
         <row>259, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_LooseIsoEG22er2p1_Tau70er2p1_dR_Min0p3-->
-        <row>260, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_ETMHF90_SingleJet60er2p5_ETMHF90_DPHI_MIN2p094 NEW-->
-        <row>261, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_ETMHF90_SingleJet60er2p5_ETMHF90_DPHI_MIN2p618 NEW-->
-        <row>262, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_ETMHF90_SingleJet80er2p5_ETMHF90_DPHI_MIN2p094 NEW-->
-        <row>263, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_ETMHF90_SingleJet80er2p5_ETMHF90_DPHI_MIN2p618 NEW-->
+        <row>260, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_ETMHF90_SingleJet60er2p5_ETMHF90_DPHI_MIN2p094 - Run 3 (2022)-->
+        <row>261, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_ETMHF90_SingleJet60er2p5_ETMHF90_DPHI_MIN2p618 - Run 3 (2022)-->
+        <row>262, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_ETMHF90_SingleJet80er2p5_ETMHF90_DPHI_MIN2p094 - Run 3 (2022)-->
+        <row>263, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_ETMHF90_SingleJet80er2p5_ETMHF90_DPHI_MIN2p618 - Run 3 (2022)-->
         <row>264, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_SingleTau120er2p1-->
         <row>265, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_SingleTau130er2p1-->
         <row>267, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleTau70er2p1-->

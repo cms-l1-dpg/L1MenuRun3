@@ -32,7 +32,7 @@
         <row>21,1</row> <!--L1_SingleMu22_OMTF-->
         <row>22,1</row> <!--L1_SingleMu22_EMTF-->
         <row>23,1</row> <!--L1_SingleMu25-->
-        <row>24,1</row> <!--L1_HTT120_SingleLLPJet40 NEW-->
+        <row>24,1</row> <!--L1_HTT120_SingleLLPJet40 - Run 3 (2022)-->
         <row>25,1</row> <!--L1_SingleMu6er1p5-->
         <row>26,1</row> <!--L1_SingleMu7er1p5-->
         <row>27,1</row> <!--L1_SingleMu8er1p5-->
@@ -42,10 +42,10 @@
         <row>31,1</row> <!--L1_SingleMu14er1p5-->
         <row>32,1</row> <!--L1_SingleMu16er1p5-->
         <row>33,1</row> <!--L1_SingleMu18er1p5-->
-        <row>34,1</row> <!--L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6 NEW-->
-        <row>35,1</row> <!--L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p5 NEW-->
-        <row>36,1</row> <!--L1_DoubleMuOpen_er1p4_OS_dEta_Max1p6 NEW-->
-        <row>37,1</row> <!--L1_DoubleMu3er2p0_SQ_OS_dR_Max1p4 NEW-->
+        <row>34,1</row> <!--L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6 - Run 3 (2022)-->
+        <row>35,1</row> <!--L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p5 - Run 3 (2022)-->
+        <row>36,1</row> <!--L1_DoubleMuOpen_er1p4_OS_dEta_Max1p6 - Run 3 (2022)-->
+        <row>37,1</row> <!--L1_DoubleMu3er2p0_SQ_OS_dR_Max1p4 - Run 3 (2022)-->
         <row>38,0</row> 
         <row>39,1</row> <!--L1_DoubleMu0_OQ-->
         <row>40,1</row> <!--L1_DoubleMu0-->
@@ -75,10 +75,10 @@
         <row>64,1</row> <!--L1_DoubleMu4p5er2p0_SQ_OS-->
         <row>65,1</row> <!--L1_DoubleMu4p5er2p0_SQ_OS_Mass_Min7-->
         <row>66,1</row> <!--L1_DoubleMu4p5er2p0_SQ_OS_Mass7to18-->
-        <row>67,1</row> <!--L1_TripleMu_2_1p5_0OQ_Mass_Max_15 NEW-->
-        <row>68,1</row> <!--L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max_15 NEW-->
-        <row>69,1</row> <!--L1_MuShower_OneNominal NEW-->
-        <row>70,1</row> <!--L1_MuShower_OneTight NEW-->
+        <row>67,1</row> <!--L1_TripleMu_2_1p5_0OQ_Mass_Max_15 - Run 3 (2022)-->
+        <row>68,1</row> <!--L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max_15 - Run 3 (2022)-->
+        <row>69,1</row> <!--L1_MuShower_OneNominal - Run 3 (2022)-->
+        <row>70,1</row> <!--L1_MuShower_OneTight - Run 3 (2022)-->
         <row>71,1</row> <!--L1_TripleMu0_OQ-->
         <row>72,1</row> <!--L1_TripleMu0-->
         <row>73,1</row> <!--L1_TripleMu0_SQ-->
@@ -99,11 +99,11 @@
         <row>88,1</row> <!--L1_QuadMu0_OQ-->
         <row>89,1</row> <!--L1_QuadMu0-->
         <row>90,1</row> <!--L1_QuadMu0_SQ-->
-        <row>91,1</row> <!--L1_DoubleEG_LooseIso16_LooseIso12_er1p5 NEW-->
-        <row>92,1</row> <!--L1_DoubleEG_LooseIso18_LooseIso12_er1p5 NEW-->
-        <row>93,1</row> <!--L1_DoubleEG_LooseIso20_LooseIso12_er1p5 NEW-->
-        <row>94,1</row> <!--L1_DoubleEG_LooseIso22_LooseIso12_er1p5 NEW-->
-        <row>95,1</row> <!--L1_DoubleEG_LooseIso25_LooseIso12_er1p5 NEW-->
+        <row>91,1</row> <!--L1_DoubleEG_LooseIso16_LooseIso12_er1p5 - Run 3 (2022)-->
+        <row>92,1</row> <!--L1_DoubleEG_LooseIso18_LooseIso12_er1p5 - Run 3 (2022)-->
+        <row>93,1</row> <!--L1_DoubleEG_LooseIso20_LooseIso12_er1p5 - Run 3 (2022)-->
+        <row>94,1</row> <!--L1_DoubleEG_LooseIso22_LooseIso12_er1p5 - Run 3 (2022)-->
+        <row>95,1</row> <!--L1_DoubleEG_LooseIso25_LooseIso12_er1p5 - Run 3 (2022)-->
         <row>96,1</row> <!--L1_Mu5_EG23er2p5-->
         <row>97,1</row> <!--L1_Mu7_EG23er2p5-->
         <row>98,1</row> <!--L1_Mu7_EG23er2p5-->
@@ -122,11 +122,11 @@
         <row>111,0</row> 
         <row>112,1</row> <!--L1_DoubleMu3_OS_DoubleEG7p5Upsilon-->
         <row>113,1</row> <!--L1_DoubleMu5Upsilon_OS_DoubleEG3-->
-        <row>114,1</row> <!--L1_DoubleMu0_upt15_upt7 NEW-->
-        <row>115,1</row> <!--L1_DoubleMu0_upt6ip123_upt4 NEW-->
-        <row>116,1</row> <!--L1_DoubleIsoTau35er2p1 NEW-->
-        <row>117,1</row> <!--L1_DoubleIsoTau26er2p1_Jet55_OvRm_dR0p5 NEW-->
-        <row>118,1</row> <!--L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5 NEW-->
+        <row>114,1</row> <!--L1_DoubleMu0_upt15_upt7 - Run 3 (2022)-->
+        <row>115,1</row> <!--L1_DoubleMu0_upt6ip123_upt4 - Run 3 (2022)-->
+        <row>116,1</row> <!--L1_DoubleIsoTau35er2p1 - Run 3 (2022)-->
+        <row>117,1</row> <!--L1_DoubleIsoTau26er2p1_Jet55_OvRm_dR0p5 - Run 3 (2022)-->
+        <row>118,1</row> <!--L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5 - Run 3 (2022)-->
         <row>119,1</row> <!--L1_Mu3_Jet30er2p5-->
         <row>120,0</row> 
         <row>121,1</row> <!--L1_Mu3_Jet16er2p5_dR_Max0p4-->
@@ -145,9 +145,9 @@
         <row>134,1</row> <!--L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6-->
         <row>135,1</row> <!--L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6-->
         <row>136,1</row> <!--L1_Mu12er2p3_Jet40er2p1_dR_Max0p4_DoubleJet40er2p1_dEta_Max1p6-->
-        <row>137,1</row> <!--L1_SingleIsoTau30er2p1 NEW-->
-        <row>138,1</row> <!--L1_SingleIsoTau32er2p1 NEW-->
-        <row>139,1</row> <!--L1_SingleIsoTau36er2p1 NEW-->
+        <row>137,1</row> <!--L1_SingleIsoTau30er2p1 - Run 3 (2022)-->
+        <row>138,1</row> <!--L1_SingleIsoTau32er2p1 - Run 3 (2022)-->
+        <row>139,1</row> <!--L1_SingleIsoTau36er2p1 - Run 3 (2022)-->
         <row>140,0</row> 
         <row>141,0</row> 
         <row>142,1</row> <!--L1_DoubleMu0_dR_Max1p6_Jet90er2p5_dR_Max0p8-->
@@ -161,8 +161,8 @@
         <row>150,1</row> <!--L1_DoubleMu3_SQ_HTT220er-->
         <row>151,1</row> <!--L1_DoubleMu3_SQ_HTT240er-->
         <row>152,1</row> <!--L1_DoubleMu3_SQ_HTT260er-->
-        <row>153,0</row> <!--L1_HTT200_SingleLLPJet60 NEW--> 
-        <row>154,0</row> <!--L1_HTT160_SingleLLPJet50 NEW-->
+        <row>153,1</row> <!--L1_HTT200_SingleLLPJet60 - Run 3 (2022)--> 
+        <row>154,1</row> <!--L1_HTT160_SingleLLPJet50 - Run 3 (2022)-->
         <row>155,0</row> 
         <row>156,0</row> 
         <row>157,0</row> 
@@ -208,30 +208,30 @@
         <row>197,1</row> <!--L1_IsoEG32er2p5_Mt40-->
         <row>198,1</row> <!--L1_IsoEG32er2p5_Mt44-->
         <row>199,1</row> <!--L1_IsoEG32er2p5_Mt48-->
-        <row>200,1</row> <!--L1_DoubleEG10p5er1p22_dR_0p6 NEW-->
-        <row>201,1</row> <!--L1_DoubleEG10er1p22_dR_0p6 NEW-->
-        <row>202,1</row> <!--L1_DoubleEG9p5er1p22_dR_0p6 NEW-->
-        <row>203,1</row> <!--L1_DoubleEG9er1p22_dR_0p7 NEW-->
-        <row>204,1</row> <!--L1_DoubleEG8p5er1p22_dR_0p7 NEW-->
+        <row>200,1</row> <!--L1_DoubleEG10p5er1p22_dR_0p6 - Run 3 (2022)-->
+        <row>201,1</row> <!--L1_DoubleEG10er1p22_dR_0p6 - Run 3 (2022)-->
+        <row>202,1</row> <!--L1_DoubleEG9p5er1p22_dR_0p6 - Run 3 (2022)-->
+        <row>203,1</row> <!--L1_DoubleEG9er1p22_dR_0p7 - Run 3 (2022)-->
+        <row>204,1</row> <!--L1_DoubleEG8p5er1p22_dR_0p7 - Run 3 (2022)-->
         <row>205,1</row> <!--L1_DoubleEG_15_10_er2p5-->
         <row>206,1</row> <!--L1_DoubleEG_20_10_er2p5-->
         <row>207,1</row> <!--L1_DoubleEG_22_10_er2p5-->
         <row>208,1</row> <!--L1_DoubleEG_25_12_er2p5-->
         <row>209,1</row> <!--L1_DoubleEG_25_14_er2p5-->
         <row>210,1</row> <!--L1_DoubleEG_27_14_er2p5-->
-        <row>211,1</row> <!--L1_DoubleEG8er1p22_dR_0p7 NEW-->
+        <row>211,1</row> <!--L1_DoubleEG8er1p22_dR_0p7 - Run 3 (2022)-->
         <row>212,1</row> <!--L1_DoubleEG_LooseIso20_10_er2p5-->
         <row>213,1</row> <!--L1_DoubleEG_LooseIso22_10_er2p5-->
         <row>214,1</row> <!--L1_DoubleEG_LooseIso22_12_er2p5-->
         <row>215,1</row> <!--L1_DoubleEG_LooseIso25_12_er2p5-->
-        <row>216,1</row> <!--L1_DoubleEG7p5er1p22_dR_0p7 NEW-->
+        <row>216,1</row> <!--L1_DoubleEG7p5er1p22_dR_0p7 - Run 3 (2022)-->
         <row>217,1</row> <!--L1_DoubleLooseIsoEG22er2p1-->
         <row>218,1</row> <!--L1_DoubleLooseIsoEG24er2p1-->
-        <row>219,1</row> <!--L1_DoubleEG7er1p22_dR_0p8 NEW-->
-        <row>220,1</row> <!--L1_DoubleEG6p5er1p22_dR_0p8 NEW-->
-        <row>221,1</row> <!--L1_DoubleEG6er1p22_dR_0p8 NEW-->
-        <row>222,1</row> <!--L1_DoubleEG5p5er1p22_dR_0p8 NEW-->
-        <row>223,1</row> <!--L1_DoubleEG5er1p22_dR_0p9 NEW-->
+        <row>219,1</row> <!--L1_DoubleEG7er1p22_dR_0p8 - Run 3 (2022)-->
+        <row>220,1</row> <!--L1_DoubleEG6p5er1p22_dR_0p8 - Run 3 (2022)-->
+        <row>221,1</row> <!--L1_DoubleEG6er1p22_dR_0p8 - Run 3 (2022)-->
+        <row>222,1</row> <!--L1_DoubleEG5p5er1p22_dR_0p8 - Run 3 (2022)-->
+        <row>223,1</row> <!--L1_DoubleEG5er1p22_dR_0p9 - Run 3 (2022)-->
         <row>224,1</row> <!--L1_TripleEG_16_12_8_er2p5-->
         <row>225,1</row> <!--L1_TripleEG_16_15_8_er2p5-->
         <row>226,1</row> <!--L1_TripleEG_18_17_8_er2p5-->
@@ -268,10 +268,10 @@
         <row>257,1</row> <!--L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3-->
         <row>258,1</row> <!--L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3-->
         <row>259,1</row> <!--L1_LooseIsoEG22er2p1_Tau70er2p1_dR_Min0p3-->
-        <row>260,1</row> <!--L1_ETMHF90_SingleJet60er2p5_ETMHF90_DPHI_MIN2p094 NEW-->
-        <row>261,1</row> <!--L1_ETMHF90_SingleJet60er2p5_ETMHF90_DPHI_MIN2p618 NEW-->
-        <row>262,1</row> <!--L1_ETMHF90_SingleJet80er2p5_ETMHF90_DPHI_MIN2p094 NEW-->
-        <row>263,1</row> <!--L1_ETMHF90_SingleJet80er2p5_ETMHF90_DPHI_MIN2p618 NEW-->
+        <row>260,1</row> <!--L1_ETMHF90_SingleJet60er2p5_ETMHF90_DPHI_MIN2p094 - Run 3 (2022)-->
+        <row>261,1</row> <!--L1_ETMHF90_SingleJet60er2p5_ETMHF90_DPHI_MIN2p618 - Run 3 (2022)-->
+        <row>262,1</row> <!--L1_ETMHF90_SingleJet80er2p5_ETMHF90_DPHI_MIN2p094 - Run 3 (2022)-->
+        <row>263,1</row> <!--L1_ETMHF90_SingleJet80er2p5_ETMHF90_DPHI_MIN2p618 - Run 3 (2022)-->
         <row>264,1</row> <!--L1_SingleTau120er2p1-->
         <row>265,1</row> <!--L1_SingleTau130er2p1-->
         <row>266,0</row> 
