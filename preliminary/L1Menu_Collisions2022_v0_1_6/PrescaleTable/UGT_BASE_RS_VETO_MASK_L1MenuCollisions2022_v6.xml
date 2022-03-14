@@ -161,8 +161,8 @@
         <row>150,0</row> <!--L1_DoubleMu3_SQ_HTT220er-->
         <row>151,0</row> <!--L1_DoubleMu3_SQ_HTT240er-->
         <row>152,0</row> <!--L1_DoubleMu3_SQ_HTT260er-->
-        <row>153,0</row> 
-        <row>154,0</row> 
+        <row>153,0</row> <!--L1_HTT200_SingleLLPJet60 - Run 3 (2022)--> 
+        <row>154,0</row> <!--L1_HTT160_SingleLLPJet50 - Run 3 (2022)-->
         <row>155,0</row> 
         <row>156,0</row> 
         <row>157,0</row> 
