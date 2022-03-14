@@ -11,19 +11,19 @@
 
 The following recipe allows to emulate L1 prescales instead of to take into account the full list of unprescaled algorithms by default.
 ```
-cmsrel CMSSW_12_3_X_2022-03-01-1100
-cd CMSSW_12_3_X_2022-03-01-1100/src/
+cmsrel CMSSW_12_3_0_pre6
+cd CMSSW_12_3_0_pre6/src/
 cmsenv
 git cms-init
 git cms-addpkg L1Trigger/L1TGlobal
 mkdir -p L1Trigger/L1TGlobal/data/Luminosity/startup
 cd L1Trigger/L1TGlobal/data/Luminosity/startup
-wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_5/L1Menu_Collisions2022_v0_1_5.xml
-wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_5/PrescaleTable/UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v7.xml
-wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_5/PrescaleTable/UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v7.xml
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_7/L1Menu_Collisions2022_v0_1_7.xml
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_7/PrescaleTable/UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v7.xml
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v0_1_7/PrescaleTable/UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v7.xml
 cd -
 git cms-addpkg L1Trigger/Configuration
-emacs -nw L1Trigger/Configuration/python/customiseUtils.py ###change the menu name to L1Menu_Collisions2022_v0_1_5.xml
+emacs -nw L1Trigger/Configuration/python/customiseUtils.py ###change the menu name to L1Menu_Collisions2022_v0_1_7.xml
 git cms-checkdeps -A -a
 scram b -j 8
 
