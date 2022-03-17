@@ -27,7 +27,6 @@ emacs -nw L1Trigger/Configuration/python/customiseUtils.py ###change the menu na
 git cms-checkdeps -A -a
 scram b -j 8
 
-process.load('L1Trigger.L1TGlobal.PrescalesVetosFract_cff')
 process.load('L1Trigger.L1TGlobal.simGtStage2Digis_cfi')
 process.load('L1Trigger.L1TGlobal.hackConditions_cff')                                                                                                       
 process.L1TGlobalPrescalesVetosFract.PrescaleXMLFile = cms.string('UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v7.xml')      
