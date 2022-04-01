@@ -165,7 +165,7 @@ Index,Name,Emergency,2.2E+34,2E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9E+33,6E+33
 194,L1_SingleIsoEG32er2p5,0,1,1,1,1,1,1,1,1
 195,L1_SingleIsoEG32er2p1,0,1,1,1,1,1,1,1,1
 196,L1_SingleIsoEG34er2p5,0,1,1,1,1,1,1,1,1
-197,L1_IsoEG32er2p5_Mt40,0,1,1,1,1,1,1,1,1
+197,L1_IsoEG32er2p5_Mt40,0,0,0,0,0,0,0,0,0
 200,L1_DoubleEG4_er1p2_dR_Max0p9,0,0,0,0,0,0,0,0,0
 201,L1_DoubleEG4p5_er1p2_dR_Max0p9,0,0,0,0,0,0,0,0,0
 202,L1_DoubleEG5_er1p2_dR_Max0p9,0,0,0,0,0,0,0,0,0
