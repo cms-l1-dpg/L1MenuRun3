@@ -15,7 +15,7 @@ Summary of the modifications done (detailed list, especially for reordering, in 
     - L1_IsoTau40er2p1_ETMHF100 (bit 293)
     - L1_IsoTau40er2p1_ETMHF110 (bit 294)
     - L1_IsoEG32er2p5_Mt44 (bit 198)
-    - L1_IsoEG32er2p5_Mt44 (bit 199)
+    - L1_IsoEG32er2p5_Mt48 (bit 199)
 
 - Modifications in single tau monitoring seeds -> JIRA: https://its.cern.ch/jira/browse/CMSLITDPG-964
     - removed: 
