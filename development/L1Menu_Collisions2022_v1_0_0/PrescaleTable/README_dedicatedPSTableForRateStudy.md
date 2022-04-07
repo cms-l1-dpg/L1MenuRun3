@@ -15,8 +15,8 @@
 * 1.10E+34 => Only bmumu v1 [bits 53,55]
 * 1.00E+34 => Only Tau3Mu [bits 74,82]
 * 9.00E+33 => Only Double tau (+jet) seeds [bits 272,278]
-* 8.00E+33 => Only Double jet + tau seed [bit 362]
-* 7.00E+33 => Only RmOvlp seeds [bits 272,278,362]
+* 8.00E+33 => Only Double jet+tau seed + "L1_DoubleIsoTau35er2p1" [bit 362 + 272]
+* 7.00E+33 => Only RmOvlp seeds (with "L1_DoubleIsoTau35er2p1") [bits 272,278,362]
 * 6.00E+33 => Only LLP jets, with:
 	- L1_HTT200_SingleLLPJet60 (prescale 1) [bit 390]
 	- L1_HTT160_SingleLLPJet50 (prescale 10) [bit 389]
@@ -24,10 +24,13 @@
 * 5.00E+33 => Only singleTau monitoring paths, with:
     - L1_SingleIsoTau32er2p1 (prescale 800) [bits 262]
     - L1_SingleTau70er2p1 (prescale 50) [bits 263]
+* 4.00E+33 => Menu v0 + "L1_DoubleIsoTau35er2p1" seed [bit 272]
+
 
 **NOTE**
-* When the seed "L1_DoubleIsoTau35er2p1" is active, the two equivalent seeds with lower pt thresholds "L1_DoubleIsoTau32er2p1", "L1_DoubleIsoTau34er2p1" have PS = 0.
+* When the seed "L1_DoubleIsoTau35er2p1" (bit 272) is active, the two equivalent seeds with lower pt thresholds "L1_DoubleIsoTau32er2p1", "L1_DoubleIsoTau34er2p1" have PS = 0.
 * The new BPH seeds added for systematics evaluation (bit 53,54,74) are ON when their corresponding main seeds are active. The PS values used for these seeds are tuned so that their rate is about 100 Hz. In particular, the following PS values are used:
     - L1_DoubleMu0er2p0_SQ_dEta_Max1p6 (bit 53): PS = 190
     - L1_DoubleMu0er2p0_SQ_dEta_Max1p5 (bit 54): PS = 190
     - L1_TripleMu_2SQ_1p5SQ_0OQ (bit 74): PS = 100
+* The seeds L1_SingleMu22_BMTF/OMTF/EMTF (bits 20-22) have been activated in all scenarios, with PS=1 (before they had PS=0).
