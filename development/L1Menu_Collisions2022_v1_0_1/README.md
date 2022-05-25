@@ -18,9 +18,9 @@ New version of the menu for Run3 with the following additional seeds:
     - L1_TripleMu_3SQ_2p5SQ_0OQ_Mass_Max12 (bit 83)
 
 In order to accomodate the new seeds preserving the order, the following seeds have been moved:
-    - 83-92 -> 84-93
-    - 278 -> 283
-    - 282-287 -> 285-291
+- 83-92 -> 84-93
+- 278 -> 283
+- 282-287 -> 285-291
 
 
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
