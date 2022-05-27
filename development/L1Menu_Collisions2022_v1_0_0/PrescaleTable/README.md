@@ -18,9 +18,9 @@ git cms-init
 git cms-addpkg L1Trigger/L1TGlobal
 mkdir -p L1Trigger/L1TGlobal/data/Luminosity/startup
 cd L1Trigger/L1TGlobal/data/Luminosity/startup
-wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v1_0_0/L1Menu_Collisions2022_v1_0_0.xml
-wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v1_0_0/PrescaleTable/UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v1_0_0.xml
-wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/preliminary/L1Menu_Collisions2022_v1_0_0/PrescaleTable/UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v1_0_0.xml
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/development/L1Menu_Collisions2022_v1_0_0/L1Menu_Collisions2022_v1_0_0.xml
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/development/L1Menu_Collisions2022_v1_0_0/PrescaleTable/UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v1_0_0.xml
+wget https://raw.githubusercontent.com/cms-l1-dpg/L1MenuRun3/master/development/L1Menu_Collisions2022_v1_0_0/PrescaleTable/UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v1_0_0.xml
 cd -
 git cms-addpkg L1Trigger/Configuration
 emacs -nw L1Trigger/Configuration/python/customiseUtils.py ###change the menu name to L1Menu_Collisions2022_v1_0_0.xml
