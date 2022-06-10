@@ -25,4 +25,7 @@ In order to accomodate the new seeds preserving the order, the following seeds h
 
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
 
+**Additional Remarks:**
 
+- Refernce JIRA ticket: [https://its.cern.ch/jira/browse/CMSLITDPG-980]
+- Synthesized and tested in uGT test crate

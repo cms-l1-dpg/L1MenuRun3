@@ -22,6 +22,13 @@ For grouping the LLP seeds together, the following changes took place:
 - 384-387 -> 388-391
 - 388-391 -> 384-387
 
-- The L1Menu_Collisions2022_v1_1_0 was deployed online on 2nd June during run352795.
-
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
+
+**Additional Remarks:**
+
+- Refernce JIRA ticket: [https://its.cern.ch/jira/browse/CMSLITDPG-980]
+- Synthesized and tested in uGT test crate
+- Tag in condDB uploaded: [L1Menu_Collisions2022_v1_1_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/search/Prod/L1Menu_Collisions2022_v1_1_0_xml)
+- GT request done [https://cms-talk.web.cern.ch/t/run-3-gt-update-of-the-l1-menu-tag-v1-1-0-in-run-3-mc-gts-and-run-3-data-relvals-gts/11279]
+- The L1Menu_Collisions2022_v1_1_0 was deployed online on 2nd June, 2022 during run 352795 and fill 7689.
+
