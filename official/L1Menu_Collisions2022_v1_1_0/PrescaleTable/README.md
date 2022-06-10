@@ -1,4 +1,4 @@
-# Prescale and mask tables for the L1Menu_Collisions2022_v1_1_0
+# Prescale tables for the L1Menu_Collisions2022_v1_1_0
 
 **Description of the different formats** 
 * The PS table in **csv format** is used in the context of the rate estimation. It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools). 
