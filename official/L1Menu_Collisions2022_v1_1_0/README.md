@@ -22,4 +22,6 @@ For grouping the LLP seeds together, the following changes took place:
 - 384-387 -> 388-391
 - 388-391 -> 384-387
 
+- The L1Menu_Collisions2022_v1_1_0 was deployed online on 2nd June during run352795.
+
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
