@@ -138,7 +138,7 @@
      - L1_DoubleIsoTau35er2p1 (bit 272) 
     Seeds disabled:
     - L1_DoubleIsoTau32er2p1 (bit 270)
-    - L1_DoubleIsoTau32er2p1 (bit 271)
+    - L1_DoubleIsoTau34er2p1 (bit 271)
 
 * 8.00E+33 => Only LLP jets
     Seeds enabled:
@@ -152,3 +152,10 @@
     Seeds enabled:
      - L1_SingleIsoTau32 (bit 262) with PS=800
      - L1_SingleTau70 (bit 263) with PS=50
+     
+* 6.00E+33 => Only Bmumu seed (opt1)
+    Seeds enabled:
+     - L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6 (bit 55)
+     - L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p5 (bit 56)
+     - L1_DoubleMu0er2p0_SQ_dEta_Max1p6 (bit 53) with PS=190 -> control seed
+     - L1_DoubleMu0er2p0_SQ_dEta_Max1p5 (bit 54) with PS=190 -> control seed
