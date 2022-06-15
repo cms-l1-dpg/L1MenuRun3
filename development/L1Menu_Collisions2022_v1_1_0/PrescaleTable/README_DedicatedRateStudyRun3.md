@@ -58,7 +58,7 @@
      
       Seeds disabled:
     - L1_DoubleIsoTau32er2p1 (bit 270)
-    - L1_DoubleIsoTau32er2p1 (bit 271)
+    - L1_DoubleIsoTau34er2p1 (bit 271)
      
      
 * 1.80E+34 => B physics muon block: bmumu v1 + tau3mu 
