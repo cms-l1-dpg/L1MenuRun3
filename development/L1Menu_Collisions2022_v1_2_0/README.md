@@ -16,5 +16,5 @@ In order to accomodate the new seeds preserving the order, the following seeds h
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
 
 Few differences w.r.t. default PS table of menu v1_1_0:
-    - L1_SingleLooseIsoEG26er1p5 (bit 176) enabled (as it was at the end of 2018)
-    - L1_DoubleMu0er1p5_SQ_dR_Max1p4 (bit 59) with PS=50 (instead of 2)
+   - L1_SingleLooseIsoEG26er1p5 (bit 176) enabled (as it was at the end of 2018)
+   - L1_DoubleMu0er1p5_SQ_dR_Max1p4 (bit 59) with PS=50 (instead of 2)
