@@ -1,6 +1,6 @@
 # L1Menu_Collisions2022_v1_2_0
 
-[![online preview](https://img.shields.io/badge/Online%20preview-click%20here-blue)](https://htmlpreview.github.io/?https://github.com/caruta/L1MenuRun3/blob/patch-1/development/L1Menu_Collisions2022_v1_2_0/L1Menu_Collisions2022_v1_2_0.html)
+[![online preview](https://img.shields.io/badge/Online%20preview-click%20here-blue)](https://htmlpreview.github.io/?https://github.com/caruta/L1MenuRun3/blob/blob/master/development/L1Menu_Collisions2022_v1_2_0/L1Menu_Collisions2022_v1_2_0.html)
 
 **Comment:** 
 New version of the menu for Run3 with 5 additional seeds [JIRA: https://its.cern.ch/jira/browse/CMSLITDPG-995]:
