@@ -6,10 +6,8 @@
      - L1_SingleLooseIsoEG26er1p5 (bit 176) enabled
      - L1_DoubleMu0er1p5_SQ_dR_Max1p4 (bit 59) with PS=50 (instead of 2)
      New low MET seeds:
-    - L1_ETMHF70 (bit 418)
     - L1_ETMHF80 (bit 419)
     - L1_ETMHF90 (bit 420)
-    - L1_ETMHF70_HTT60er (bit 427)
     - L1_ETMHF80_HTT60er (bit 428) 
      
 * 1.90E+34 => 2E+34 + All new Run3 seeds (with Bmumu opt1)
