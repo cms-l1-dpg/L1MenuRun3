@@ -1,0 +1,27 @@
+# Prescale tables for the L1Menu_Collisions2022_v1_2_0
+
+**Description of the different PS Tables**
+
+* **L1Menu_Collisions2022_v1_2_0-13.6TeV_RampUp** : PS table used during the ramp up phase of collisions with a center of mass energy of 13.6 TeV. 
+
+* **L1Menu_Collisions2022_v1_2_0-13.6TeV_2748b** : PS table to be used during stable collisions at 13.6 TeV when the number of bunches reaches the nominal value, i.e. 2748. Few notes:
+    - Few changes have been done for the ps value of ZB-Bptx seeds:
+        - L1_IsolatedBunch (bit 471): ps = 110 (previously it was 2239)
+        - L1_FirstCollisionInOrbit (bit 480): ps = 1103 (previously it was 563)
+        - L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 (bit 494): ps = 6 (previously it was 190);
+    - For lumi columns >=0.9e34, the following seeds have been deactivated ( [JIRA](https://its.cern.ch/jira/browse/CMSHLT-2295) ):
+        - L1_SingleLooseIsoEG26er1p5 (bit 176)
+        - L1_SingleLooseIsoEG28er2p5 (bit 178)
+        - L1_SingleLooseIsoEG28er2p1 (bit 179)
+        - L1_SingleLooseIsoEG30er2p5 (bit 181)
+        - L1_SingleIsoEG28er2p5 (bit 189)
+        - L1_SingleIsoEG28er2p1 (bit 190)
+        - L1_LooseIsoEG26er2p1_HTT100er (bit 242)    
+    - For DoubleEG seeds for BParking, the last prescale scheme reported in its [JIRA](https://its.cern.ch/jira/browse/CMSLITDPG-957) has been adopted;
+    - The seed "L1_SingleIsoEG28er1p5" has been prescaled by a factor 25 for lumi columns >=1.1e34, as reported in [JIRA](https://its.cern.ch/jira/browse/CMSHLT-2398) ;
+    - The main L1 seed for Tau3mu search (L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max12 (bit 82)) as been switched off for lumi columns >=2e34, leaving only the backup seed (L1_TripleMu_3SQ_2p5SQ_0OQ_Mass_Max12 (bit 83)) active;
+    - The seeds "L1_DoubleIsoTau32er2p1" (bit 270) and "L1_DoubleIsoTau34er2p1" (bit 271) have been deactivated for lumi columns >=2e34, while the seed "L1_DoubleIsoTau35er2p1" (bit 272) has been activated for the same lumi columns.
+    
+**Description of the different formats** 
+* The PS table in **csv format** is used in the context of the rate estimation. It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools). 
+* The PS table in **xlsx format** is used to allow easily changes; it represents the baseline to run TSG Tools in the context of the data-taking to produce an xml PS table used online. The xml file is included in L1+HLT keys using L1CE (L1 Configuration Editor). It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools).
