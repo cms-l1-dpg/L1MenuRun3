@@ -2,7 +2,13 @@
 
 **Description of the different PS Tables**
 
-* **L1Menu_Collisions2022_v1_2_0-13.6TeV_RampUp** : PS table used during the ramp up phase of collisions with a center of mass energy of 13.6 TeV. 
+* **L1Menu_Collisions2022_v1_2_0-13.6TeV_RampUp** : PS table used during the ramp up phase of collisions with a center of mass energy of 13.6 TeV. Some additional notes:
+    - One column for each scenario in terms of number of bunches:
+        - 62b split in two columns:
+            - 62bMuonReducedReco + 62bEGammaReducedReco + 62bJetReducedReco for efficiency and prefiring study ([CMSHLT-2388](https://its.cern.ch/jira/browse/CMSHLT-2388))
+            - Low PU run
+        - Full L1 menu enabled having as baseline the 2E34 scenario (run 355404) → [CMSLITDPG-998](https://its.cern.ch/jira/browse/CMSLITDPG-998)
+
 
 * **L1Menu_Collisions2022_v1_2_0-13.6TeV_2748b** : PS table to be used during stable collisions at 13.6 TeV when the number of bunches reaches the nominal value, i.e. 2748. Few notes:
     - Few changes have been done for the ps value of ZB-Bptx seeds:
