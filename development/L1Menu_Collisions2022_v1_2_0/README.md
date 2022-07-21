@@ -12,9 +12,16 @@ New version of the menu for Run3 with 5 additional seeds [JIRA: https://its.cern
 
 In order to accomodate the new seeds preserving the order, the following seeds have been moved:
    - 428-432 -> 429-433
+<br/>
+
+#### Few differences w.r.t. default PS table of menu v1_1_0:
+- L1_SingleLooseIsoEG26er1p5 (bit 176) enabled (as it was at the end of 2018)
+- L1_DoubleMu0er1p5_SQ_dR_Max1p4 (bit 59) with PS=50 (instead of 2)
+   
+#### Few differences w.r.t. PS table used during 2018 data-taking:
+- L1_IsoEG32er2p5_Mt40 seed is now disabled (as requested in JIRA: https://its.cern.ch/jira/browse/CMSHLT-2249). <br/>
+  It needs to be switch on only if the seed "L1_SingleIsoEG32er2p5" will be prescaled. 
+   
+<br/>
 
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
-
-Few differences w.r.t. default PS table of menu v1_1_0:
-   - L1_SingleLooseIsoEG26er1p5 (bit 176) enabled (as it was at the end of 2018)
-   - L1_DoubleMu0er1p5_SQ_dR_Max1p4 (bit 59) with PS=50 (instead of 2)
