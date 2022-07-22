@@ -4,21 +4,22 @@
 
 **Comment:** 
 New version of the menu for Run3 with 7 additional seeds wiht low MET thresholds [JIRA: https://its.cern.ch/jira/browse/CMSLITDPG-995]:
-    - L1_Mu3er1p5_Jet100er2p5_ETMHF30 (bit 127) 
-    - L1_DoubleMu3_SQ_ETMHF30_HTT60er (bit 141) 
-    - L1_DoubleMu3_SQ_ETMHF40_HTT60er (bit 142) 
-    - L1_DoubleMu3_SQ_ETMHF30_Jet60er2p5_OR_DoubleJet40er2p5 (bit 144) 
-    - L1_DoubleMu3_SQ_ETMHF40_Jet60er2p5_OR_DoubleJet40er2p5 (bit 145) 
-    - L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p1  (bit 334) 
-    - L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p6  (bit 335) 
+   - L1_Mu3er1p5_Jet100er2p5_ETMHF30 (bit 127) 
+   - L1_DoubleMu3_SQ_ETMHF30_HTT60er (bit 141) 
+   - L1_DoubleMu3_SQ_ETMHF40_HTT60er (bit 142) 
+   - L1_DoubleMu3_SQ_ETMHF30_Jet60er2p5_OR_DoubleJet40er2p5 (bit 144) 
+   - L1_DoubleMu3_SQ_ETMHF40_Jet60er2p5_OR_DoubleJet40er2p5 (bit 145) 
+   - L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p1  (bit 334) 
+   - L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p6  (bit 335) 
 
 In order to accomodate the new seeds preserving the order, the following seeds have been moved:
-    - 142,143 -> 138,139
-    - 145 -> 143
-    - 329-334 -> 328-333
-    - 335-338 -> 336-339
+   - 142,143 -> 138,139
+   - 145 -> 143
+   - 329-334 -> 328-333
+   - 335-338 -> 336-339
    
 **NOTE**: The ps value for the already present seed `L1_DoubleMu3_SQ_ETMHF50_HTT60er` was changed from 0 to 1.
+<br/>
 <br/>
 
 #### Few differences w.r.t. default PS table of menu v1_1_0:
