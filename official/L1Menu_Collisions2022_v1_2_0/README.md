@@ -20,7 +20,7 @@ In order to accomodate the new seeds preserving the order, the following seeds h
 - L1_DoubleMu18er2p1_SQ (bit 47) enabled -> [CMSHLT-2413](https://its.cern.ch/jira/browse/CMSHLT-2413). It was disabled by mistake after the seed renaming ([CMSHLT-2258](https://its.cern.ch/jira/browse/CMSHLT-2258)).
    
 #### Few differences w.r.t. PS table used during 2018 data-taking:
-- L1_IsoEG32er2p5_Mt40 seed is now disabled (as requested in [CMSHLT-2249](https://its.cern.ch/jira/browse/CMSHLT-2249). <br/>
+- L1_IsoEG32er2p5_Mt40 seed is now disabled (as requested in [CMSHLT-2249](https://its.cern.ch/jira/browse/CMSHLT-2249)). <br/>
   It needs to be switch on only if the seed "L1_SingleIsoEG32er2p5" will be prescaled. 
    
 <br/>
