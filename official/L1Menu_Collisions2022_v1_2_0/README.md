@@ -14,7 +14,7 @@ In order to accomodate the new seeds preserving the order, the following seeds h
    - 428-432 -> 429-433
 <br/>
 
-#### Few differences w.r.t. default PS table of menu v1_1_0:
+#### Few differences w.r.t. default PS table of menu v1_1_0 (implemented starting from the v1_2_0 menu):
 - `L1_SingleLooseIsoEG26er1p5` (bit 176) enabled (as it was at the end of 2018)
 - `L1_DoubleMu0er1p5_SQ_dR_Max1p4` (bit 59) with PS=50 (instead of 2)
 - `L1_DoubleMu18er2p1_SQ` (bit 47) enabled -> [CMSHLT-2413](https://its.cern.ch/jira/browse/CMSHLT-2413). It was disabled by mistake after the seed renaming ([CMSHLT-2258](https://its.cern.ch/jira/browse/CMSHLT-2258)).
