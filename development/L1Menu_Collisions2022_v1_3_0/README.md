@@ -26,7 +26,11 @@ In order to accomodate the new seeds preserving the order, the following seeds h
 - `L1_SingleLooseIsoEG26er1p5` (bit 176) enabled (as it was at the end of 2018)
 - `L1_DoubleMu0er1p5_SQ_dR_Max1p4` (bit 59) with PS=50 (instead of 2)
 - `L1_DoubleMu18er2p1_SQ` (bit 47) enabled -> [CMSHLT-2413](https://its.cern.ch/jira/browse/CMSHLT-2413). It was disabled by mistake after the seed renaming ([CMSHLT-2258](https://its.cern.ch/jira/browse/CMSHLT-2258)).
-   
+- `L1_SingleMu12er1p5` (bit 31) enabled and prescaled to 4 for all lumi scenarios from 1.7E34 and below. [CMSLITDPG-997](https://its.cern.ch/jira/browse/CMSLITDPG-997)
+- `L1_SingleIsoEG28er1p5` (bit 91) prescaled to 25 in all lumi scenarios.
+
+- Copied 2.0E+34 column in 2.2E+34, and 2.0E+34 is a copy of 1.7E34 lumi column, with B Parking seeds (DiElectron bit,200 - 212) are disabled.  
+
 #### Few differences w.r.t. PS table used during 2018 data-taking:
 - `L1_IsoEG32er2p5_Mt40` seed is now disabled (as discussed in [CMSHLT-2249](https://its.cern.ch/jira/browse/CMSHLT-2249). <br/>
   Note that it is kept in the menu as backup and it has to be switch on in case `L1_SingleIsoEG32er2p5` will be disabled. 
