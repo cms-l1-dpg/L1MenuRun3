@@ -22,7 +22,7 @@ In order to accomodate the new seeds preserving the order, the following seeds h
 <br/>
 <br/>
 
-#### Few differences w.r.t. L1Menu_Collisions2022_v1_2_0-13.6TeV_2748b (implemented starting from v1_3_0 menu): 
+#### Few differences w.r.t. L1Menu_Collisions2022_v1_2_0-13.6TeV_2748b PS table (implemented starting from v1_3_0 menu): 
 - `L1_SingleIsoEG28er1p5` (bit 91) prescaled to 25 in all lumi scenarios. [CMSLITDPG-996](https://its.cern.ch/jira/browse/CMSLITDPG-996)
 - Copied 2.0E+34 column in 2.2E+34, and 2.0E+34 is a copy of 1.7E34 lumi column, with B Parking seeds (DoubleEG, bits: 200 - 212) are disabled.  
 
