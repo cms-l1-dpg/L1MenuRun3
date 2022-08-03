@@ -153,12 +153,12 @@ Index,Name,Emergency,2.2E+34,2.0E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9.0E+33,6.0
 173,L1_SingleEG50,0,0,0,0,0,0,0,0,0
 174,L1_SingleEG60,0,1,1,1,1,1,1,1,1
 175,L1_SingleLooseIsoEG26er2p5,0,0,0,0,0,0,0,0,0
-176,L1_SingleLooseIsoEG26er1p5,0,0,0,0,0,0,0,1,1
+176,L1_SingleLooseIsoEG26er1p5,0,0,0,0,0,0,0,0,0
 177,L1_SingleLooseIsoEG28_FWD2p5,0,0,0,0,0,0,0,0,0
-178,L1_SingleLooseIsoEG28er2p5,0,0,0,0,0,0,0,1,1
-179,L1_SingleLooseIsoEG28er2p1,0,0,0,0,0,0,0,1,1
+178,L1_SingleLooseIsoEG28er2p5,0,0,0,0,0,0,0,0,0
+179,L1_SingleLooseIsoEG28er2p1,0,0,0,0,0,0,0,0,0
 180,L1_SingleLooseIsoEG28er1p5,0,0,0,0,0,0,0,0,0
-181,L1_SingleLooseIsoEG30er2p5,0,0,0,0,0,0,0,1,1
+181,L1_SingleLooseIsoEG30er2p5,0,0,0,0,0,0,0,0,0
 182,L1_SingleLooseIsoEG30er1p5,0,0,0,0,0,0,0,0,0
 183,L1_SingleIsoEG24er2p1,0,0,0,0,0,0,0,0,0
 184,L1_SingleIsoEG24er1p5,0,0,0,0,0,0,0,0,0
@@ -166,8 +166,8 @@ Index,Name,Emergency,2.2E+34,2.0E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9.0E+33,6.0
 186,L1_SingleIsoEG26er2p1,0,0,0,0,0,0,0,0,0
 187,L1_SingleIsoEG26er1p5,0,0,0,0,0,0,0,0,0
 188,L1_SingleIsoEG28_FWD2p5,0,0,0,0,0,0,0,0,0
-189,L1_SingleIsoEG28er2p5,0,0,0,0,0,0,0,1,1
-190,L1_SingleIsoEG28er2p1,0,0,0,0,0,0,0,1,1
+189,L1_SingleIsoEG28er2p5,0,0,0,0,0,0,0,0,0
+190,L1_SingleIsoEG28er2p1,0,0,0,0,0,0,0,0,0
 191,L1_SingleIsoEG28er1p5,0,25,25,25,25,25,25,25,25
 192,L1_SingleIsoEG30er2p5,0,1,1,1,1,1,1,1,1
 193,L1_SingleIsoEG30er2p1,0,1,1,1,1,1,1,1,1
@@ -216,7 +216,7 @@ Index,Name,Emergency,2.2E+34,2.0E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9.0E+33,6.0
 239,L1_LooseIsoEG28er2p1_Jet34er2p5_dR_Min0p3,0,1,1,1,1,1,1,1,1
 240,L1_LooseIsoEG30er2p1_Jet34er2p5_dR_Min0p3,0,1,1,1,1,1,1,1,1
 241,L1_LooseIsoEG24er2p1_HTT100er,0,0,0,0,0,0,0,0,0
-242,L1_LooseIsoEG26er2p1_HTT100er,0,0,0,0,0,0,0,1,1
+242,L1_LooseIsoEG26er2p1_HTT100er,0,0,0,0,0,0,0,0,0
 243,L1_LooseIsoEG28er2p1_HTT100er,0,1,1,1,1,1,1,1,1
 244,L1_LooseIsoEG30er2p1_HTT100er,0,1,1,1,1,1,1,1,1
 247,L1_DoubleEG8er2p5_HTT260er,0,0,0,0,0,0,0,0,0
@@ -279,8 +279,8 @@ Index,Name,Emergency,2.2E+34,2.0E+34,1.7E+34,1.5E+34,1.3E+34,1.1E+34,9.0E+33,6.0
 331,L1_SingleJet140er2p5_ETMHF70,0,0,0,0,0,0,0,0,0
 332,L1_SingleJet140er2p5_ETMHF80,0,0,0,0,0,0,0,0,0
 333,L1_SingleJet140er2p5_ETMHF90,0,0,0,0,0,0,0,0,0
-334,L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p1,0,0,0,0,0,0,0,0,0
-335,L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p6,0,0,0,0,0,0,0,0,0
+334,L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p1,0,1,1,1,1,1,1,1,1
+335,L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p6,0,1,1,1,1,1,1,1,1
 336,L1_ETMHF90_SingleJet60er2p5_dPhi_Min2p1,0,1,1,1,1,1,1,1,1
 337,L1_ETMHF90_SingleJet60er2p5_dPhi_Min2p6,0,1,1,1,1,1,1,1,1
 338,L1_ETMHF90_SingleJet80er2p5_dPhi_Min2p1,0,1,1,1,1,1,1,1,1
