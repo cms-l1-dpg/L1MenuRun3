@@ -5,7 +5,7 @@ Collection of L1 menus released during MWGRs or for data taking.
 **NOTE**: 
 - The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
 
-- The following L1 seeds based on NoBptxOR requirement are instead used for Physics purposes (details in [CMSLITDPG-1001](https://its.cern.ch/jira/browse/CMSLITDPG-1001) and thus they have to be enabled for the online data taking.
+- The following L1 seeds based on NoBptxOR requirement are instead used for Physics purposes (details in [CMSLITDPG-1001](https://its.cern.ch/jira/browse/CMSLITDPG-1001)) and thus they have to be enabled for the online data taking.
 ```
 LIST of NoBptxOR based seeds needed for physics, with the ps value used during 2018 data taking:
 - L1_SingleMuOpen_NotBptxOR (PS=20)
