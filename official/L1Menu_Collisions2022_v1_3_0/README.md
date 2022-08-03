@@ -33,7 +33,7 @@ In order to accomodate the new seeds preserving the order, the following seeds h
 - `L1_SingleMu12er1p5` (bit 31) enabled and prescaled to 4 for all lumi scenarios from 1.7E34 and below. [CMSLITDPG-997](https://its.cern.ch/jira/browse/CMSLITDPG-997)
 
 #### Few differences w.r.t. PS table used during 2018 data-taking:
-- `L1_IsoEG32er2p5_Mt40` seed is now disabled (as discussed in [CMSHLT-2249](https://its.cern.ch/jira/browse/CMSHLT-2249). <br/>
+- `L1_IsoEG32er2p5_Mt40` seed is now disabled (as discussed in [CMSHLT-2249](https://its.cern.ch/jira/browse/CMSHLT-2249)). <br/>
   Note that it is kept in the menu as backup and it has to be switch on in case `L1_SingleIsoEG32er2p5` will be disabled. 
    
 <br/>
