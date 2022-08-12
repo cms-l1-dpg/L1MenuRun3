@@ -11,8 +11,8 @@ Description of the different PS Tables
 <br/>
 
 
-## L1Menu_Collisions2022_v1_3_0-13.6TeV_2748b
-**Draft of the PS table** to be used during stable collisions at 13.6 TeV when the number of bunches reaches the nominal value, i.e. 2748. 
+## L1Menu_Collisions2022_v1_3_0-13.6TeV
+**Draft of the PS table** to be used during stable collisions at 13.6 TeV. 
 <br/>
 Few notes:
 - The full L1 menu is enabled at the lowest luminosity as is happening online during the ramp up. The lowest thresholds for the B-Parking seeds are also enabled (starting from *L1_DoubleEG4p5_er1p2_dR_Max0p9*). Note that few changes have been done for the PS value of ZB-Bptx seeds in order to test the table using MenuTools. (Changes to be reverted for the final version!)
