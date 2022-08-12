@@ -40,3 +40,11 @@ In order to accomodate the new seeds preserving the order, the following seeds h
 
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
 
+
+**Additional Remarks:**
+
+- Reference JIRA ticket: [CMSLITDPG-980](https://its.cern.ch/jira/browse/CMSLITDPG-980)
+- Synthesized and tested in uGT test crate
+- Tag in condDB uploaded: [L1Menu_Collisions2022_v1_3_0-d1_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2022_v1_3_0-d1_xml)
+- The L1Menu_Collisions2022_v1_3_0 was deployed online on 10th August, 2022 during run [357150](https://cmsoms.cern.ch/cms/runs/report?cms_run=357150&cms_run_sequence=GLOBAL-RUN).
+
