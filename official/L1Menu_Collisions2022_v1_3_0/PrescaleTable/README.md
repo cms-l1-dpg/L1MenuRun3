@@ -36,7 +36,13 @@ Last modifications in view of the 2400 colliding bunches scenario:
     - New L1 seeds for Bmumu search (*L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6* (bit 55) and *L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p5* (bit 56)) 
     - New L1 seeds for Tau3mu search (*L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max12* (bit 82) and *L1_TripleMu_3SQ_2p5SQ_0OQ_Mass_Max12* (bit 83)) 
 <br/> 
-    
+
+## L1Menu_Collisions2022_v1_3_0-13.6TeV (in development)
+Additional lumi column 2.3e34, which is a copy of column 2.2E34, but with the following seeds disabled:
+- *L1_DoubleIsoTau32* (bit 270) and *L1_DoubleIsoTau34* (bit 271) -> next enabled seed: *L1_DoubleIsoTau35* (bit 272)
+- *L1_LooseIsoEG28er2p1_Jet34er2p5_dR_Min0p3* (bit 239) -> next enabled seed: *L1_LooseIsoE308er2p1_Jet34er2p5_dR_Min0p3* (bit 240)
+<br/>   
+
 <h2 align="center">
 Description of the different formats
 </h2>
