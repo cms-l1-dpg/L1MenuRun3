@@ -3,6 +3,7 @@
 **Description of the different formats** 
 * The PS table in **csv format** is used in the context of the rate estimation. It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools). 
 * The PS table in **xlsx format** is used to allow easily changes; it represents the baseline to run TSG Tools in the context of the data-taking to produce an xml PS table used online. The xml file is included in L1+HLT keys using L1CE (L1 Configuration Editor). It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools).
+**NOTE** : This is not the final ps table: it is updated *only* for the max lumi column (2e34), i.e. the 4th column. 
 * The PS table in **xml format** is also used to run the L1 emulation of the prescales. This is the format accepted by the uGT emulator code. Both online and offline, it is provided together with a set of three additional xml files:
   - UGT_BASE_RS_PRESCALES_L1MenuCollisions2022_v1_3_0.xml
   - UGT_BASE_RS_FINOR_MASK_L1MenuCollisions2022_v1_3_0.xml
