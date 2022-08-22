@@ -56,7 +56,7 @@
         <row>44, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu_15_7-->
         <row>45, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu_15_7_SQ-->
         <row>46, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu_15_7_Mass_Min1-->
-        <row>47, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu18er2p1_SQ-->
+        <row>47, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1</row> <!--L1_DoubleMu18er2p1_SQ-->
         <row>48, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0_Upt5_Upt5 - Run 3 (2022)-->
         <row>49, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0_Upt6_IP_Min1_Upt4 - Run 3 (2022)-->
         <row>50, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0</row> <!--L1_DoubleMu0_Upt15_Upt7 - Run 3 (2022)-->
