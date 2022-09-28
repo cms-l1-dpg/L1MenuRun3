@@ -1,10 +1,5 @@
 # Prescale tables for the L1Menu_Collisions2022_v1_3_0
 
-### Important REMARK
-These PS tables are NOT fully aligned with the ones used online. They're still used for _development_ purposes.
-
-<br/>
-
 <h2 align="center">
 Description of the different PS Tables
 </h2>
@@ -18,7 +13,7 @@ Few notes:
 - The full L1 menu is enabled at the lowest luminosity as is happening online during the ramp up. The lowest thresholds for the B-Parking seeds are also enabled (starting from *L1_DoubleEG4p5_er1p2_dR_Max0p9*). Note that few changes have been done for the PS value of ZB-Bptx seeds in order to test the table using MenuTools. (Changes to be reverted for the final version!)
     - L1_IsolatedBunch (bit 471): ps = 1 (previously it was 2239)
     - L1_FirstCollisionInOrbit (bit 480): ps = 563 (previously it was 563)
-    - L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 (bit 494): ps = 6 (previously it was 190);
+    - L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 (bit 494): ps = 3 (previously it was 190);
 - The following seeds have been deactivated ([CMSHLT-2295](https://its.cern.ch/jira/browse/CMSHLT-2295)):
     - L1_SingleLooseIsoEG26er1p5 (bit 176)
     - L1_SingleLooseIsoEG28er2p5 (bit 178)
