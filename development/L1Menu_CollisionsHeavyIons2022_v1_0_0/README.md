@@ -11,4 +11,5 @@ The "default paths" added on top of the HI seeds can be found:
 - #75-102
 
 **Baseline HI menu:** [https://github.com/mitaylor/HIMenus/blob/main/Menus/L1Menu_CollisionsHeavyIons2022_v1_0_1.xml] 
+
 **Reference JIRA:** (JIRA ticket: https://its.cern.ch/jira/browse/CMSLITDPG-1015).
