@@ -4,6 +4,7 @@
 
 **Comment:** L1Menu for the Heavy Ions test planned for November 2022.
 Ten additional seeds, w.r.t. the previous version (v1_0_1), were included to make the L1 menu compatible with the HLT one, as reported in JIRA [CMSHLT-2507](https://its.cern.ch/jira/browse/CMSHLT-2507).
+
 The seeds added are the following:
 - L1_DoubleEG2_BptxAND (bit 396)
 - L1_DoubleEG5_BptxAND (bit 397)
