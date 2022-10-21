@@ -26,11 +26,27 @@ Few notes:
     - The seed *L1_SingleIsoEG28er1p5* (bit 191) has been prescaled by a factor 25 for all lumi columns, as reported in [CMSHLT-2398](https://its.cern.ch/jira/browse/CMSHLT-2398) ;
     - The lumi column 2.0E34 is now a copy of 1.7E34 with low B parking seeds deactivated (starting from *L1_DoubleEG4p5_er1p2_dR_Max0p9*).
 
-Last modifications in view of the 2400 colliding bunches scenario:
+Modifications in view of the 2400 colliding bunches scenario:
 - Seed switched off in lumi column 2.1E34 and 2.2E34:
     - New L1 seeds for Bmumu search (*L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6* (bit 55) and *L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p5* (bit 56)) 
     - New L1 seeds for Tau3mu search (*L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max12* (bit 82) and *L1_TripleMu_3SQ_2p5SQ_0OQ_Mass_Max12* (bit 83)) 
 <br/> 
+
+Last modifications (21st Oct 2022):
+- seeds deactivated in all columns:
+    - *L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max12* (bit 82): deactivated due to an observed increase in its rate after the TS1 -> [CMSLITDPG-960](https://its.cern.ch/jira/browse/CMSLITDPG-960). Its backup seed is still active.
+    - *L1_SingleIsoTau32er2p1* (bit 262): deactivated because not used by any HLT path.
+- seeds deactivated (in all columns) to ensure safe deployment of new HCAL calibrations [CMSLITDPG-1021](https://its.cern.ch/jira/browse/CMSLITDPG-1021):
+    - *L1_ETMHF80* -> *L1_ETMHF90* 
+    - *L1_ETMHF80_HTT60er* -> *L1_ETMHF90_HTT60er*
+    - *L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p1* -> *L1_ETMHF90_SingleJet55er2p5_dPhi_Min2p1*
+    - *L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p6* -> *L1_ETMHF90_SingleJet55er2p5_dPhi_Min2p1*
+    - *L1_DoubleIsoTau32er2p1* -> *L1_DoubleIsoTau34er2p1*
+    - *L1_HTT200_SingleLLPJet60* -> *L1_HTT240_SingleLLPJet70*
+    - *L1_DoubleIsoTau26er2p1_Jet55_RmOvlp_dR0p5* -> *L1_DoubleIsoTau26er2p1_Jet70_RmOvlp_dR0p5* (_only_ in the highest emergency column 2.2E34)
+- change in ps value for seed:
+    - *L1_SingleMuOpen_NotBptxOR* from 20 to 80; JIRA [CMSLITDPG-1044](https://its.cern.ch/jira/browse/CMSLITDPG-1044).
+    
 
 ## L1Menu_Collisions2022_v1_3_0-13.6TeV (in development)
 Additional lumi column 2.3e34, which is a copy of column 2.2E34, but with the following seeds disabled:
