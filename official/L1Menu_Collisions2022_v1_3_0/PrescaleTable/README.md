@@ -36,7 +36,7 @@ Last modifications (21st Oct 2022):
 - seeds deactivated in all columns:
     - *L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max12* (bit 82): deactivated due to an observed increase in its rate after the TS1 -> [CMSLITDPG-960](https://its.cern.ch/jira/browse/CMSLITDPG-960). Its backup seed is still active.
     - *L1_SingleIsoTau32er2p1* (bit 262): deactivated because not used by any HLT path.
-- seeds deactivated (in all columns) to ensure safe deployment of new HCAL calibrations [CMSLITDPG-1021](https://its.cern.ch/jira/browse/CMSLITDPG-1021):
+- seeds deactivated (in all columns) to ensure safe deployment of new HCAL calibrations; JIRA: [CMSLITDPG-1021](https://its.cern.ch/jira/browse/CMSLITDPG-1021):
     - *L1_ETMHF80* -> *L1_ETMHF90* 
     - *L1_ETMHF80_HTT60er* -> *L1_ETMHF90_HTT60er*
     - *L1_ETMHF80_SingleJet55er2p5_dPhi_Min2p1* -> *L1_ETMHF90_SingleJet55er2p5_dPhi_Min2p1*
