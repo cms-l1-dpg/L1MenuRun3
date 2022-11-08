@@ -71,7 +71,19 @@ Few notes:
 <br/> 
 
  
-## L1Menu_Collisions2022_v1_3_0-13.6TeV (in development)
+## L1Menu_Collisions2022_v1_3_0-13.6TeV (in development) - study on backup columns
+The PS table in development has presently the following definition of the backup columns
+- **2.1e34** (same as 2.2e34 of official PS column) - seeds disabled w.r.t. 2.0E34:
+    - `L1_DoubleJet_110_35_DoubleJet35_Mass_Min620`
+    - `L1_DoubleJet_115_40_DoubleJet40_Mass_Min620`
+    - `L1_ETMHF90`
+    - `L1_ETMHF90_HTT60er`
+    - `L1_DoubleMu0er2p0_SQ_dEta_Max1p6`
+    - `L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6`
+    - `L1_DoubleIsoTau26er2p1_Jet55_RmOvlp_dR0p5`
+- **2.2e34** - seeds disabled w.r.t. 2.1E34:
+    - `L1_DoubleEG11_er1p2_dR_Max0p6`
+
 Additional lumi column 2.3e34, which is a copy of column 2.2E34, but with the following seeds disabled:
 - `L1_DoubleIsoTau32` (bit 270) and `L1_DoubleIsoTau34` (bit 271) &rarr; next enabled seed: `L1_DoubleIsoTau35` (bit 272)
 - `L1_LooseIsoEG28er2p1_Jet34er2p5_dR_Min0p3` (bit 239) &rarr; next enabled seed: `L1_LooseIsoE308er2p1_Jet34er2p5_dR_Min0p3` (bit 240)
