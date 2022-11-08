@@ -67,6 +67,7 @@ Few notes:
     - `L1_FirstCollisionInTrain`: ps value: 14057 &rarr; 59051 [CMSHLT-2517](https://its.cern.ch/jira/browse/CMSHLT-2517)
 - For prefiring study with masking:
     - enable `L1_FirstBunchBeforeTrain`
+    - bunch masking is working since run `361467` (masking of the last empty bx before train has been deployed since run 360850, but trigger counts were still observed because this seed was prescaled to 0).
 <br/> 
 
  
