@@ -375,7 +375,7 @@ Index,Name,Emergency,2.20E+34,2.10E+34,2.00E+34,2.00E+34+ZeroBias+HLTPhysics,1.9
 468,L1_UnpairedBunchBptxPlus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 469,L1_UnpairedBunchBptxMinus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 471,L1_IsolatedBunch,0,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239,2239
-472,L1_FirstBunchBeforeTrain,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+472,L1_FirstBunchBeforeTrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 473,L1_FirstBunchInTrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 474,L1_SecondBunchInTrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 475,L1_SecondLastBunchInTrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
