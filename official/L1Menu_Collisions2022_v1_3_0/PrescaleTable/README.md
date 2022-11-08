@@ -83,10 +83,6 @@ The PS table in development has presently the following definition of the backup
     - `L1_DoubleIsoTau26er2p1_Jet55_RmOvlp_dR0p5`
 - **2.2e34** - seeds disabled w.r.t. 2.1E34:
     - `L1_DoubleEG11_er1p2_dR_Max0p6`
-
-Additional lumi column 2.3e34, which is a copy of column 2.2E34, but with the following seeds disabled:
-- `L1_DoubleIsoTau32` (bit 270) and `L1_DoubleIsoTau34` (bit 271) &rarr; next enabled seed: `L1_DoubleIsoTau35` (bit 272)
-- `L1_LooseIsoEG28er2p1_Jet34er2p5_dR_Min0p3` (bit 239) &rarr; next enabled seed: `L1_LooseIsoE308er2p1_Jet34er2p5_dR_Min0p3` (bit 240)
 <br/>   
 
 <h2 align="center">
