@@ -51,10 +51,13 @@ Few notes:
     - `L1_HTT200_SingleLLPJet60` &rarr; `L1_HTT240_SingleLLPJet70`
     - `L1_DoubleIsoTau26er2p1_Jet55_RmOvlp_dR0p5` &rarr; `L1_DoubleIsoTau26er2p1_Jet70_RmOvlp_dR0p5` (_only_ in the highest emergency column 2.2E34)
 - change in ps value for NotBPTX seeds JIRA [CMSLITDPG-1044](https://its.cern.ch/jira/browse/CMSLITDPG-1044):
-    - `L1_SingleMuOpen_NotBptxOR` from 20 to 250; 
-    - `L1_SingleJet20er2p5_NotBptxOR` from 20 to 100; 
+    - `L1_SingleMuOpen_NotBptxOR` from 20 &rarr; 250; 
+    - `L1_SingleJet20er2p5_NotBptxOR` from 20 &rarr; 100; 
     
 ### Last modifications (8st Nov 2022):
+- Update ps value of muon shower seeds [CMSLITDPG-953](https://its.cern.ch/jira/browse/CMSLITDPG-953):
+    - `L1_SingleMuShower_Nominal`: ps 20 &rarr; 1
+    - `L1_SingleMuShower_Tight`: ps 20 &rarr; 1
 - seeds deactivated (in all columns) after new HCAL corrections [CMSLITDPG-1021](https://its.cern.ch/jira/browse/CMSLITDPG-1021):  
     - `L1_DoubleMu3_SQ_ETMHF30_HTT60er`
 	- `L1_DoubleMu3_SQ_ETMHF30_Jet60er2p5_OR_DoubleJet40er2p5`
