@@ -77,10 +77,6 @@ Few notes:
 ## L1Menu_Collisions2022_v1_3_0-13.6TeV (in development) - study on backup columns
 The PS table in development has presently the following definition of the backup columns
 - **2.1e34** (same as 2.2e34 of official PS column) - seeds disabled w.r.t. 2.0E34:
-    - `L1_DoubleJet_110_35_DoubleJet35_Mass_Min620`
-    - `L1_DoubleJet_115_40_DoubleJet40_Mass_Min620`
-    - `L1_ETMHF90`
-    - `L1_ETMHF90_HTT60er`
     - `L1_DoubleMu0er2p0_SQ_dEta_Max1p6`
     - `L1_DoubleMu0er2p0_SQ_OS_dEta_Max1p6`
     - `L1_DoubleIsoTau26er2p1_Jet55_RmOvlp_dR0p5`
