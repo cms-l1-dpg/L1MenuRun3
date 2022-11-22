@@ -30,4 +30,9 @@ The new cabling contains following changes to External Conditions:
 - on channel 39: ZDCnP_1 (bit 1 of encoded ZDC triggers - ZDC P part)
 - Removed obsolete CASTOR definitions
 
-**Reference JIRA:** The change in external conditions by uGT team in correspondence to ZDC configuration is documented in the JIRA. [CMSLITDPG-1015](https://its.cern.ch/jira/browse/CMSLITDPG-1015).
+**Reference JIRA tickets:** 
+- 2022 L1 HI Collision Menu &rarr; [CMSLITDPG-1015](https://its.cern.ch/jira/browse/CMSLITDPG-1015)
+- 2022 HI Test Run Preparation &rarr; [CMSLITDPG-1078](https://its.cern.ch/jira/browse/CMSLITDPG-1078)
+- ECAL readout test requirements &rarr; [CMSHLT-2567](https://its.cern.ch/jira/browse/CMSHLT-2567)
+- Circulating and cosmics menu for HIon test run &rarr; [CMSHLT-2574](https://its.cern.ch/jira/browse/CMSHLT-2574)
+
