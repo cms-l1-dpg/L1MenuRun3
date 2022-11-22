@@ -5,7 +5,7 @@
 **Comment:** 
 New version of the menu for Run3: the following TripleMu seeds for the Tau3mu search have been modified by adding the OS requirements:
    - L1_TripleMu_2SQ_1p5SQ_0OQ_Mass_Max12 (bit 82)
-   - L1_TripleMu_3SQ_2p5SQ_0OQ_Mass_Max12 (bit 82)
+   - L1_TripleMu_3SQ_2p5SQ_0OQ_Mass_Max12 (bit 83)
     
  **NOTE**: The seed names have not been changed to be able to use them with the present HLT menu. 
  
