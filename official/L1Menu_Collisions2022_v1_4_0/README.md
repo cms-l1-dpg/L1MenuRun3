@@ -9,3 +9,10 @@ New version of the menu for Run3: the following TripleMu seeds for the Tau3mu se
     
  **NOTE**: The seed names have not been changed to be able to use them with the present HLT menu. 
  
+ 
+**Additional Remarks:**
+
+- Reference JIRA ticket: [CMSLITDPG-980](https://its.cern.ch/jira/browse/CMSLITDPG-980)
+- Synthesized and tested in uGT test crate
+- Tag in condDB uploaded: [L1Menu_Collisions2022_v1_4_0-d1_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2022_v1_4_0-d1_xml)
+- The L1Menu_Collisions2022_v1_4_0 was deployed online on 25th November, 2022 during collisions run [362673](https://cmsoms.cern.ch/cms/runs/report?cms_run=362673&cms_run_sequence=GLOBAL-RUN).
