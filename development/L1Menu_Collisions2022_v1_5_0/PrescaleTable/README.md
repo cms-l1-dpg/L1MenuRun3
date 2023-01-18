@@ -19,12 +19,9 @@ Update : 18-01-2023
  - Disabled the following seeds :
 
    - (bit 83) L1_TripleMu_3SQ_2p5SQ_0OQ_Mass_Max12
-   - (bit 84) L1_TripleMu_5_3p5_2p5_OQ_DoubleMu_5_2p5_OQ_OS_Mass_5to17
-   - (bit 85) L1_TripleMu_5_3p5_2p5_DoubleMu_5_2p5_OS_Mass_5to17
-   - (bit 86) L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17
-   - (bit 87) L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9
-   - (bit 88) L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9
    - (bit 94) L1_TripleMu_3SQ_2p5SQ_0DQ_Mass_Max12
    - (bit 95) L1_TripleMu_4SQ_2p5SQ_0OQ_Mass_Max12
 
- - Disabled L1_DoubleEG11_er1p2_dR_Max0p6 (bit 214) in 2.X columns.
+ - Disabled   L1_DoubleEG11_er1p2_dR_Max0p6 (bit 214) in the baseline configuration (currently 2.2E34 column).
+ - Column 2.1E34 is a testing configuration: copy of 2.2E34 column + bit 94 (TauTo3Mu seed) enabled
+ - Column 2.0E34 is a testing configuration: copy of 2.2E34 column + bit 214 (DoubleEG B Parking) enabled
