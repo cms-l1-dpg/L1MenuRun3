@@ -1,6 +1,6 @@
 # L1Menu_Collisions2023_v1_0_0
 
-[![online preview](https://img.shields.io/badge/Online%20preview-click%20here-blue)](https://htmlpreview.github.io/?https://github.com/cms-l1-dpg/L1MenuRun3/blob/master/development/L1Menu_Collisions2023_v1_0_0/L1Menu_Collisions2023_v1_0_0.html)
+[![online preview](https://img.shields.io/badge/Online%20preview-click%20here-blue)](https://htmlpreview.github.io/?https://github.com/cms-l1-dpg/L1MenuRun3/blob/master/official/L1Menu_Collisions2023_v1_0_0/L1Menu_Collisions2023_v1_0_0.html)
 
 **Comment:** 
 First version of the L1 menu for the 2023 data taking. It will be used as a starting point for the developments and updates of the L1 menu targeting the first round of integration (March 8th).
