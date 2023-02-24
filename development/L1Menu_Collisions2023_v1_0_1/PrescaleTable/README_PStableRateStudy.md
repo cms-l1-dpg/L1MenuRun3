@@ -52,10 +52,9 @@
 
 ### 1.5e34: Baseline minus VBF inclusive and Jet+Tau (main & backup)
    - Deactivated the following seeds:
-    - `L1_DoubleJet110_35_DoubleJet35_Mass_Min620` (bit 357)
-    - `L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5` (bit 362)
-    - `L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5` (bit 363)
-
+      - `L1_DoubleJet110_35_DoubleJet35_Mass_Min620` (bit 357)
+      - `L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5` (bit 362)
+      - `L1_DoubleJet35_Mass_Min450_IsoTau45er2p1_RmOvlp_dR0p5` (bit 363)
 
 
 <br/>
