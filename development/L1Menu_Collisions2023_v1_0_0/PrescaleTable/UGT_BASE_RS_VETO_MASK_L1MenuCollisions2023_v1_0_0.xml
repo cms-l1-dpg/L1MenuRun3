@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <run-settings id="uGT">
   <context id="uGtProcessor">
     <param id="vetoMask" type="table" delimiter=",">
@@ -133,7 +134,7 @@
         <row>126, 0</row>
         <row>127, 0</row>
         <row>128, 0</row>
-        <row>129, 0</row> <!--Empty-->
+        <row>129, 0</row>
         <row>130, 0</row>
         <row>131, 0</row>
         <row>132, 0</row>
