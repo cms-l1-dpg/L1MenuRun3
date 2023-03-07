@@ -1,0 +1,522 @@
+<run-settings id="uGT">
+  <context id="uGtProcessor">
+    <param id="finorMask" type="table">
+      <columns>algo,mask</columns>
+      <types>uint,uint</types>
+      <rows>
+        <row>0, 1</row>
+        <row>1, 1</row>
+        <row>2, 1</row>
+        <row>3, 1</row>
+        <row>4, 1</row>
+        <row>5, 1</row>
+        <row>6, 1</row>
+        <row>7, 1</row>
+        <row>8, 1</row>
+        <row>9, 1</row>
+        <row>10, 1</row>
+        <row>11, 1</row>
+        <row>12, 1</row>
+        <row>13, 1</row>
+        <row>14, 1</row>
+        <row>15, 1</row>
+        <row>16, 1</row>
+        <row>17, 1</row>
+        <row>18, 1</row>
+        <row>19, 1</row>
+        <row>20, 1</row>
+        <row>21, 1</row>
+        <row>22, 1</row>
+        <row>23, 1</row>
+        <row>24, 1</row>
+        <row>25, 1</row>
+        <row>26, 1</row>
+        <row>27, 1</row>
+        <row>28, 1</row>
+        <row>29, 1</row>
+        <row>30, 1</row>
+        <row>31, 1</row>
+        <row>32, 1</row>
+        <row>33, 1</row>
+        <row>34, 1</row>
+        <row>35, 1</row>
+        <row>36, 1</row>
+        <row>37, 1</row>
+        <row>38, 1</row>
+        <row>39, 1</row>
+        <row>40, 1</row>
+        <row>41, 1</row>
+        <row>42, 1</row>
+        <row>43, 1</row>
+        <row>44, 1</row>
+        <row>45, 1</row>
+        <row>46, 1</row>
+        <row>47, 1</row>
+        <row>48, 1</row>
+        <row>49, 1</row>
+        <row>50, 1</row>
+        <row>51, 1</row>
+        <row>52, 1</row>
+        <row>53, 1</row>
+        <row>54, 1</row>
+        <row>55, 1</row>
+        <row>56, 1</row>
+        <row>57, 1</row>
+        <row>58, 1</row>
+        <row>59, 1</row>
+        <row>60, 1</row>
+        <row>61, 1</row>
+        <row>62, 1</row>
+        <row>63, 1</row>
+        <row>64, 1</row>
+        <row>65, 1</row>
+        <row>66, 1</row>
+        <row>67, 1</row>
+        <row>68, 1</row>
+        <row>69, 0</row> <!--Empty-->
+        <row>70, 1</row>
+        <row>71, 1</row>
+        <row>72, 1</row>
+        <row>73, 1</row>
+        <row>74, 1</row>
+        <row>75, 1</row>
+        <row>76, 1</row>
+        <row>77, 1</row>
+        <row>78, 1</row>
+        <row>79, 1</row>
+        <row>80, 1</row>
+        <row>81, 1</row>
+        <row>82, 1</row>
+        <row>83, 1</row>
+        <row>84, 1</row>
+        <row>85, 1</row>
+        <row>86, 1</row>
+        <row>87, 1</row>
+        <row>88, 1</row>
+        <row>89, 1</row>
+        <row>90, 1</row>
+        <row>91, 1</row>
+        <row>92, 1</row>
+        <row>93, 1</row>
+        <row>94, 1</row>
+        <row>95, 1</row>
+        <row>96, 1</row>
+        <row>97, 1</row>
+        <row>98, 1</row>
+        <row>99, 1</row>
+        <row>100, 1</row>
+        <row>101, 1</row>
+        <row>102, 1</row>
+        <row>103, 1</row>
+        <row>104, 1</row>
+        <row>105, 1</row>
+        <row>106, 1</row>
+        <row>107, 1</row>
+        <row>108, 1</row>
+        <row>109, 1</row>
+        <row>110, 0</row> <!--Empty-->
+        <row>111, 1</row>
+        <row>112, 1</row>
+        <row>113, 1</row>
+        <row>114, 1</row>
+        <row>115, 1</row>
+        <row>116, 1</row>
+        <row>117, 0</row> <!--Empty-->
+        <row>118, 0</row> <!--Empty-->
+        <row>119, 1</row>
+        <row>120, 1</row>
+        <row>121, 1</row>
+        <row>122, 1</row>
+        <row>123, 1</row>
+        <row>124, 1</row>
+        <row>125, 1</row>
+        <row>126, 1</row>
+        <row>127, 1</row>
+        <row>128, 1</row>
+        <row>129, 0</row> <!--Empty-->
+        <row>130, 1</row>
+        <row>131, 1</row>
+        <row>132, 1</row>
+        <row>133, 0</row> <!--Empty-->
+        <row>134, 1</row>
+        <row>135, 1</row>
+        <row>136, 0</row> <!--Empty-->
+        <row>137, 1</row>
+        <row>138, 1</row>
+        <row>139, 1</row>
+        <row>140, 0</row> <!--Empty-->
+        <row>141, 1</row>
+        <row>142, 1</row>
+        <row>143, 1</row>
+        <row>144, 1</row>
+        <row>145, 1</row>
+        <row>146, 1</row>
+        <row>147, 1</row>
+        <row>148, 1</row>
+        <row>149, 1</row>
+        <row>150, 1</row>
+        <row>151, 0</row> <!--Empty-->
+        <row>152, 0</row> <!--Empty-->
+        <row>153, 1</row>
+        <row>154, 1</row>
+        <row>155, 1</row>
+        <row>156, 0</row> <!--Empty-->
+        <row>157, 0</row> <!--Empty-->
+        <row>158, 0</row> <!--Empty-->
+        <row>159, 1</row>
+        <row>160, 1</row>
+        <row>161, 1</row>
+        <row>162, 1</row>
+        <row>163, 1</row>
+        <row>164, 1</row>
+        <row>165, 1</row>
+        <row>166, 1</row>
+        <row>167, 1</row>
+        <row>168, 1</row>
+        <row>169, 1</row>
+        <row>170, 1</row>
+        <row>171, 1</row>
+        <row>172, 1</row>
+        <row>173, 1</row>
+        <row>174, 1</row>
+        <row>175, 1</row>
+        <row>176, 1</row>
+        <row>177, 1</row>
+        <row>178, 1</row>
+        <row>179, 1</row>
+        <row>180, 1</row>
+        <row>181, 1</row>
+        <row>182, 1</row>
+        <row>183, 1</row>
+        <row>184, 1</row>
+        <row>185, 1</row>
+        <row>186, 1</row>
+        <row>187, 1</row>
+        <row>188, 1</row>
+        <row>189, 1</row>
+        <row>190, 1</row>
+        <row>191, 1</row>
+        <row>192, 1</row>
+        <row>193, 1</row>
+        <row>194, 1</row>
+        <row>195, 1</row>
+        <row>196, 1</row>
+        <row>197, 1</row>
+        <row>198, 0</row> <!--Empty-->
+        <row>199, 0</row> <!--Empty-->
+        <row>200, 1</row>
+        <row>201, 1</row>
+        <row>202, 1</row>
+        <row>203, 1</row>
+        <row>204, 1</row>
+        <row>205, 1</row>
+        <row>206, 1</row>
+        <row>207, 1</row>
+        <row>208, 1</row>
+        <row>209, 1</row>
+        <row>210, 1</row>
+        <row>211, 1</row>
+        <row>212, 1</row>
+        <row>213, 1</row>
+        <row>214, 1</row>
+        <row>215, 1</row>
+        <row>216, 1</row>
+        <row>217, 1</row>
+        <row>218, 1</row>
+        <row>219, 1</row>
+        <row>220, 1</row>
+        <row>221, 1</row>
+        <row>222, 1</row>
+        <row>223, 1</row>
+        <row>224, 1</row>
+        <row>225, 1</row>
+        <row>226, 1</row>
+        <row>227, 1</row>
+        <row>228, 1</row>
+        <row>229, 1</row>
+        <row>230, 1</row>
+        <row>231, 1</row>
+        <row>232, 1</row>
+        <row>233, 1</row>
+        <row>234, 1</row>
+        <row>235, 1</row>
+        <row>236, 1</row>
+        <row>237, 0</row> <!--Empty-->
+        <row>238, 1</row>
+        <row>239, 1</row>
+        <row>240, 1</row>
+        <row>241, 1</row>
+        <row>242, 1</row>
+        <row>243, 1</row>
+        <row>244, 1</row>
+        <row>245, 0</row> <!--Empty-->
+        <row>246, 0</row> <!--Empty-->
+        <row>247, 1</row>
+        <row>248, 1</row>
+        <row>249, 1</row>
+        <row>250, 1</row>
+        <row>251, 1</row>
+        <row>252, 0</row> <!--Empty-->
+        <row>253, 0</row> <!--Empty-->
+        <row>254, 0</row> <!--Empty-->
+        <row>255, 0</row> <!--Empty-->
+        <row>256, 0</row> <!--Empty-->
+        <row>257, 1</row>
+        <row>258, 1</row>
+        <row>259, 1</row>
+        <row>260, 0</row> <!--Empty-->
+        <row>261, 1</row>
+        <row>262, 1</row>
+        <row>263, 1</row>
+        <row>264, 1</row>
+        <row>265, 0</row> <!--Empty-->
+        <row>266, 1</row>
+        <row>267, 1</row>
+        <row>268, 1</row>
+        <row>269, 1</row>
+        <row>270, 1</row>
+        <row>271, 1</row>
+        <row>272, 1</row>
+        <row>273, 1</row>
+        <row>274, 1</row>
+        <row>275, 1</row>
+        <row>276, 1</row>
+        <row>277, 1</row>
+        <row>278, 1</row>
+        <row>279, 1</row>
+        <row>280, 1</row>
+        <row>281, 1</row>
+        <row>282, 1</row>
+        <row>283, 1</row>
+        <row>284, 1</row>
+        <row>285, 1</row>
+        <row>286, 1</row>
+        <row>287, 1</row>
+        <row>288, 1</row>
+        <row>289, 1</row>
+        <row>290, 1</row>
+        <row>291, 1</row>
+        <row>292, 0</row> <!--Empty-->
+        <row>293, 0</row> <!--Empty-->
+        <row>294, 0</row> <!--Empty-->
+        <row>295, 0</row> <!--Empty-->
+        <row>296, 0</row> <!--Empty-->
+        <row>297, 0</row> <!--Empty-->
+        <row>298, 1</row>
+        <row>299, 0</row> <!--Empty-->
+        <row>300, 0</row> <!--Empty-->
+        <row>301, 0</row> <!--Empty-->
+        <row>302, 0</row> <!--Empty-->
+        <row>303, 0</row> <!--Empty-->
+        <row>304, 0</row> <!--Empty-->
+        <row>305, 1</row>
+        <row>306, 1</row>
+        <row>307, 1</row>
+        <row>308, 1</row>
+        <row>309, 1</row>
+        <row>310, 1</row>
+        <row>311, 0</row> <!--Empty-->
+        <row>312, 1</row>
+        <row>313, 0</row> <!--Empty-->
+        <row>314, 0</row> <!--Empty-->
+        <row>315, 1</row>
+        <row>316, 1</row>
+        <row>317, 1</row>
+        <row>318, 1</row>
+        <row>319, 0</row> <!--Empty-->
+        <row>320, 1</row>
+        <row>321, 1</row>
+        <row>322, 1</row>
+        <row>323, 1</row>
+        <row>324, 1</row>
+        <row>325, 0</row> <!--Empty-->
+        <row>326, 0</row> <!--Empty-->
+        <row>327, 1</row>
+        <row>328, 1</row>
+        <row>329, 1</row>
+        <row>330, 1</row>
+        <row>331, 1</row>
+        <row>332, 1</row>
+        <row>333, 1</row>
+        <row>334, 1</row>
+        <row>335, 1</row>
+        <row>336, 1</row>
+        <row>337, 1</row>
+        <row>338, 1</row>
+        <row>339, 1</row>
+        <row>340, 1</row>
+        <row>341, 1</row>
+        <row>342, 1</row>
+        <row>343, 1</row>
+        <row>344, 0</row> <!--Empty-->
+        <row>345, 1</row>
+        <row>346, 1</row>
+        <row>347, 0</row> <!--Empty-->
+        <row>348, 0</row> <!--Empty-->
+        <row>349, 1</row>
+        <row>350, 1</row>
+        <row>351, 1</row>
+        <row>352, 1</row>
+        <row>353, 1</row>
+        <row>354, 1</row>
+        <row>355, 1</row>
+        <row>356, 1</row>
+        <row>357, 1</row>
+        <row>358, 1</row>
+        <row>359, 1</row>
+        <row>360, 1</row>
+        <row>361, 1</row>
+        <row>362, 1</row>
+        <row>363, 1</row>
+        <row>364, 1</row>
+        <row>365, 1</row>
+        <row>366, 1</row>
+        <row>367, 1</row>
+        <row>368, 0</row> <!--Empty-->
+        <row>369, 0</row> <!--Empty-->
+        <row>370, 0</row> <!--Empty-->
+        <row>371, 0</row> <!--Empty-->
+        <row>372, 1</row>
+        <row>373, 1</row>
+        <row>374, 1</row>
+        <row>375, 0</row> <!--Empty-->
+        <row>376, 1</row>
+        <row>377, 0</row> <!--Empty-->
+        <row>378, 0</row> <!--Empty-->
+        <row>379, 0</row> <!--Empty-->
+        <row>380, 0</row> <!--Empty-->
+        <row>381, 0</row> <!--Empty-->
+        <row>382, 1</row>
+        <row>383, 1</row>
+        <row>384, 1</row>
+        <row>385, 1</row>
+        <row>386, 1</row>
+        <row>387, 1</row>
+        <row>388, 1</row>
+        <row>389, 1</row>
+        <row>390, 1</row>
+        <row>391, 1</row>
+        <row>392, 0</row> <!--Empty-->
+        <row>393, 0</row> <!--Empty-->
+        <row>394, 0</row> <!--Empty-->
+        <row>395, 0</row> <!--Empty-->
+        <row>396, 0</row> <!--Empty-->
+        <row>397, 0</row> <!--Empty-->
+        <row>398, 1</row>
+        <row>399, 1</row>
+        <row>400, 1</row>
+        <row>401, 1</row>
+        <row>402, 1</row>
+        <row>403, 1</row>
+        <row>404, 1</row>
+        <row>405, 1</row>
+        <row>406, 1</row>
+        <row>407, 0</row> <!--Empty-->
+        <row>408, 0</row> <!--Empty-->
+        <row>409, 0</row> <!--Empty-->
+        <row>410, 1</row>
+        <row>411, 1</row>
+        <row>412, 1</row>
+        <row>413, 0</row> <!--Empty-->
+        <row>414, 0</row> <!--Empty-->
+        <row>415, 0</row> <!--Empty-->
+        <row>416, 1</row>
+        <row>417, 1</row>
+        <row>418, 1</row>
+        <row>419, 1</row>
+        <row>420, 1</row>
+        <row>421, 1</row>
+        <row>422, 1</row>
+        <row>423, 1</row>
+        <row>424, 1</row>
+        <row>425, 1</row>
+        <row>426, 1</row>
+        <row>427, 1</row>
+        <row>428, 1</row>
+        <row>429, 1</row>
+        <row>430, 1</row>
+        <row>431, 1</row>
+        <row>432, 1</row>
+        <row>433, 1</row>
+        <row>434, 0</row> <!--Empty-->
+        <row>435, 0</row> <!--Empty-->
+        <row>436, 0</row> <!--Empty-->
+        <row>437, 0</row> <!--Empty-->
+        <row>438, 0</row> <!--Empty-->
+        <row>439, 0</row> <!--Empty-->
+        <row>440, 0</row> <!--Empty-->
+        <row>441, 0</row> <!--Empty-->
+        <row>442, 0</row> <!--Empty-->
+        <row>443, 1</row>
+        <row>444, 1</row>
+        <row>445, 0</row> <!--Empty-->
+        <row>446, 1</row>
+        <row>447, 1</row>
+        <row>448, 1</row>
+        <row>449, 0</row> <!--Empty-->
+        <row>450, 0</row> <!--Empty-->
+        <row>451, 1</row>
+        <row>452, 1</row>
+        <row>453, 1</row>
+        <row>454, 1</row>
+        <row>455, 0</row> <!--Empty-->
+        <row>456, 0</row> <!--Empty-->
+        <row>457, 0</row> <!--Empty-->
+        <row>458, 1</row>
+        <row>459, 1</row>
+        <row>460, 1</row>
+        <row>461, 1</row>
+        <row>462, 1</row>
+        <row>463, 1</row>
+        <row>464, 1</row>
+        <row>465, 1</row>
+        <row>466, 1</row>
+        <row>467, 1</row>
+        <row>468, 1</row>
+        <row>469, 1</row>
+        <row>470, 0</row> <!--Empty-->
+        <row>471, 1</row>
+        <row>472, 1</row>
+        <row>473, 1</row>
+        <row>474, 1</row>
+        <row>475, 1</row>
+        <row>476, 1</row>
+        <row>477, 1</row>
+        <row>478, 1</row>
+        <row>479, 1</row>
+        <row>480, 1</row>
+        <row>481, 0</row> <!--Empty-->
+        <row>482, 1</row>
+        <row>483, 1</row>
+        <row>484, 1</row>
+        <row>485, 1</row>
+        <row>486, 1</row>
+        <row>487, 1</row>
+        <row>488, 1</row>
+        <row>489, 1</row>
+        <row>490, 1</row>
+        <row>491, 1</row>
+        <row>492, 1</row>
+        <row>493, 0</row> <!--Empty-->
+        <row>494, 1</row>
+        <row>495, 0</row> <!--Empty-->
+        <row>496, 0</row> <!--Empty-->
+        <row>497, 0</row> <!--Empty-->
+        <row>498, 0</row> <!--Empty-->
+        <row>499, 0</row> <!--Empty-->
+        <row>500, 1</row>
+        <row>501, 1</row>
+        <row>502, 0</row> <!--Empty-->
+        <row>503, 1</row>
+        <row>504, 1</row>
+        <row>505, 1</row>
+        <row>506, 1</row>
+        <row>507, 0</row> <!--Empty-->
+        <row>508, 0</row> <!--Empty-->
+        <row>509, 0</row> <!--Empty-->
+        <row>510, 0</row> <!--Empty-->
+        <row>511, 0</row> <!--Empty-->
+      </rows>
+    </param>
+  </context>
+</run-settings>
