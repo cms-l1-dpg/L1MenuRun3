@@ -71,8 +71,6 @@ The following changes, from the last menu of 2022 ("L1Menu_Collisions2022_v1_4_0
       - `L1_Mu3_Jet35er2p5_dR_Max0p4` &rarr; `L1_DoubleJet35er2p5_Mu3_dR_Max0p4` (bit 124)
       - `L1_Mu3_Jet80er2p5_dR_Max0p4` &rarr; `L1_DoubleJet80er2p5_Mu3_dR_Max0p4` (bit 127)
       - `L1_Mu3_Jet120er2p5_dR_Max0p8` &rarr; `L1_DoubleJet120er2p5_Mu3_dR_Max0p8` (bit 128)
-   - Removed the following seed:
-      - `L1_Mu3_Jet120er2p5_dR_Max0p4`
 
 
 ### Seeds for muon monitoring split by TF ([CMSLITDPG-1101](https://its.cern.ch/jira/browse/CMSLITDPG-1101)) 
