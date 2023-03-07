@@ -28,6 +28,7 @@ emacs -nw L1Trigger/Configuration/python/customiseUtils.py ### L79: change the m
 git cms-checkdeps -A -a
 scram b -j 8
 
+[...lines to be added as L1 menu customisations in the python config file to run the L1 emulation...]
 process.load('L1Trigger.L1TGlobal.simGtStage2Digis_cfi')
 process.load('L1Trigger.L1TGlobal.hackConditions_cff')                                                                                                       
 process.L1TGlobalPrescalesVetosFract.PrescaleXMLFile = cms.string('UGT_BASE_RS_PRESCALES_L1MenuCollisions2023_v1_0_0.xml')      
@@ -36,6 +37,9 @@ process.simGtStage2Digis.AlgorithmTriggersUnmasked = cms.bool(False)
 process.simGtStage2Digis.AlgorithmTriggersUnprescaled = cms.bool(False)
 process.simGtStage2Digis.PrescaleSet = cms.uint32(3)
 ```
+
+The main usage of this recipe is the L1 emulation in the context of the preparation of L1Skimmed files for HLT studies (see the [L1PhysicsSkim](https://github.com/sanuvarghese/L1PhysicsSkim) repository for details and instructions). 
+
 **NOTE:** The default PrescaleSet is set to 3. This column corresponds to the set of prescales for an instantaneous luminosity 2E+34. See below the correspondence between the column identifier and the corresponding instantaneous luminosity scenario under consideration:
 * 0: Emergency (all PS=0)
 * 1: 2.20E+34
