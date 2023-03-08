@@ -60,14 +60,14 @@ The main usage of this recipe is the L1 emulation in the context of the preparat
 * 16: 7.00E+33
 * 17: 6.00E+33
 
-At the current stage, the main configuration for the 2.00E34 column considers as baseline:
+At the current stage, the main configuration for the **column 2.00E34** considers as baseline:
 * core 2022 L1 Menu
 * plus Option 1 new Bsmumu seeds
 * plus new Tau3Mu seed
 * plus DoubleEG11 seed for B Parking
 * plus L1_HTT280 (DiHiggs Parking)
  
-You can also use column 1.70E34 with some other L1 seeds under discussion enabled:
+You can also use **column 1.70E34** with some other L1 seeds under discussion enabled:
 * Seeds to design other options for Bsmumu:
   * Bit 78: L1_DoubleMu5_SQ_OS_dR_Max1p6
   * Bit 68: L1_DoubleMu3er2p0_SQ_OS_dR_Max1p6
@@ -75,4 +75,4 @@ You can also use column 1.70E34 with some other L1 seeds under discussion enable
 * Central dijet seeds with invariant mass cuts: 
   * Bit 349-350-351: L1_DoubleJet30er2p5_Mass_Min200/225/250_dEta_Max1p5
 * Seeds for W3pi:
-  Bit 273-278: L1_DoubleIsoTau28/30/32er2p1_Mass_Max80/90
+  * Bit 273-278: L1_DoubleIsoTau28/30/32er2p1_Mass_Max80/90
