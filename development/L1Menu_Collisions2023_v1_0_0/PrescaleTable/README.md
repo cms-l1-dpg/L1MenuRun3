@@ -67,7 +67,7 @@ At the current stage, the main configuration for the **column 2.00E34** consider
 * plus DoubleEG11 seed for B Parking
 * plus L1_HTT280 (DiHiggs Parking)
  
-You can also use **column 1.70E34** with some other L1 seeds under discussion enabled:
+You can also use **column 1.70E34** (PrescaleSet 6) with some other L1 seeds under discussion enabled:
 * Seeds to design other options for Bsmumu:
   * Bit 78: L1_DoubleMu5_SQ_OS_dR_Max1p6
   * Bit 68: L1_DoubleMu3er2p0_SQ_OS_dR_Max1p6
