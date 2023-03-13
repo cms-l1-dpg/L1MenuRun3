@@ -83,3 +83,9 @@ The following changes, from the last menu of 2022 ("L1Menu_Collisions2022_v1_4_0
 <br/>
 
 **NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
+
+**Additional Remarks:**
+
+- Reference JIRA ticket: [CMSLITDPG-1102](https://its.cern.ch/jira/browse/CMSLITDPG-1102)
+- Tag in condDB uploaded: [L1Menu_Collisions2023_v1_0_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2023_v1_0_0_xml)
+- GT request done: [CMS Talk](https://cms-talk.web.cern.ch/t/run-3-gt-update-of-the-2023-l1-menu-tag-l1menu-collisions2023-v1-0-0-in-run-3-mc-gts-and-run-3-data-relvals-gts/21177)
