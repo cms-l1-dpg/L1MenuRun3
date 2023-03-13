@@ -2,7 +2,7 @@
 
 ## Table structure 
 
-### 2e34: Baseline (with `L1_SingleMu22_BMTF`,`L1_SingleMu22_OMTF`,`L1_SingleMu22_EMTF` (bit 25-27) activated
+### 2e34: Baseline (with `L1_SingleMu22_BMTF`,`L1_SingleMu22_OMTF`,`L1_SingleMu22_EMTF` (bit 25-27) activated)
 
 ### 1.9e34: Baseline w/o Bmumu opt 1 and w/ Bmumu opt 3 (tau3mu active)
    - Deactivated the following seeds (w.r.t. baseline): 
