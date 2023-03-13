@@ -12,8 +12,8 @@
 
 The following recipe allows to emulate L1 prescales instead of to take into account the full list of unprescaled algorithms by default.
 ```
-cmsrel CMSSW_13_0_0_pre4/src
-cd CMSSW_13_0_0_pre4/src
+cmsrel CMSSW_13_0_0/src
+cd CMSSW_13_0_0/src
 cmsenv
 git cms-init
 git cms-addpkg L1Trigger/L1TGlobal
