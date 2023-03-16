@@ -2,6 +2,7 @@
 %
 **Description of the different formats** 
 * The PS table in **csv format** is used in the context of the rate estimation. It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools). 
+N.B.: the PS table called "L1Menu_Collisions2023_v1_0_0_RateStudy.csv" is used only for internal studies in the L1 menu team, and it's not meant to be used for rate estimation studies by developers! Please, use the "L1Menu_Collisions2023_v1_0_0.csv" table, instead.
 * The PS table in **xlsx format** is used to allow easily changes; it represents the baseline to run TSG Tools in the context of the data-taking to produce an xml PS table used online. The xml file is included in L1+HLT keys using L1CE (L1 Configuration Editor). It is provided by default when a new menu is released and it is produced using [pstools](https://github.com/cms-l1-dpg/L1MenuTools/tree/master/pstools).
 **NOTE** : This is not the final ps table: it is updated *only* for the max lumi column (2e34), i.e. the 4th column. 
 * The PS table in **xml format** is also used to run the L1 emulation of the prescales. This is the format accepted by the uGT emulator code. Both online and offline, it is provided together with a set of three additional xml files:
@@ -76,3 +77,9 @@ You can also use **column 1.70E34** (PrescaleSet 6) with some other L1 seeds und
   * Bit 349-350-351: L1_DoubleJet30er2p5_Mass_Min200/225/250_dEta_Max1p5
 * Seeds for W3pi:
   * Bit 273-278: L1_DoubleIsoTau28/30/32er2p1_Mass_Max80/90
+  
+  
+**NOTE** : In the csv "L1Menu_Collisions2023_v1_0_0.csv" table, the following definitions for the backup columns (2p1e34, 2p2e34, 2p3e34) has been adopted:
+* 2p1e34: same as 2p0e34, but changed ps of Diele Bparking seed `L1_DoubleEG11_er1p2_dR_Max0p6` from 1 to 2.
+* 2p2e34, 2p3e34: same as 2p1e34
+  
