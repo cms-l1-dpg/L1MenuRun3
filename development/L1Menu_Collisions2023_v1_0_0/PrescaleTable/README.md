@@ -79,7 +79,7 @@ You can also use **column 1.70E34** (PrescaleSet 6) with some other L1 seeds und
   * Bit 273-278: L1_DoubleIsoTau28/30/32er2p1_Mass_Max80/90
   
   
-**NOTE** : In the csv "L1Menu_Collisions2023_v1_0_0.csv" table, the following definitions for the backup columns (2p1e34, 2p2e34, 2p3e34) has been adopted:
+**NOTE** : In the csv "L1Menu_Collisions2023_v1_0_0.csv" table, the following definitions for the backup columns (2p1e34, 2p2e34, 2p3e34) has been adopted (temporarily, still to be finalised):
 * 2p1e34: same as 2p0e34, but changed ps of Diele Bparking seed `L1_DoubleEG11_er1p2_dR_Max0p6` from 1 to 2.
 * 2p2e34, 2p3e34: same as 2p1e34
   
