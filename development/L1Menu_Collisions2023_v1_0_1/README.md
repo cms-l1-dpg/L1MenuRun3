@@ -3,14 +3,14 @@
 [![online preview](https://img.shields.io/badge/Online%20preview-click%20here-blue)](https://htmlpreview.github.io/?https://github.com/cms-l1-dpg/L1MenuRun3/blob/master/development/L1Menu_Collisions2023_v1_0_1/L1Menu_Collisions2023_v1_0_1.html)
 
 **Comment:** 
-New version of first 2023 menu for upt seeds testing and including update of upt logic expression.
+New version of 2023 L1 menu, created in updated version of TME `0.15` and grammar `0.11`.
 
 <br/>
 
-The following seeds have been added:
-   - `L1_DoubleMu0_Upt6_IP_Min1_Upt4_IP_Min1` (bit 508)
-   - `L1_DoubleMu0_Upt6_IP_Min1_Upt6` (bit 509)
-   - `L1_DoubleMu0_Upt6_IP_Min1_Upt6_IP_Min1` (bit 510)
+The following seeds have been modified with an updated (more compact) logic expression: 
+   - `L1_DoubleMu0_Upt5_Upt5`	(bit 51)
+   - `L1_DoubleMu0_Upt6_IP_Min1_Upt4` (bit 52)
+   - `L1_DoubleMu0_Upt15_Upt7` (bit 53)
 
 
 <br/>
