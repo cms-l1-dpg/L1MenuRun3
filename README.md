@@ -9,10 +9,12 @@ All details about each version of the L1 menu can be found [here](https://twiki.
 
 ### Instructions to create a new menu using the [Trigger Menu Editor](https://globaltrigger.web.cern.ch/upgrade/tme)
 * **Install the TME**:
+```
 python3 -m venv tme
 . tme/bin/activate
-(tme)$ pip install --upgrade pip
-(tme)$ pip install git+https://github.com/cms-l1-globaltrigger/tm-editor.git@0.15.2
+pip install --upgrade pip
+pip install git+https://github.com/cms-l1-globaltrigger/tm-editor.git@0.15.3
+```
 
 After that, create a user shell script `tme.sh`
 ```
