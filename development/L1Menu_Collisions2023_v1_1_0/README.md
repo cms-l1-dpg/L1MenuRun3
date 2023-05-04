@@ -34,18 +34,18 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_0_1
 
 ### Upt seeds redefined to only have BMTF due to high EMTF rate [CMSHLT-2777](https://its.cern.ch/jira/browse/CMSHLT-2777)
    - The Double Muon Upt seeds now only have BMTF component 
-      - 'L1_DoubleMu0_Upt5_Upt5' (bit 55)
+      - `L1_DoubleMu0_Upt5_Upt5` (bit 55)
          - comb{MU0[MU-ETA_BMTF,MU-QLTY_DBLE,MU-UPT_5],MU0[MU-ETA_BMTF,MU-QLTY_DBLE,MU-UPT_5]}
-      - 'L1_DoubleMu0_Upt6_IP_Min1_Upt4' (bit 56)
+      - `L1_DoubleMu0_Upt6_IP_Min1_Upt4` (bit 56)
          - comb{MU0[MU-ETA_BMTF,MU-IP_123,MU-QLTY_DBLE,MU-UPT_6],MU0[MU-ETA_BMTF,MU-QLTY_DBLE,MU-UPT_4]}
-      - 'L1_DoubleMu0_Upt15_Upt7' (bit 57)
+      - `L1_DoubleMu0_Upt15_Upt7` (bit 57)
          - comb{MU0[MU-ETA_BMTF,MU-QLTY_DBLE,MU-UPT_15],MU0[MU-ETA_BMTF,MU-QLTY_DBLE,MU-UPT_7]}
 
 ### Backed up Upt seeds (to be prescaled to zero)
    - The original Double Muon seeds have been copied to unoccupied bits 413-415 and are to be prescaled to zero due to very high rate.
-       - 'L1_DoubleMu0_Upt5_Upt5' (bit 413)
-      - 'L1_DoubleMu0_Upt6_IP_Min1_Upt4' (bit 414)
-      - 'L1_DoubleMu0_Upt15_Upt7' (bit 415)
+      - `L1_DoubleMu0_Upt5_Upt5_BMTF_EMTF` (bit 413)
+      - `L1_DoubleMu0_Upt6_IP_Min1_Upt4_BMTF_EMTF` (bit 414)
+      - `L1_DoubleMu0_Upt15_Upt7_BMTF_EMTF` (bit 415)
 
 <br/>
 
