@@ -50,7 +50,6 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_0_1
       * L1_DoubleMu0er2p0_SQ_dEta_Max1p5
       * L1_DoubleMu0er1p5_SQ
       * L1_DoubleMu0er1p5_SQ_dR_Max1p4
-      * L1_DoubleMu0er1p4_OQ_OS_dEta_Max1p6
       * L1_TripleMu0_OQ
       * L1_TripleMu0_SQ
       * L1_TripleMu3
@@ -82,7 +81,6 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_0_1
       * L1_SingleIsoTau32er2p1
       * L1_SingleTau70er2p1
       * L1_DoubleIsoTau32er2p1_Mass_Max90
-      * L1_DoubleIsoTau32er2p1_Mass_Max80
       * L1_SingleJet35er2p5
       * L1_SingleJet120er2p5
       * L1_SingleJet35_FWD3p0
