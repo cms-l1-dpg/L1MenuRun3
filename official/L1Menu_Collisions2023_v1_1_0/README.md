@@ -46,7 +46,3 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_0_1
       - `L1_DoubleMu0_Upt5_Upt5_BMTF_EMTF` (bit 413)
       - `L1_DoubleMu0_Upt6_IP_Min1_Upt4_BMTF_EMTF` (bit 414)
       - `L1_DoubleMu0_Upt15_Upt7_BMTF_EMTF` (bit 415)
-
-<br/>
-
-**NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
