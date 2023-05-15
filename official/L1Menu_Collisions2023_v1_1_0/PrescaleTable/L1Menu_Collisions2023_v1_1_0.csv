@@ -328,10 +328,10 @@ Index,Name,Emergency,HLTPhysics+ZeroBias,2p3E34,2p2E34,2p1E34,2p0E34,2p0E34+Zero
 365,L1_DoubleJet_80_30_Mass_Min420_IsoTau40_RmOvlp,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 366,L1_DoubleJet_80_30_Mass_Min420_Mu8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 367,L1_DoubleJet_80_30_Mass_Min420_DoubleMu0_SQ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-368,L1_DoubleJet_60_30_DoubleJet30_Mass_Min500_DoubleJetCentral50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-369,L1_DoubleJet40_Mass_Min450_IsoEG10er2p1_RmOvlp_dR0p2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-370,L1_DoubleJet_80_30_DoubleJet30_Mass_Min500_Mu3OQ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-371,L1_DoubleJet_65_30_DoubleJet30_Mass_Min400_ETMHF65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+368,L1_DoubleJet_60_30_DoubleJet30_Mass_Min500_DoubleJetCentral50,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+369,L1_DoubleJet40_Mass_Min450_IsoEG10er2p1_RmOvlp_dR0p2,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+370,L1_DoubleJet_80_30_DoubleJet30_Mass_Min500_Mu3OQ,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+371,L1_DoubleJet_65_30_DoubleJet30_Mass_Min400_ETMHF65,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 372,L1_TripleJet_95_75_65_DoubleJet_75_65_er2p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 373,L1_TripleJet_100_80_70_DoubleJet_80_70_er2p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 374,L1_TripleJet_105_85_75_DoubleJet_85_75_er2p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
