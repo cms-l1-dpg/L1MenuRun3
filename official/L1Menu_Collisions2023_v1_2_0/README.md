@@ -53,7 +53,3 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_1_0
       - `L1_ETMHF120_NotSecondBunchInTrain`
       - `L1_ETMHF110_HTT60er_NotSecondBunchInTrain`
       - `L1_DoubleJet_90_30_Mass_Min550`
-
-<br/>
-
-**NOTE**: The default behavior of the script sets the prescales of seeds using NotBptx or Bptx to zero. This is due to problems emulating NotBptx in ZeroBias. If you wish to include the prescale information for these seeds, use the --includeBptx option.
