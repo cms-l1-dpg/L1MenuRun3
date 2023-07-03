@@ -53,3 +53,12 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_1_0
       - `L1_ETMHF120_NotSecondBunchInTrain`
       - `L1_ETMHF110_HTT60er_NotSecondBunchInTrain`
       - `L1_DoubleJet_90_30_Mass_Min550`
+    
+**Additional Remarks:**
+
+- Reference JIRA ticket: [CMSLITDPG-1102](https://its.cern.ch/jira/browse/CMSLITDPG-1102)
+- Sw tag in condDB: [L1Menu_Collisions2023_v1_2_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2023_v1_2_0_xml) - to be used for 2023 MC production
+- [GT updated](https://cms-talk.web.cern.ch/t/update-of-the-2023-l1-menu-tag-l1menu-collisions2023-v1-2-0/25410) accordingly
+- Fw created: [L1Menu_Collisions2023_v1_2_0-d1.xml](https://raw.githubusercontent.com/cms-l1-globaltrigger/cms-l1-menu/L1Menu_Collisions2023_v1_2_0-d1/2023/L1Menu_Collisions2023_v1_2_0-d1/xml/L1Menu_Collisions2023_v1_2_0-d1.xml)
+- Fw tag in condDB: [L1Menu_Collisions2023_v1_2_0-d1_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2023_v1_2_0-d1_xml)
+- The L1Menu_Collisions2023_v1_2_0 was deployed online in collisions on 30th June, 2023 during run 369869.
