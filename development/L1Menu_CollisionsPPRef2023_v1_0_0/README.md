@@ -5,6 +5,7 @@
 **Comment:** 
 L1 menu for the 2023 ppRef runs, without ZDC seeds.
 This menu has been created by using the last version of TME `0.15.3`, grammar `0.11` and updated scales to `scales_2023_02_16`.
+The menu development for the ppRef run is documented in [CMSLITDPG-1181](https://its.cern.ch/jira/browse/CMSLITDPG-1181).
 
 <br/>
 
