@@ -40,7 +40,7 @@ Index,Name,Emergency,2p0E34
 39,L1_DoubleJet45_Mass_Min600_LooseIsoEG20er2p1_RmOvlp_dR0p2,0,1
 40,L1_DoubleJet_85_35_DoubleJet35_Mass_Min600_Mu3OQ,0,0
 41,L1_DoubleJet_85_35_DoubleJet35_Mass_Min650_Mu3OQ,0,1
-42,L1_DoubleMu0_OQ,0,1
+42,L1_DoubleMu0_OQ,0,0
 43,L1_DoubleMu0,0,0
 44,L1_DoubleMu0_SQ,0,1500
 45,L1_DoubleMu0_SQ_OS,0,0
