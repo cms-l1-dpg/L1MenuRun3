@@ -8,7 +8,7 @@ Index,Name,Emergency,2p0E34
 6,L1_SingleMuOpen_OMTF,0,0
 7,L1_SingleMuOpen_EMTF,0,0
 8,L1_SingleMu0_DQ,0,0
-9,L1_SingleMu0_BMTF,0,0
+9,L1_SingleMu0_BMTF,0,2000
 10,L1_SingleMu0_OMTF,0,0
 11,L1_SingleMu0_EMTF,0,0
 12,L1_SingleMu0_Upt10,0,0
