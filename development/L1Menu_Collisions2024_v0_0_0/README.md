@@ -10,13 +10,13 @@ This menu has been created by using the last version of TME `0.15.3`, grammar `0
 
 The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_3_0`), have been made:
 
-### New seeds BPH  [CMSLITDPG-1209](https://its.cern.ch/jira/browse/CMSLITDPG-1209), [CMSLITDPG-1211](https://its.cern.ch/jira/browse/CMSLITDPG-1211)     
+### New seeds for BPH  [CMSLITDPG-1209](https://its.cern.ch/jira/browse/CMSLITDPG-1209), [CMSLITDPG-1211](https://its.cern.ch/jira/browse/CMSLITDPG-1211)     
    - Added 3 new seeds:
       - `L1_SingleMu10_SQ14_BMTF` (bit 198)
       - `L1_SingleMu11_SQ14_BMTF` (bit 199)
       - `L1_DoubleMu0er2p0_SQ_OS_dEta_Max0p3_dPhi_0p8to1p2` (bit 33)
 
-### New seeds Displaced Muons [CMSLITDPG-1215](https://its.cern.ch/jira/browse/CMSLITDPG-1215)   
+### New Displaced Muons seeds [CMSLITDPG-1215](https://its.cern.ch/jira/browse/CMSLITDPG-1215)   
    - Added 3 new seeds:
       - `L1_DoubleMu6_Upt6_SQ_er2p0` (bit 509)
       - `L1_DoubleMu7_Upt7_SQ_er2p0` (bit 510)
