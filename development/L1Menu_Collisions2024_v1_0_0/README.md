@@ -99,19 +99,19 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_3_0
       - `L1_DoubleJet_115_40_DoubleJet40_Mass_Min620`
       - `L1_DoubleJet_120_45_DoubleJet45_Mass_Min620`
 
-   - 3 seeds previously added for Displaced Muon searches 
+   - 3 seeds previously added for Displaced Muon searches [CMSLITDPG-1215](https://its.cern.ch/jira/browse/CMSLITDPG-1215) 
       - `L1_DoubleMu0_Upt5_Upt5_BMTF_EMTF` 
       - `L1_DoubleMu0_Upt6_IP_Min1_Upt4_BMTF_EMTF`
       - `L1_DoubleMu0_Upt15_Upt7_BMTF_EMTF`
 
-   - 5 seeds previously added for the W3pi search and 2018 SUSY (but that never active during Run 3)
+   - 5 seeds previously added for the W3pi search [CMSLITDPG-1219](https://its.cern.ch/jira/browse/CMSLITDPG-1219) and similar 2018 seeds (that never active during Run 3) [CMSLITDPG-631](https://its.cern.ch/jira/browse/CMSLITDPG-631), [CMSLITDPG-625](https://its.cern.ch/jira/browse/CMSLITDPG-625)
       - `L1_DoubleIsoTau28er2p1_Mass_Max90`  
       - `L1_DoubleIsoTau28er2p1_Mass_Max80`
       - `L1_DoubleIsoTau30er2p1_Mass_Max90`
       - `L1_DoubleIsoTau30er2p1_Mass_Max80`
       - `L1_DoubleIsoTau32er2p1_Mass_Max80`
    
-   -  5 low pT Multi-lepton seeds previously used by BPH 
+   -  5 low pT Multi-lepton seeds previously used by BPH [CMSLITDPG-1211](https://its.cern.ch/jira/browse/CMSLITDPG-1211)   
       - `L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4`
       - `L1_DoubleMu3er2p0_SQ_OS_dR_Max1p6`
       - `L1_DoubleMu4_SQ_OS_dR_Max1p2`
