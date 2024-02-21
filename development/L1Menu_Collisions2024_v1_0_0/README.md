@@ -15,7 +15,7 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_3_0
       - `L1_SingleMu10_SQ14_BMTF` (bit 23)
       - `L1_SingleMu11_SQ14_BMTF` (bit 24)
       - `L1_DoubleMu0er2p0_SQ_OS_dEta_Max0p3_dPhi_0p8to1p2` (bit 72)
-      [ `L1_SingleMu0_BMTF` (PS:0->2000) (bit 9), already in the menu]
+      - [`L1_SingleMu0_BMTF` already in the menu (bit 9) `PS:0->2000`]
 
 ### New seeds Displaced Muons  [CMSLITDPG-1215](https://its.cern.ch/jira/browse/CMSLITDPG-1215)   
    - Added 6 new seeds:
@@ -26,7 +26,7 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_3_0
       - `L1_DoubleMu7_Upt7_SQ_er2p0` (bit 56)
       - `L1_DoubleMu8_Upt8_SQ_er2p0` (bit 57)
   
-### New seeds for VBF parking (increased mjj threshold by 100, 150 GeV for backup option of exclusive seeds included in 2023)  [CMSLITDPG-1213](https://its.cern.ch/jira/browse/CMSLITDPG-1213)      
+### New seeds for VBF parking (increased mjj threshold by 100, 150 GeV for backup option of seeds included in 2023)  [CMSLITDPG-1213](https://its.cern.ch/jira/browse/CMSLITDPG-1213)      
    - Added 11 new seeds:           
       - `L1_DoubleJet45_Mass_Min550_IsoTau45er2p1_RmOvlp_dR0p5` (bit 362)
       - `L1_DoubleJet45_Mass_Min600_IsoTau45er2p1_RmOvlp_dR0p5` (bit 363)
@@ -55,7 +55,7 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_3_0
       - `L1_AXO_Tight`   (bit 441)
       - `L1_AXO_VTight`  (bit 442)
 
-### New muon monitoring seeds for new quality selection commissioning [CMSLITDPG-1220](https://its.cern.ch/jira/browse/CMSLITDPG-1220)
+### New muon monitoring seeds for new BMTF quality selection commissioning [CMSLITDPG-1220](https://its.cern.ch/jira/browse/CMSLITDPG-1220)
    - Added 3 new seeds:   
       - `L1_SingleMu0_SQ13_BMTF` (bit 12) 
       - `L1_SingleMu0_SQ14_BMTF` (bit 13)
