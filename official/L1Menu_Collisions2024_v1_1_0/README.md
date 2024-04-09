@@ -45,4 +45,10 @@ The following changes, from the first menu of 2024 (`L1Menu_Collisions2024_v1_0_
       - `L1_SingleMu0_Upt15_SQ14_BMTF` (bit 199)
       - `L1_SingleMu0_Upt20_SQ14_BMTF` (bit 200)
       - `L1_SingleMu0_Upt25_SQ14_BMTF` (bit 201)
+    
+**Additional Remarks:**
+
+- Reference JIRA ticket: [CMSLITDPG-1221](https://its.cern.ch/jira/browse/CMSLITDPG-1221)
+- Sw tag in condDB: [L1Menu_Collisions2024_v1_1_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2024_v1_1_0_xml) 
+- [GT updated](https://cms-talk.web.cern.ch/t/update-of-the-2024-l1t-menu-tag-l1menu-collisions2024-v1-1-0/37795) accordingly
 
