@@ -210,13 +210,13 @@ Index,Name,Emergency,2p0E34_NoLowPtSingleMu,2p0E34_NoLowPtSingleMuScouting,2p0E3
 235,L1_TripleEG_18_18_12_er2p5,0,1,1,1,1,1,1,1,0,1,1
 236,L1_TripleEG16er2p5,0,1,1,1,1,1,1,1,0,1,1
 238,L1_LooseIsoEG26er2p1_Jet34er2p5_dR_Min0p3,0,0,0,0,0,0,0,0,0,0,0
-239,L1_LooseIsoEG28er2p1_Jet34er2p5_dR_Min0p3,0,1,1,1,1,1,1,1,0,1,1
-240,L1_LooseIsoEG30er2p1_Jet34er2p5_dR_Min0p3,0,1,1,1,1,1,1,1,0,1,1
+239,L1_LooseIsoEG28er2p1_Jet34er2p5_dR_Min0p3,0,0,0,0,0,0,0,0,0,0,0
+240,L1_LooseIsoEG30er2p1_Jet34er2p5_dR_Min0p3,0,0,0,0,0,0,0,0,0,0,0
 241,L1_LooseIsoEG14er2p5_HTT200er,0,1,1,1,1,1,1,1,0,1,1
 242,L1_LooseIsoEG16er2p5_HTT200er,0,1,1,1,1,1,1,1,0,1,1
 243,L1_LooseIsoEG24er2p1_HTT100er,0,0,0,0,0,0,0,0,0,0,0
 244,L1_LooseIsoEG26er2p1_HTT100er,0,0,0,0,0,0,0,0,0,0,0
-245,L1_LooseIsoEG28er2p1_HTT100er,0,1,1,1,1,1,1,1,0,1,1
+245,L1_LooseIsoEG28er2p1_HTT100er,0,0,0,0,0,0,0,0,0,0,0
 246,L1_LooseIsoEG30er2p1_HTT100er,0,1,1,1,1,1,1,1,0,1,1
 248,L1_DoubleEG8er2p5_HTT280er,0,0,0,0,0,0,0,0,0,0,0
 249,L1_DoubleEG8er2p5_HTT300er,0,1,1,1,1,1,1,1,0,1,1
