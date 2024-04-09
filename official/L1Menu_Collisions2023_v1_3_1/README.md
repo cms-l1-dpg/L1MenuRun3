@@ -13,3 +13,10 @@ The only difference w.r.t. the last 2023 menu (`L1Menu_Collisions2023_v1_3_0`), 
    - `L1_SingleMu0_SQ13_BMTF` (bit 33) 
    - `L1_SingleMu0_SQ14_BMTF` (bit 34)   
    - `L1_SingleMu0_SQ15_BMTF` (bit 35)
+
+**Additional Remarks:**
+
+- Reference JIRA ticket: [CMSLITDPG-1221](https://its.cern.ch/jira/browse/CMSLITDPG-1221)
+- Fw created: [L1Menu_Collisions2023_v1_3_1-d1.xml](https://raw.githubusercontent.com/cms-l1-globaltrigger/cms-l1-menu/L1Menu_Collisions2023_v1_3_1-d1/2023/L1Menu_Collisions2023_v1_3_1-d1/xml/L1Menu_Collisions2023_v1_3_1-d1.xml)
+
+- The `L1Menu_Collisions2023_v1_3_1` was deployed online in cosmics on 5th March 2024, starting from run `377417`.
