@@ -110,3 +110,13 @@ The following changes, from the last menu of 2023 (`L1Menu_Collisions2023_v1_3_0
       - `L1_DoubleIsoTau30er2p1_Mass_Max90`
       - `L1_DoubleIsoTau30er2p1_Mass_Max80`
 
+**Additional Remarks:**
+
+- Reference JIRA ticket: [CMSLITDPG-1221](https://its.cern.ch/jira/browse/CMSLITDPG-1221)
+- Sw tag in condDB: [L1Menu_Collisions2024_v1_0_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2024_v1_0_0_xml) 
+- [GT updated](https://cms-talk.web.cern.ch/t/update-of-the-2024-l1-menu-tag-l1menu-collisions2024-v1-1-0/35509) accordingly
+- Fw created: [L1Menu_Collisions2024_v1_0_0-d1.xml](https://raw.githubusercontent.com/cms-l1-globaltrigger/cms-l1-menu/master/2024/L1Menu_Collisions2024_v1_0_0-d1/xml/L1Menu_Collisions2024_v1_0_0-d1.xml)
+
+- The `L1Menu_Collisions2024_v1_0_0` was deployed online on 26th March, 2024 during (the special ECAL) run `378492`.
+
+- N.B. The new AXO seeds are temporarily disabled in the PS table, as well as the new displaced muon seeds ([CMSHLT-3130](https://its.cern.ch/jira/browse/CMSHLT-3130)) 
