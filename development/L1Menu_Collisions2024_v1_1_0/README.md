@@ -35,9 +35,9 @@ The following changes, from the first menu of 2024 (`L1Menu_Collisions2024_v1_0_
 
 ### Addition of 3 MHT monitoring seeds [CMSLITDPG-1229](https://its.cern.ch/jira/browse/CMSLITDPG-1229)
    - Added the following seeds: 
-      - `L1_MHT_120` (bit 434)
-      - `L1_MHT_150` (bit 435)
-      - `L1_MHT_200` (bit 436)
+      - `L1_MHT120` (bit 434)
+      - `L1_MHT150` (bit 435)
+      - `L1_MHT200` (bit 436)
 
  ### Addition of 4 BMTF high quality single muon displaced seeds [CMSLITDPG-1231](https://its.cern.ch/jira/browse/CMSLITDPG-1231)
    - Added the following seeds: 
