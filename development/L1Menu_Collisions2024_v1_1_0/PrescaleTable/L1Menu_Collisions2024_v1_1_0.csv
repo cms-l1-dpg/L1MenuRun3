@@ -190,7 +190,7 @@ Index,Name,Emergency,2p0E34_NoLowPtSingleMu,2p0E34_NoLowPtSingleMuScouting,2p0E3
 199,L1_SingleMu0_Upt15_SQ14_BMTF,0,1,1,1,1,1,1,1,1,1,1,1
 200,L1_SingleMu0_Upt20_SQ14_BMTF,0,1,1,1,1,1,1,1,1,1,1,1
 201,L1_SingleMu0_Upt25_SQ14_BMTF,0,0,0,0,0,0,0,0,0,0,0,0
-214,L1_DoubleEG11_er1p2_dR_Max0p6,0,2,2,2,2,2,2,2,0,2,2,2
+214,L1_DoubleEG11_er1p2_dR_Max0p6,0,1,1,1,1,1,1,1,0,1,1,1
 215,L1_DoubleEG_15_10_er2p5,0,0,0,0,0,0,0,0,0,0,0,0
 216,L1_DoubleEG_20_10_er2p5,0,0,0,0,0,0,0,0,0,0,0,0
 217,L1_DoubleEG_22_10_er2p5,0,0,0,0,0,0,0,0,0,0,0,0
