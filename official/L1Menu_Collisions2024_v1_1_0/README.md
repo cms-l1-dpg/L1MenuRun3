@@ -53,5 +53,5 @@ The following changes, from the first menu of 2024 (`L1Menu_Collisions2024_v1_0_
 - Fw tag in condDB: [L1Menu_Collisions2024_v1_1_0-d1_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2024_v1_1_0-d1_xml)
 - [GT updated](https://cms-talk.web.cern.ch/t/update-of-the-2024-l1t-menu-tag-l1menu-collisions2024-v1-1-0/37795) accordingly
 - Fw [L1Menu_Collisions2024_v1_1_0-d1_xml](https://raw.githubusercontent.com/cms-l1-globaltrigger/cms-l1-menu/L1Menu_Collisions2024_v1_1_0-d1/2024/L1Menu_Collisions2024_v1_1_0-d1/xml/L1Menu_Collisions2024_v1_1_0-d1.xml)
-- The "L1Menu_Collisions2024_v1_1_0" was deployed online during run 378492.
+- The "L1Menu_Collisions2024_v1_1_0" was deployed online during run 379613.
 
