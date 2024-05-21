@@ -22,7 +22,7 @@ The following changes, from the second menu of 2024 (`L1Menu_Collisions2024_v1_1
 
 - Reference JIRA ticket: [CMSLITDPG-1221](https://its.cern.ch/jira/browse/CMSLITDPG-1221)
 - Sw tag in condDB: [L1Menu_Collisions2024_v1_2_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2024_v1_2_0_xml)
-- Fw tag in condDB: [L1Menu_Collisions2024_v1_2_0-d1_xml]()
+- Fw tag in condDB: [L1Menu_Collisions2024_v1_2_0-d1_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2024_v1_2_0-d1_xml)
 - [GT updated](https://cms-talk.web.cern.ch/t/gt-mc-data-relval-update-of-the-2024-l1t-menu-tag-l1menu-collisions2024-v1-2-0/39826/2) accordingly
 - Fw [L1Menu_Collisions2024_v1_2_0-d1_xml](https://raw.githubusercontent.com/cms-l1-globaltrigger/cms-l1-menu/L1Menu_Collisions2024_v1_2_0-d1/2024/L1Menu_Collisions2024_v1_2_0-d1/xml/L1Menu_Collisions2024_v1_2_0-d1.xml)
 - The "L1Menu_Collisions2024_v1_2_0" was deployed online starting from the collisions run 380963.
