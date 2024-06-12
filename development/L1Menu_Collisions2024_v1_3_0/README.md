@@ -20,4 +20,10 @@ The following changes, from the third menu of 2024 (`L1Menu_Collisions2024_v1_2_
    - Removed the following seeds: 
       - `L1_MHT120`
       - `L1_MHT150`
-      - `L1_MHT200`  
+      - `L1_MHT200`
+    
+### Fixed the definition of the `MU-ETA_EMTF_NEG_er2p0` cut for the following displaced double muon seeds (not enabled, just to prevent fw/emu mismatches)
+   - Issue spotted and reported [here](https://its.cern.ch/jira/browse/CMSLITDPG-1221?focusedId=6413729&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-6413729)
+      - `L1_DoubleMu6_Upt6_SQ_er2p`
+      - `L1_DoubleMu7_Upt7_SQ_er2p`
+      - `L1_DoubleMu8_Upt8_SQ_er2p`
