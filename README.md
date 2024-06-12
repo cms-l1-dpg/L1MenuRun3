@@ -13,7 +13,7 @@ All details about each version of the L1 menu can be found [here](https://twiki.
 python3 -m venv tme
 . tme/bin/activate
 pip install --upgrade pip
-pip install git+https://github.com/cms-l1-globaltrigger/tm-editor.git@0.16.0
+pip install git+https://github.com/cms-l1-globaltrigger/tm-editor.git@0.17.0
 ```
 
 After that, create a user shell script `tme.sh`
@@ -34,7 +34,7 @@ For a clear example about the setting and first usage of the TME, the bonus Ex. 
 python3 -m venv tm-reporter
 . tm-reporter/bin/activate
 pip install --upgrade pip
-pip install git+https://github.com/cms-l1-globaltrigger/tm-reporter.git@2.12.0
+pip install git+https://github.com/cms-l1-globaltrigger/tm-reporter.git@2.13.0
 ```
 * **Run the tm-reporter**:
 The general command is:
@@ -43,5 +43,5 @@ tm-reporter [-m {html,twiki}] [-o L1Menu_Collisions2024_* ] L1Menu_Collisions202
 ```
 Example working command to test that the tm-reporter is working fine with a xml file copied in your working directory:
 ```
-tm-reporter -m html L1Menu_Collisions2024_v1_0_1.xml
+tm-reporter -m html L1Menu_Collisions2024_v1_2_0.xml
 ```
