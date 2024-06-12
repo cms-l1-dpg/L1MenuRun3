@@ -13,7 +13,7 @@ All details about each version of the L1 menu can be found [here](https://twiki.
 python3 -m venv tme
 . tme/bin/activate
 pip install --upgrade pip
-pip install git+https://github.com/cms-l1-globaltrigger/tm-editor.git@0.17.0
+pip install git+https://github.com/cms-l1-globaltrigger/tm-editor.git@0.17.1
 ```
 
 After that, create a user shell script `tme.sh`
