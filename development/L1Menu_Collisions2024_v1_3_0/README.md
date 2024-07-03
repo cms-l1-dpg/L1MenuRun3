@@ -19,7 +19,7 @@ The following changes, from the third menu of 2024 (`L1Menu_Collisions2024_v1_2_
       - `L1_SingleMu22_EMTF_POS` (bit 41)
       - `L1_SingleMu22_EMTF_NEG` (bit 42)
 
-### Added new MHTHF seeds and removed MHT ones [CMSL1TDPG-1229](https://its.cern.ch/jira/browse/CMSLITDPG-1229)
+### Added new HTMHF seeds and removed MHT ones [CMSL1TDPG-1229](https://its.cern.ch/jira/browse/CMSLITDPG-1229)
    - Added the following seeds: 
       - `L1_HTMHF100` (bit 434)
       - `L1_HTMHF120` (bit 435)
