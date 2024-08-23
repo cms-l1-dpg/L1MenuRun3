@@ -11,7 +11,7 @@ Collection of L1 menus released during MWGRs or for data taking.
 - L1_SingleMuOpen_er1p4_NotBptxOR_3BX (PS=1)
 - L1_SingleMuOpen_er1p1_NotBptxOR_3BX (PS=1)
 - L1_SingleJet20er2p5_NotBptxOR (PS=100)
-- L1_SingleJet20er2p5_NotBptxOR_3BX (PS=20)
+- L1_SingleJet20er2p5_NotBptxOR_3BX (PS=0)
 - L1_SingleJet43er2p5_NotBptxOR_3BX (PS=1)
 - L1_SingleJet46er2p5_NotBptxOR_3BX (PS=1)
 ```
