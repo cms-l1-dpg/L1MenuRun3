@@ -15,3 +15,4 @@ Collection of L1 menus released during MWGRs or for data taking.
 - L1_SingleJet43er2p5_NotBptxOR_3BX (PS=1)
 - L1_SingleJet46er2p5_NotBptxOR_3BX (PS=1)
 ```
+N.B. The seed `L1_SingleJet20er2p5_NotBptxOR_3BX` has been disabled in Run3 starting from fill 9978, because it's not effectively used at HLT (see [CMSHLT-3305](https://its.cern.ch/jira/browse/CMSHLT-3305)).
