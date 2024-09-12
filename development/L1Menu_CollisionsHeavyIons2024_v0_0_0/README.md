@@ -30,16 +30,17 @@ The following changes, from the last 2023 HI menu (`L1Menu_CollisionsHeavyIons20
           - `L1_DoubleUPCJet2/4/6/8/12_DeltaPhi2p0_NotZDC1n_AND_BptxAND`
           - `L1_DoubleUPCJet2/4/6/8/12_DeltaPhi2p0_notMinimumBiasHF2_BptxAND`
           - `L1_SingleJet8/12/16/20/24/28_ZDC1n_OR_BptxAND`
+            
    - Removed 36 seeds:
-          - `L1_SingleJet24_ETM10/15/30/50_ZDC1n_XOR_BptxAND`
-          - `L1_SingleJet24_HTM10/15/30/50_ZDC1n_XOR_BptxAND`
-          - `L1_SingleJet24_ETM10/15/30/50_ZDC1n_AsymXOR_BptxAND`
-          - `L1_SingleJet24_HTM10/15/30/50_ZDC1n_AsymXOR_BptxAND`
-          - `L1_SingleJet8/12/16/20/24/28_ZDC1n_XOR_MidEta2p5_BptxAND`
-          - `L1_SingleJet8/12/16/20/24/28_ZDC1n_AsymXOR_MidEta2p5_BptxAND`
-          - `L1_DoubleJet_16_12_ZDC1n_AsymXOR/XOR_BptxAND`
-          - `L1_DoubleJet_24_16_ZDC1n_AsymXOR/XOR_BptxAND`
-          - `L1_DoubleJet_8_8_ZDC1n_AsymXOR/XOR_BptxAND`
-          - `L1_DoubleJet_12_8_ZDC1n_AsymXOR/XOR_BptxAND`
+      - `L1_SingleJet24_ETM10/15/30/50_ZDC1n_XOR_BptxAND`
+      - `L1_SingleJet24_HTM10/15/30/50_ZDC1n_XOR_BptxAND`
+      - `L1_SingleJet24_ETM10/15/30/50_ZDC1n_AsymXOR_BptxAND`
+      - `L1_SingleJet24_HTM10/15/30/50_ZDC1n_AsymXOR_BptxAND`
+      - `L1_SingleJet8/12/16/20/24/28_ZDC1n_XOR_MidEta2p5_BptxAND`
+      - `L1_SingleJet8/12/16/20/24/28_ZDC1n_AsymXOR_MidEta2p5_BptxAND`
+      - `L1_DoubleJet_16_12_ZDC1n_AsymXOR/XOR_BptxAND`
+      - `L1_DoubleJet_24_16_ZDC1n_AsymXOR/XOR_BptxAND`
+      - `L1_DoubleJet_8_8_ZDC1n_AsymXOR/XOR_BptxAND`
+      - `L1_DoubleJet_12_8_ZDC1n_AsymXOR/XOR_BptxAND`
    
 
