@@ -1,4 +1,4 @@
-Index,Name,Emergency,2p0E34_NoScouting,2p0E34_NoLowPtSingleMu,2p0E34_NoLowPtSingleMuScouting,2p0E34+ZeroBias+HLTPhysics,2p0E34+ZeroBias,2p0E34+HLTPhysics,2p0E34,2p0E34_NoAXO,1p8E34,1p8E34+ZeroBias,1p8E34+ZeroBias+HLTPhysics,1p8E34+HLTPhysics,1p8E34_NoAXO,1p6E34,1p4E34,2p0E34_OnlyMuons,2p0E34_NoMuShower,2p0E34_NoEcalTiming
+﻿Index,Name,Emergency,2p0E34_NoScouting,2p0E34_NoLowPtSingleMu,2p0E34_NoLowPtSingleMuScouting,2p0E34+ZeroBias+HLTPhysics,2p0E34+ZeroBias,2p0E34+HLTPhysics,2p0E34,2p0E34_NoAXO,1p8E34,1p8E34+ZeroBias,1p8E34+ZeroBias+HLTPhysics,1p8E34+HLTPhysics,1p8E34_NoAXO,1p6E34,1p4E34,2p0E34_OnlyMuons,2p0E34_NoMuShower,2p0E34_NoEcalTiming
 0,L1_SingleMuCosmics,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1,L1_SingleMuCosmics_BMTF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2,L1_SingleMuCosmics_OMTF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -201,7 +201,7 @@ Index,Name,Emergency,2p0E34_NoScouting,2p0E34_NoLowPtSingleMu,2p0E34_NoLowPtSing
 204,L1_SingleMu7_SQ14_BMTF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 205,L1_SingleMu8_SQ14_BMTF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 206,L1_SingleMu9_SQ14_BMTF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
-214,L1_DoubleEG11_er1p2_dR_Max0p6,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+214,L1_DoubleEG11_er1p2_dR_Max0p6,0,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,0,2,2
 215,L1_DoubleEG_15_10_er2p5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 216,L1_DoubleEG_20_10_er2p5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 217,L1_DoubleEG_22_10_er2p5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -211,7 +211,7 @@ Index,Name,Emergency,2p0E34_NoScouting,2p0E34_NoLowPtSingleMu,2p0E34_NoLowPtSing
 223,L1_DoubleEG_LooseIso22_12_er2p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
 224,L1_DoubleEG_LooseIso25_12_er2p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
 225,L1_DoubleEG_LooseIso16_LooseIso12_er1p5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-226,L1_DoubleEG_LooseIso18_LooseIso12_er1p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+226,L1_DoubleEG_LooseIso18_LooseIso12_er1p5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 227,L1_DoubleEG_LooseIso20_LooseIso12_er1p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
 228,L1_DoubleEG_LooseIso22_LooseIso12_er1p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
 229,L1_DoubleEG_LooseIso25_LooseIso12_er1p5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
