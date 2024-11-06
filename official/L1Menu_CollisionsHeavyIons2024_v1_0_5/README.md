@@ -20,4 +20,4 @@ The following changes, from the last HI menu (`L1Menu_CollisionsHeavyIons2024_v1
 **Additional Remarks:**
 - Synthesized, validated and tested in uGT test crate [CMSLITDPG-1322](https://its.cern.ch/jira/browse/CMSLITDPG-1322)
 - Sw tag in condDB uploaded: [L1Menu_CollisionsHeavyIons2024_v1_0_5_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_CollisionsHeavyIons2024_v1_0_5_xml)
-- The L1Menu_CollisionsHeavyIons2024_v1_0_5_xml was deployed online for the HeavyIons runs: first PbPb collision run 387472 on 5th Nov 2024.
+- The L1Menu_CollisionsHeavyIons2024_v1_0_5_xml was deployed online for the HeavyIons runs: first PbPb collision run 387853 on 5th Nov 2024.
