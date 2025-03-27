@@ -59,4 +59,10 @@ The following changes, from the last pp menu of 2024 (`L1Menu_Collisions2024_v1_
    - Added the following seeds: 
      - `L1_CICADA_VVTight` (bit 509) 
      - `L1_CICADA_VVVTight` (bit 510) 
-     - `L1_CICADA_VVVVTight` (bit 511) 
+     - `L1_CICADA_VVVVTight` (bit 511)
+
+<br/>
+
+**Additional Remarks:**
+
+- Sw tag in condDB: [L1Menu_Collisions2025_v0_0_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2025_v0_0_0_xml)
