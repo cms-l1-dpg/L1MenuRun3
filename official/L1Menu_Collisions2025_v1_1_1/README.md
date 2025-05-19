@@ -26,4 +26,8 @@ The following changes, from the previous deployed L1T menu `v1_0_0` have been ma
 
 **Additional Remarks:**
 
+- Reference JIRA ticket: [CMSLITDPG-1367](https://its.cern.ch/jira/browse/CMSLITDPG-1367) 
 - Sw tag in condDB: [L1Menu_Collisions2025_v1_1_1_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2025_v1_1_1_xml)
+- Fw tag in condDB: [L1Menu_Collisions2025_v1_1_1-d2_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2025_v1_1_1-d2_xml)
+- [GT updated](https://cms-talk.web.cern.ch/t/gt-mc-data-relval-update-of-the-gt-with-the-new-2025-l1t-menu-tag-l1menu-collisions2025-v1-1-1-xml/124487) accordingly
+- The "L1Menu_Collisions2025_v1_1_1" was deployed online on May 15 starting from the collisions run 392175.
