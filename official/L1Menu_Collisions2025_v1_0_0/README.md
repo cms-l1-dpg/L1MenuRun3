@@ -123,4 +123,8 @@ The following changes, from the latest 2024 pp menu (2024_v1_0_3) have been made
 
 **Additional Remarks:**
 
+- Reference JIRA ticket: [CMSLITDPG-1359](https://its.cern.ch/jira/browse/CMSLITDPG-1359) 
 - Sw tag in condDB: [L1Menu_Collisions2025_v1_0_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2025_v1_0_0_xml)
+- Fw tag in condDB: [L1Menu_Collisions2025_v1_0_0-d1_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2025_v1_0_0-d1_xml)
+- [GT updated](https://cms-talk.web.cern.ch/t/gt-mc-data-relval-update-of-the-gt-with-the-2025-l1t-menu-tag-l1menu-collisions2025-v1-0-0-xml/122657?u=caruta) accordingly
+- The "L1Menu_Collisions2025_v1_0_0" was deployed online on April 25 starting from the cosmics run 391069.
