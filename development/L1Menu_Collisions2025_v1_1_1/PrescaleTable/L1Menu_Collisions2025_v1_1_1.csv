@@ -1,4 +1,4 @@
-Index,Name,Emergency,EmittanceScan,2p0E34+ZeroBias+HLTPhysics,2p0E34,1p95E34,1p9E34,1p85E34,1p8E34,1p6E34,1p4E34,2p0E34_OnlyMuons,2p0E34_NoCICADA,Backup1,Backup2
+Index,Name,Emergency,EmittanceScan,2p0E34+ZeroBias+HLTPhysics,2p0E34,1p95E34,1p9E34,1p85E34,1p8E34,1p6E34,1p4E34,2p0E34_OnlyMuons,2p0E34_NoL1CICADA,Backup1,Backup2
 0,L1_SingleMuCosmics,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1,L1_SingleMuCosmics_BMTF,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2,L1_SingleMuCosmics_OMTF,0,0,0,0,0,0,0,0,0,0,0,0,0,0
