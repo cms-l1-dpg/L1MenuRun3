@@ -19,7 +19,7 @@ The following changes, from the previous deployed L1T menu from 2025 `v1_3_0` ha
      - `L1_AXO_Tight`: `AXO-SCORE_Tight`(3318) -> `AXO-SCORE_Tight`(3865)
      - `L1_AXO_VTight`: `AXO-SCORE_VTight`(4762) -> `AXO-SCORE_VTight`(7874)
      - `L1_AXO_VVTight`: `AXO-SCORE_VVTight`(26375) -> `AXO-SCORE_VVTight`(11121)
-     - `L1_AXO_VVVTight`: `AXO-SCORE_VVVTight`(44447) -> removed
+     - `L1_AXO_VVVTight`: `AXO-SCORE_VVVTight`(44447) -> `AXO-SCORE_VVVTight`(10000000), arbitrarily high to effectively remove it
 
 ### Modified CICADA seed thresholds, and added three new seeds for Parking at HLT [CMSLITDPG-1502](https://its.cern.ch/jira/browse/CMSLITDPG-1502) 
 - Modified the following seeds: 

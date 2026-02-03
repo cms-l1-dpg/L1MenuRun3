@@ -396,6 +396,7 @@ Index,Name,Emergency,EmittanceScan,2p0E34+ZeroBias+HLTPhysics,2p0E34,1p95E34,1p9
 424,L1_AXO_Tight,0,1,1,1,1,1,1,1,1,1,0,1,1,1
 425,L1_AXO_VTight,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 426,L1_AXO_VVTight,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+427,L1_AXO_VVVTight,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 428,L1_CICADA_VLoose,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 429,L1_CICADA_Loose,0,1,1,1,1,1,1,1,1,1,0,0,1,1
 430,L1_CICADA_Medium,0,1,1,1,1,1,1,1,1,1,0,0,1,1
