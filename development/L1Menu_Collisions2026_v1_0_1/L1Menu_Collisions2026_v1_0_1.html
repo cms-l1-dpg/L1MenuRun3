@@ -110,7 +110,7 @@
       <li class="list-group-item"><strong>Comment:</strong> First version of the first official L1T menu for the 2026 pp data taking.<br/>
 [Scale set scales_2024_05_15, for grammar version 0.13]</li>
       <li class="list-group-item"><strong>Firmware UUID:</strong> 00000000-0000-0000-0000-000000000000</li>
-      <li class="list-group-item"><strong>Menu UUID:</strong> 528045da-d043-4fa8-92b7-7f44d2439a96</li>
+      <li class="list-group-item"><strong>Menu UUID:</strong> 07a13a1f-8ee2-41a5-b5ec-ae34953531f4</li>
       <li class="list-group-item"><strong>Grammar Version:</strong> 0.13</li>
       <li class="list-group-item"><strong>Scale Set:</strong> scales_2024_05_15</li>
       <li class="list-group-item"><strong>External Signals Set:</strong> L1ExternalConditionsCabling_20240328</li>
@@ -243,6 +243,11 @@
       <tr>
         <td><a href=#L1_SingleMu7>22</a></td>
         <td><a href=#L1_SingleMu7>L1_SingleMu7</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleMu12_DQ>23</a></td>
+        <td><a href=#L1_SingleMu12_DQ>L1_SingleMu12_DQ</a></td>
         <td></td>
       </tr>
       <tr>
@@ -1424,6 +1429,21 @@
         <td><a href=#L1_Mu18er2p1_Tau26er2p1_Jet70>282</a></td>
         <td><a href=#L1_Mu18er2p1_Tau26er2p1_Jet70>L1_Mu18er2p1_Tau26er2p1_Jet70</a></td>
         <td>Run3 (2022)</td>
+      </tr>
+      <tr>
+        <td><a href=#L1_QuadJet15er2p5>283</a></td>
+        <td><a href=#L1_QuadJet15er2p5>L1_QuadJet15er2p5</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_QuadJet20er2p5>284</a></td>
+        <td><a href=#L1_QuadJet20er2p5>L1_QuadJet20er2p5</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_QuadJet24er2p5>285</a></td>
+        <td><a href=#L1_QuadJet24er2p5>L1_QuadJet24er2p5</a></td>
+        <td></td>
       </tr>
       <tr>
         <td><a href=#L1_Mu22er2p1_IsoTau30er2p1>286</a></td>
@@ -3722,6 +3742,51 @@
                   
                     Quality: <a href="#MU-QLTY_SNGL">MU-QLTY_SNGL</a>:
                     <code>0xf000</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleMu12_DQ"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>23 L1_SingleMu12_DQ <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">MU12[MU-QLTY_DBLE]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_mu12_dq</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_mu_i486</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>L1 Menu v1.0 (Feb 2026): Low Pileup Seeds<br />https://its.cern.ch/jira/browse/CMSLITDPG-1505</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>MU12[MU-QLTY_DBLE]</strong> : <code>single_mu_i486</code>
+          <ul>
+            <li>Object: MU12
+              <ul>
+                <li>
+                  
+                    Threshold: 12.0 GeV
+                    : <code>0x19</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Quality: <a href="#MU-QLTY_DBLE">MU-QLTY_DBLE</a>:
+                    <code>0xff00</code>
                   
                 </li>
       
@@ -7012,15 +7077,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -7432,15 +7497,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p2">DETA_MAX_1p2</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.2]
                 : <code>[0.0, 1.2]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -7611,15 +7676,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p2">DETA_MAX_1p2</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.2]
                 : <code>[0.0, 1.2]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -7703,15 +7768,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p6">DETA_MAX_1p6</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.6]
                 : <code>[0.0, 1.6]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -7795,15 +7860,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#DPHI_0p8to1p2">DPHI_0p8to1p2</a></li>
             <ul><li>
                 Delta-Phi: [0.8, 1.2]
                 : <code>[0.8, 1.2]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
             <li>Cut: <a href="#DETA_Max0p3">DETA_Max0p3</a></li>
             <ul><li>
@@ -7893,15 +7958,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#DR_MAX_1p6">DR_MAX_1p6</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.6]
                 : <code>[0.0, 2.561]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -8125,15 +8190,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#DR_MAX_1p6">DR_MAX_1p6</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.6]
                 : <code>[0.0, 2.561]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -8433,15 +8498,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_7">MASS_MIN_7</a></li>
             <ul><li>
                 Mass: [7.0, 151982.0]
                 : <code>[24.5, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -8520,15 +8585,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_7to18">MASS_MASS_7to18</a></li>
             <ul><li>
                 Mass: [7.0, 18.0]
                 : <code>[24.5, 162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -8598,15 +8663,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#DR_MAX_1p6">DR_MAX_1p6</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.6]
                 : <code>[0.0, 2.561]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -11807,15 +11872,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_0to14">MASS_MASS_0to14</a></li>
             <ul><li>
                 Mass: [0.0, 14.0]
                 : <code>[0.0, 98.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -11942,15 +12007,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_8to14">MASS_MASS_8to14</a></li>
             <ul><li>
                 Mass: [8.0, 14.0]
                 : <code>[32.0, 98.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -21123,6 +21188,303 @@
       </div>
     </div>
     <hr />
+    <a class="anchor" name="L1_QuadJet15er2p5"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>283 L1_QuadJet15er2p5 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression"><span class="function">comb</span><span class="curl">{</span>JET15[JET-ETA_2p52], JET15[JET-ETA_2p52], JET15[JET-ETA_2p52], JET15[JET-ETA_2p52]<span class="curl">}</span></pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_quad_jet15er2p5</span> <span class="vhdlop"><=</span> <span class="vhdlsig">quad_jet_i487</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>L1 Menu v1.0 (Feb 2026): Low Pileup Seeds<br />https://its.cern.ch/jira/browse/CMSLITDPG-1505</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>comb{JET15[JET-ETA_2p52], JET15[JET-ETA_2p52], JET15[JET-ETA_2p52], JET15[JET-ETA_2p52]}</strong> : <code>quad_jet_i487</code>
+          <ul>
+            <li>Object: JET15
+              <ul>
+                <li>
+                  
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET15
+              <ul>
+                <li>
+                  
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET15
+              <ul>
+                <li>
+                  
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET15
+              <ul>
+                <li>
+                  
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_QuadJet20er2p5"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>284 L1_QuadJet20er2p5 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression"><span class="function">comb</span><span class="curl">{</span>JET20[JET-ETA_2p52], JET20[JET-ETA_2p52], JET20[JET-ETA_2p52], JET20[JET-ETA_2p52]<span class="curl">}</span></pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_quad_jet20er2p5</span> <span class="vhdlop"><=</span> <span class="vhdlsig">quad_jet_i488</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>L1 Menu v1.0 (Feb 2026): Low Pileup Seeds<br />https://its.cern.ch/jira/browse/CMSLITDPG-1505</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>comb{JET20[JET-ETA_2p52], JET20[JET-ETA_2p52], JET20[JET-ETA_2p52], JET20[JET-ETA_2p52]}</strong> : <code>quad_jet_i488</code>
+          <ul>
+            <li>Object: JET20
+              <ul>
+                <li>
+                  
+                    Threshold: 20.0 GeV
+                    : <code>0x28</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET20
+              <ul>
+                <li>
+                  
+                    Threshold: 20.0 GeV
+                    : <code>0x28</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET20
+              <ul>
+                <li>
+                  
+                    Threshold: 20.0 GeV
+                    : <code>0x28</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET20
+              <ul>
+                <li>
+                  
+                    Threshold: 20.0 GeV
+                    : <code>0x28</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_QuadJet24er2p5"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>285 L1_QuadJet24er2p5 <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression"><span class="function">comb</span><span class="curl">{</span>JET24[JET-ETA_2p52], JET24[JET-ETA_2p52], JET24[JET-ETA_2p52], JET24[JET-ETA_2p52]<span class="curl">}</span></pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_quad_jet24er2p5</span> <span class="vhdlop"><=</span> <span class="vhdlsig">quad_jet_i489</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>L1 Menu v1.0 (Feb 2026): Low Pileup Seeds<br />https://its.cern.ch/jira/browse/CMSLITDPG-1505</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>comb{JET24[JET-ETA_2p52], JET24[JET-ETA_2p52], JET24[JET-ETA_2p52], JET24[JET-ETA_2p52]}</strong> : <code>quad_jet_i489</code>
+          <ul>
+            <li>Object: JET24
+              <ul>
+                <li>
+                  
+                    Threshold: 24.0 GeV
+                    : <code>0x30</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET24
+              <ul>
+                <li>
+                  
+                    Threshold: 24.0 GeV
+                    : <code>0x30</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET24
+              <ul>
+                <li>
+                  
+                    Threshold: 24.0 GeV
+                    : <code>0x30</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET24
+              <ul>
+                <li>
+                  
+                    Threshold: 24.0 GeV
+                    : <code>0x30</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
     <a class="anchor" name="L1_Mu22er2p1_IsoTau30er2p1"></a>
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -24193,17 +24555,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_225">MASS_MIN_225</a></li>
-            <ul><li>
-                Mass: [225.0, 151982.0]
-                : <code>[25312.5, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_225">MASS_MIN_225</a></li>
+            <ul><li>
+                Mass: [225.0, 151982.0]
+                : <code>[25312.5, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -25040,17 +25402,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
-            <ul><li>
-                ORM-Delta-R: [0.0, 0.5]
-                : <code>[0.0, 0.25]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_600">MASS_MIN_600</a></li>
             <ul><li>
                 Mass: [600.0, 151982.0]
                 : <code>[180000.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
+            <ul><li>
+                ORM-Delta-R: [0.0, 0.5]
+                : <code>[0.0, 0.25]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -25131,17 +25493,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
-            <ul><li>
-                ORM-Delta-R: [0.0, 0.5]
-                : <code>[0.0, 0.25]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_700">MASS_MIN_700</a></li>
             <ul><li>
                 Mass: [700.0, 151982.0]
                 : <code>[245000.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
+            <ul><li>
+                ORM-Delta-R: [0.0, 0.5]
+                : <code>[0.0, 0.25]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -25222,17 +25584,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_800">MASS_MIN_800</a></li>
-            <ul><li>
-                Mass: [800.0, 151982.0]
-                : <code>[320000.0, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
             <ul><li>
                 ORM-Delta-R: [0.0, 0.5]
                 : <code>[0.0, 0.25]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_800">MASS_MIN_800</a></li>
+            <ul><li>
+                Mass: [800.0, 151982.0]
+                : <code>[320000.0, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -29954,17 +30316,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#ORMDR_0p2">ORMDR_0p2</a></li>
-            <ul><li>
-                ORM-Delta-R: [0.0, 0.2]
-                : <code>[0.0, 0.041]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_600">MASS_MIN_600</a></li>
             <ul><li>
                 Mass: [600.0, 151982.0]
                 : <code>[180000.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#ORMDR_0p2">ORMDR_0p2</a></li>
+            <ul><li>
+                ORM-Delta-R: [0.0, 0.2]
+                : <code>[0.0, 0.041]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -39395,7 +39757,7 @@
     </table>
 
     <footer class="footer">
-      <p>Generated by tm-reporter v2.13.0 on 2026-02-03 17:56:11.</p>
+      <p>Generated by tm-reporter v2.13.0 on 2026-02-03 20:29:50.</p>
     </fooer>
 
   </main><!-- /container -->

@@ -110,7 +110,7 @@
       <li class="list-group-item"><strong>Comment:</strong> First version of the first official L1T menu for the 2026 pp data taking.<br/>
 [Scale set scales_2024_05_15, for grammar version 0.13]</li>
       <li class="list-group-item"><strong>Firmware UUID:</strong> 00000000-0000-0000-0000-000000000000</li>
-      <li class="list-group-item"><strong>Menu UUID:</strong> c02a71eb-cf16-4e9b-a0e0-41ed06efbda1</li>
+      <li class="list-group-item"><strong>Menu UUID:</strong> 531246a2-1650-4ff1-9949-119b410a75a3</li>
       <li class="list-group-item"><strong>Grammar Version:</strong> 0.13</li>
       <li class="list-group-item"><strong>Scale Set:</strong> scales_2024_05_15</li>
       <li class="list-group-item"><strong>External Signals Set:</strong> L1ExternalConditionsCabling_20240328</li>
@@ -243,6 +243,11 @@
       <tr>
         <td><a href=#L1_SingleMu7>22</a></td>
         <td><a href=#L1_SingleMu7>L1_SingleMu7</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_SingleMu12_DQ>23</a></td>
+        <td><a href=#L1_SingleMu12_DQ>L1_SingleMu12_DQ</a></td>
         <td></td>
       </tr>
       <tr>
@@ -1291,6 +1296,21 @@
         <td>Run3 (2024)</td>
       </tr>
       <tr>
+        <td><a href=#L1_TOPO_Loose>243</a></td>
+        <td><a href=#L1_TOPO_Loose>L1_TOPO_Loose</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_TOPO_Medium>244</a></td>
+        <td><a href=#L1_TOPO_Medium>L1_TOPO_Medium</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href=#L1_TOPO_Tight>245</a></td>
+        <td><a href=#L1_TOPO_Tight>L1_TOPO_Tight</a></td>
+        <td></td>
+      </tr>
+      <tr>
         <td><a href=#L1_DoubleEG8er2p5_HTT280er>248</a></td>
         <td><a href=#L1_DoubleEG8er2p5_HTT280er>L1_DoubleEG8er2p5_HTT280er</a></td>
         <td></td>
@@ -1426,18 +1446,18 @@
         <td>Run3 (2022)</td>
       </tr>
       <tr>
-        <td><a href=#L1_TOPO_Loose>283</a></td>
-        <td><a href=#L1_TOPO_Loose>L1_TOPO_Loose</a></td>
+        <td><a href=#L1_QuadJet15er2p5>283</a></td>
+        <td><a href=#L1_QuadJet15er2p5>L1_QuadJet15er2p5</a></td>
         <td></td>
       </tr>
       <tr>
-        <td><a href=#L1_TOPO_Medium>284</a></td>
-        <td><a href=#L1_TOPO_Medium>L1_TOPO_Medium</a></td>
+        <td><a href=#L1_QuadJet20er2p5>284</a></td>
+        <td><a href=#L1_QuadJet20er2p5>L1_QuadJet20er2p5</a></td>
         <td></td>
       </tr>
       <tr>
-        <td><a href=#L1_TOPO_Tight>285</a></td>
-        <td><a href=#L1_TOPO_Tight>L1_TOPO_Tight</a></td>
+        <td><a href=#L1_QuadJet24er2p5>285</a></td>
+        <td><a href=#L1_QuadJet24er2p5>L1_QuadJet24er2p5</a></td>
         <td></td>
       </tr>
       <tr>
@@ -3737,6 +3757,51 @@
                   
                     Quality: <a href="#MU-QLTY_SNGL">MU-QLTY_SNGL</a>:
                     <code>0xf000</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_SingleMu12_DQ"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>23 L1_SingleMu12_DQ <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">MU12[MU-QLTY_DBLE]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_single_mu12_dq</span> <span class="vhdlop"><=</span> <span class="vhdlsig">single_mu_i486</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>L1 Menu v1.0 (Feb 2026): Low Pileup Seeds<br />https://its.cern.ch/jira/browse/CMSLITDPG-1505</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>MU12[MU-QLTY_DBLE]</strong> : <code>single_mu_i486</code>
+          <ul>
+            <li>Object: MU12
+              <ul>
+                <li>
+                  
+                    Threshold: 12.0 GeV
+                    : <code>0x19</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Quality: <a href="#MU-QLTY_DBLE">MU-QLTY_DBLE</a>:
+                    <code>0xff00</code>
                   
                 </li>
       
@@ -7355,15 +7420,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -7534,15 +7599,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p4">DR_1p4</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.4]
                 : <code>[0.0, 1.961]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -8048,15 +8113,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p2">DR_1p2</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.2]
                 : <code>[0.0, 1.441]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -8280,15 +8345,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
+            </li></ul>
             <li>Cut: <a href="#DR_1p2">DR_1p2</a></li>
             <ul><li>
                 Delta-R: [0.0, 1.2]
                 : <code>[0.0, 1.441]</code>
                   <code>precision: 3</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -8535,15 +8600,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_7to18">MASS_MASS_7to18</a></li>
             <ul><li>
                 Mass: [7.0, 18.0]
                 : <code>[24.5, 162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -9679,15 +9744,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MAX_12">MASS_MAX_12</a></li>
             <ul><li>
                 Mass: [0.0, 12.0]
                 : <code>[0.0, 72.0]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -9775,15 +9840,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MAX_12">MASS_MAX_12</a></li>
             <ul><li>
                 Mass: [0.0, 12.0]
                 : <code>[0.0, 72.0]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -9908,15 +9973,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MASS_5to17">MASS_MASS_5to17</a></li>
             <ul><li>
                 Mass: [5.0, 17.0]
                 : <code>[12.5, 144.5]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -10041,15 +10106,15 @@
             </li>
           </ul>
           <ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
+            </li></ul>
             <li>Cut: <a href="#MASS_MASS_5to17">MASS_MASS_5to17</a></li>
             <ul><li>
                 Mass: [5.0, 17.0]
                 : <code>[12.5, 144.5]</code>
                   <code>precision: 1</code>
-            </li></ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -10174,15 +10239,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_0to9">MASS_MASS_0to9</a></li>
             <ul><li>
                 Mass: [0.0, 9.0]
                 : <code>[0.0, 40.5]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -10307,15 +10372,15 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
-            <ul><li>
-                Charge Correaltion: <code>"os"</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MASS_0to9">MASS_MASS_0to9</a></li>
             <ul><li>
                 Mass: [0.0, 9.0]
                 : <code>[0.0, 40.5]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#CHGCOR_OS">CHGCOR_OS</a></li>
+            <ul><li>
+                Charge Correaltion: <code>"os"</code>
             </li></ul>
           </ul>
         </li>
@@ -19089,6 +19154,141 @@
       </div>
     </div>
     <hr />
+    <a class="anchor" name="L1_TOPO_Loose"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>243 L1_TOPO_Loose <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Loose]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_topo_loose</span> <span class="vhdlop"><=</span> <span class="vhdlsig">topological_trigger_i490</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>L1 Menu v1.0 (Feb 2026): New TOPO seeds <br />https://its.cern.ch/jira/browse/CMSLITDPG-1504</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Loose]</strong> : <code>topological_trigger_i490</code>
+          <ul>
+            <li>Object: TOPO
+              <ul>
+                <li>
+                  
+                    Model: <a href="#TOPO-MODEL_HHbbWW_1mu_v5">TOPO-MODEL_HHbbWW_1mu_v5</a>
+                    : <code>"HHbbWW_1mu_v5"</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Score: <a href="#TOPO-SCORE_Loose">TOPO-SCORE_Loose</a> 5107
+                    : <code>0x13f3</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_TOPO_Medium"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>244 L1_TOPO_Medium <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Medium]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_topo_medium</span> <span class="vhdlop"><=</span> <span class="vhdlsig">topological_trigger_i491</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>L1 Menu v1.0 (Feb 2026): New TOPO seeds <br />https://its.cern.ch/jira/browse/CMSLITDPG-1504</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Medium]</strong> : <code>topological_trigger_i491</code>
+          <ul>
+            <li>Object: TOPO
+              <ul>
+                <li>
+                  
+                    Model: <a href="#TOPO-MODEL_HHbbWW_1mu_v5">TOPO-MODEL_HHbbWW_1mu_v5</a>
+                    : <code>"HHbbWW_1mu_v5"</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Score: <a href="#TOPO-SCORE_Medium">TOPO-SCORE_Medium</a> 5583
+                    : <code>0x15cf</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <a class="anchor" name="L1_TOPO_Tight"></a>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3>245 L1_TOPO_Tight <span class="informative">(Module 0)</span></h3>
+      </div>
+      <div class="panel-body">
+        <p><strong>Logical Expression</strong></p>
+        <p><pre class="expression">TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Tight]</pre></p>
+
+        <p><strong>VHDL Expression</strong></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_topo_tight</span> <span class="vhdlop"><=</span> <span class="vhdlsig">topological_trigger_i492</span></pre></p>
+        <p><strong>Comment</strong></p>
+        <p>L1 Menu v1.0 (Feb 2026): New TOPO seeds <br />https://its.cern.ch/jira/browse/CMSLITDPG-1504</p>
+  
+
+        <p><strong>Conditions</strong></p>
+        <ul>
+        <li><strong>TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Tight]</strong> : <code>topological_trigger_i492</code>
+          <ul>
+            <li>Object: TOPO
+              <ul>
+                <li>
+                  
+                    Model: <a href="#TOPO-MODEL_HHbbWW_1mu_v5">TOPO-MODEL_HHbbWW_1mu_v5</a>
+                    : <code>"HHbbWW_1mu_v5"</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Score: <a href="#TOPO-SCORE_Tight">TOPO-SCORE_Tight</a> 6429
+                    : <code>0x191d</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
     <a class="anchor" name="L1_DoubleEG8er2p5_HTT280er"></a>
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -21138,38 +21338,92 @@
       </div>
     </div>
     <hr />
-    <a class="anchor" name="L1_TOPO_Loose"></a>
+    <a class="anchor" name="L1_QuadJet15er2p5"></a>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3>283 L1_TOPO_Loose <span class="informative">(Module 0)</span></h3>
+        <h3>283 L1_QuadJet15er2p5 <span class="informative">(Module 0)</span></h3>
       </div>
       <div class="panel-body">
         <p><strong>Logical Expression</strong></p>
-        <p><pre class="expression">TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Loose]</pre></p>
+        <p><pre class="expression"><span class="function">comb</span><span class="curl">{</span>JET15[JET-ETA_2p52], JET15[JET-ETA_2p52], JET15[JET-ETA_2p52], JET15[JET-ETA_2p52]<span class="curl">}</span></pre></p>
 
         <p><strong>VHDL Expression</strong></p>
-        <p><pre class="vhdl"><span class="vhdlsig">l1_topo_loose</span> <span class="vhdlop"><=</span> <span class="vhdlsig">topological_trigger_i486</span></pre></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_quad_jet15er2p5</span> <span class="vhdlop"><=</span> <span class="vhdlsig">quad_jet_i487</span></pre></p>
         <p><strong>Comment</strong></p>
-        <p>L1 Menu v1.0 (Feb 2026): New TOPO seeds <br />https://its.cern.ch/jira/browse/CMSLITDPG-1504</p>
+        <p>L1 Menu v1.0 (Feb 2026): Low Pileup Seeds<br />https://its.cern.ch/jira/browse/CMSLITDPG-1505</p>
   
 
         <p><strong>Conditions</strong></p>
         <ul>
-        <li><strong>TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Loose]</strong> : <code>topological_trigger_i486</code>
+        <li><strong>comb{JET15[JET-ETA_2p52], JET15[JET-ETA_2p52], JET15[JET-ETA_2p52], JET15[JET-ETA_2p52]}</strong> : <code>quad_jet_i487</code>
           <ul>
-            <li>Object: TOPO
+            <li>Object: JET15
               <ul>
                 <li>
                   
-                    Model: <a href="#TOPO-MODEL_HHbbWW_1mu_v5">TOPO-MODEL_HHbbWW_1mu_v5</a>
-                    : <code>"HHbbWW_1mu_v5"</code>
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
                   
                 </li>
       
                 <li>
                   
-                    Score: <a href="#TOPO-SCORE_Loose">TOPO-SCORE_Loose</a> 5107
-                    : <code>0x13f3</code>
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET15
+              <ul>
+                <li>
+                  
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET15
+              <ul>
+                <li>
+                  
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET15
+              <ul>
+                <li>
+                  
+                    Threshold: 15.0 GeV
+                    : <code>0x1e</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
                   
                 </li>
       
@@ -21183,38 +21437,92 @@
       </div>
     </div>
     <hr />
-    <a class="anchor" name="L1_TOPO_Medium"></a>
+    <a class="anchor" name="L1_QuadJet20er2p5"></a>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3>284 L1_TOPO_Medium <span class="informative">(Module 0)</span></h3>
+        <h3>284 L1_QuadJet20er2p5 <span class="informative">(Module 0)</span></h3>
       </div>
       <div class="panel-body">
         <p><strong>Logical Expression</strong></p>
-        <p><pre class="expression">TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Medium]</pre></p>
+        <p><pre class="expression"><span class="function">comb</span><span class="curl">{</span>JET20[JET-ETA_2p52], JET20[JET-ETA_2p52], JET20[JET-ETA_2p52], JET20[JET-ETA_2p52]<span class="curl">}</span></pre></p>
 
         <p><strong>VHDL Expression</strong></p>
-        <p><pre class="vhdl"><span class="vhdlsig">l1_topo_medium</span> <span class="vhdlop"><=</span> <span class="vhdlsig">topological_trigger_i487</span></pre></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_quad_jet20er2p5</span> <span class="vhdlop"><=</span> <span class="vhdlsig">quad_jet_i488</span></pre></p>
         <p><strong>Comment</strong></p>
-        <p>L1 Menu v1.0 (Feb 2026): New TOPO seeds <br />https://its.cern.ch/jira/browse/CMSLITDPG-1504</p>
+        <p>L1 Menu v1.0 (Feb 2026): Low Pileup Seeds<br />https://its.cern.ch/jira/browse/CMSLITDPG-1505</p>
   
 
         <p><strong>Conditions</strong></p>
         <ul>
-        <li><strong>TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Medium]</strong> : <code>topological_trigger_i487</code>
+        <li><strong>comb{JET20[JET-ETA_2p52], JET20[JET-ETA_2p52], JET20[JET-ETA_2p52], JET20[JET-ETA_2p52]}</strong> : <code>quad_jet_i488</code>
           <ul>
-            <li>Object: TOPO
+            <li>Object: JET20
               <ul>
                 <li>
                   
-                    Model: <a href="#TOPO-MODEL_HHbbWW_1mu_v5">TOPO-MODEL_HHbbWW_1mu_v5</a>
-                    : <code>"HHbbWW_1mu_v5"</code>
+                    Threshold: 20.0 GeV
+                    : <code>0x28</code>
                   
                 </li>
       
                 <li>
                   
-                    Score: <a href="#TOPO-SCORE_Medium">TOPO-SCORE_Medium</a> 5583
-                    : <code>0x15cf</code>
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET20
+              <ul>
+                <li>
+                  
+                    Threshold: 20.0 GeV
+                    : <code>0x28</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET20
+              <ul>
+                <li>
+                  
+                    Threshold: 20.0 GeV
+                    : <code>0x28</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET20
+              <ul>
+                <li>
+                  
+                    Threshold: 20.0 GeV
+                    : <code>0x28</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
                   
                 </li>
       
@@ -21228,38 +21536,92 @@
       </div>
     </div>
     <hr />
-    <a class="anchor" name="L1_TOPO_Tight"></a>
+    <a class="anchor" name="L1_QuadJet24er2p5"></a>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3>285 L1_TOPO_Tight <span class="informative">(Module 0)</span></h3>
+        <h3>285 L1_QuadJet24er2p5 <span class="informative">(Module 0)</span></h3>
       </div>
       <div class="panel-body">
         <p><strong>Logical Expression</strong></p>
-        <p><pre class="expression">TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Tight]</pre></p>
+        <p><pre class="expression"><span class="function">comb</span><span class="curl">{</span>JET24[JET-ETA_2p52], JET24[JET-ETA_2p52], JET24[JET-ETA_2p52], JET24[JET-ETA_2p52]<span class="curl">}</span></pre></p>
 
         <p><strong>VHDL Expression</strong></p>
-        <p><pre class="vhdl"><span class="vhdlsig">l1_topo_tight</span> <span class="vhdlop"><=</span> <span class="vhdlsig">topological_trigger_i488</span></pre></p>
+        <p><pre class="vhdl"><span class="vhdlsig">l1_quad_jet24er2p5</span> <span class="vhdlop"><=</span> <span class="vhdlsig">quad_jet_i489</span></pre></p>
         <p><strong>Comment</strong></p>
-        <p>L1 Menu v1.0 (Feb 2026): New TOPO seeds <br />https://its.cern.ch/jira/browse/CMSLITDPG-1504</p>
+        <p>L1 Menu v1.0 (Feb 2026): Low Pileup Seeds<br />https://its.cern.ch/jira/browse/CMSLITDPG-1505</p>
   
 
         <p><strong>Conditions</strong></p>
         <ul>
-        <li><strong>TOPO[TOPO-MODEL_HHbbWW_1mu_v5, TOPO-SCORE_Tight]</strong> : <code>topological_trigger_i488</code>
+        <li><strong>comb{JET24[JET-ETA_2p52], JET24[JET-ETA_2p52], JET24[JET-ETA_2p52], JET24[JET-ETA_2p52]}</strong> : <code>quad_jet_i489</code>
           <ul>
-            <li>Object: TOPO
+            <li>Object: JET24
               <ul>
                 <li>
                   
-                    Model: <a href="#TOPO-MODEL_HHbbWW_1mu_v5">TOPO-MODEL_HHbbWW_1mu_v5</a>
-                    : <code>"HHbbWW_1mu_v5"</code>
+                    Threshold: 24.0 GeV
+                    : <code>0x30</code>
                   
                 </li>
       
                 <li>
                   
-                    Score: <a href="#TOPO-SCORE_Tight">TOPO-SCORE_Tight</a> 6429
-                    : <code>0x191d</code>
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET24
+              <ul>
+                <li>
+                  
+                    Threshold: 24.0 GeV
+                    : <code>0x30</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET24
+              <ul>
+                <li>
+                  
+                    Threshold: 24.0 GeV
+                    : <code>0x30</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
+                  
+                </li>
+      
+              </ul>
+            </li>
+            <li>Object: JET24
+              <ul>
+                <li>
+                  
+                    Threshold: 24.0 GeV
+                    : <code>0x30</code>
+                  
+                </li>
+      
+                <li>
+                  
+                    Eta: <a href="#JET-ETA_2p52">JET-ETA_2p52</a> [-2.523, 2.523]
+                    : <code>[0xc6, 0x39]</code>
                   
                 </li>
       
@@ -24343,17 +24705,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#MASS_MIN_225">MASS_MIN_225</a></li>
-            <ul><li>
-                Mass: [225.0, 151982.0]
-                : <code>[25312.5, 11549264162.0]</code>
-                  <code>precision: 1</code>
-            </li></ul>
             <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
             <ul><li>
                 Delta-Eta: [0.0, 1.5]
                 : <code>[0.0, 1.5]</code>
                   <code>precision: 3</code>
+            </li></ul>
+            <li>Cut: <a href="#MASS_MIN_225">MASS_MIN_225</a></li>
+            <ul><li>
+                Mass: [225.0, 151982.0]
+                : <code>[25312.5, 11549264162.0]</code>
+                  <code>precision: 1</code>
             </li></ul>
           </ul>
         </li>
@@ -24568,17 +24930,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
-            <ul><li>
-                Delta-Eta: [0.0, 1.5]
-                : <code>[0.0, 1.5]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_330">MASS_MIN_330</a></li>
             <ul><li>
                 Mass: [330.0, 151982.0]
                 : <code>[54450.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#DETA_MAX_1p5">DETA_MAX_1p5</a></li>
+            <ul><li>
+                Delta-Eta: [0.0, 1.5]
+                : <code>[0.0, 1.5]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -25281,17 +25643,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
-            <ul><li>
-                ORM-Delta-R: [0.0, 0.5]
-                : <code>[0.0, 0.25]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_700">MASS_MIN_700</a></li>
             <ul><li>
                 Mass: [700.0, 151982.0]
                 : <code>[245000.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#ORMDR_0p5">ORMDR_0p5</a></li>
+            <ul><li>
+                ORM-Delta-R: [0.0, 0.5]
+                : <code>[0.0, 0.25]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -30195,17 +30557,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#ORMDR_0p2">ORMDR_0p2</a></li>
-            <ul><li>
-                ORM-Delta-R: [0.0, 0.2]
-                : <code>[0.0, 0.041]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_700">MASS_MIN_700</a></li>
             <ul><li>
                 Mass: [700.0, 151982.0]
                 : <code>[245000.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#ORMDR_0p2">ORMDR_0p2</a></li>
+            <ul><li>
+                ORM-Delta-R: [0.0, 0.2]
+                : <code>[0.0, 0.041]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -30286,17 +30648,17 @@
             </li>
           </ul>
           <ul>
-            <li>Cut: <a href="#ORMDR_0p2">ORMDR_0p2</a></li>
-            <ul><li>
-                ORM-Delta-R: [0.0, 0.2]
-                : <code>[0.0, 0.041]</code>
-                  <code>precision: 3</code>
-            </li></ul>
             <li>Cut: <a href="#MASS_MIN_800">MASS_MIN_800</a></li>
             <ul><li>
                 Mass: [800.0, 151982.0]
                 : <code>[320000.0, 11549264162.0]</code>
                   <code>precision: 1</code>
+            </li></ul>
+            <li>Cut: <a href="#ORMDR_0p2">ORMDR_0p2</a></li>
+            <ul><li>
+                ORM-Delta-R: [0.0, 0.2]
+                : <code>[0.0, 0.041]</code>
+                  <code>precision: 3</code>
             </li></ul>
           </ul>
         </li>
@@ -39577,7 +39939,7 @@
     </table>
 
     <footer class="footer">
-      <p>Generated by tm-reporter v2.13.0 on 2026-02-03 17:55:34.</p>
+      <p>Generated by tm-reporter v2.13.0 on 2026-02-03 20:38:03.</p>
     </fooer>
 
   </main><!-- /container -->

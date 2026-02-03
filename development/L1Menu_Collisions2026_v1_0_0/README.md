@@ -35,8 +35,23 @@ The following changes, from the previous deployed L1T menu from 2025 `v1_3_0` ha
      - Added `L1_CICADA_Parking2`: `CICADA-CSCORE_133p25`(133.25)
      - Added `L1_CICADA_Parking3`: `CICADA-CSCORE_145`(145)
 
+### New TOPO model added with three new seeds:
+- `L1_TOPO_Loose`: `TOPO-SCORE_Loose`(5107)
+- `L1_TOPO_Medium`: `TOPO-SCORE_Medium`(5583)
+- `L1_TOPO_Tight`: `TOPO-SCORE_Tight`(6429)
 
-
+### New seeds added for low pileup run:
+- L1_SingleEG18er2p5
+- L1_SingleEG20er2p5
+- L1_SingleMu12_DQ
+- L1_DoubleIsoTau26er2p1
+- L1_QuadJet15er2p5
+- L1_QuadJet20er2p5
+- L1_QuadJet24er2p5
+- L1_HTT100er
+- L1_HTT80er
+- L1_ETMHF40
+- L1_ETMHF50  
 
 --- 
 <br/>
