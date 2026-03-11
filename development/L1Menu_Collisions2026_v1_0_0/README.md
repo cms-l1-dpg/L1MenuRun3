@@ -58,9 +58,11 @@ The following changes, from the previous deployed L1T menu from 2025 `v1_3_0` ha
 
 **Additional Remarks:**
 
-<!--- Reference JIRA ticket: [CMSLITDPG-1404](https://its.cern.ch/jira/browse/CMSLITDPG-1404)
-- Sw tag in condDB: [L1Menu_Collisions2025_v1_3_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2025_v1_3_0_xml)
-- Fw tag in condDB: [L1Menu_Collisions2025_v1_1_1-d2_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2025_v1_3_0-d1_xml)
+Reference JIRA ticket: [CMSLITDPG-1508](https://its.cern.ch/jira/browse/CMSLITDPG-1508)
+- Sw tag in condDB: [L1Menu_Collisions2026_v1_1_0_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2026_v1_0_0_xml)
 - [GT updated](https://cms-talk.web.cern.ch/t/update-of-the-gt-with-the-new-2025-l1t-menu-tag-l1menu-collisions2025-v1-3-0-xml/127751) accordingly
-- The "L1Menu_Collisions2025_v1_3_0" was deployed online on August 18 starting from the collisions run 395982.
--->
+- The "L1Menu_Collisions2026_v1_1_0" was deployed online on February 25 starting from the global run 401307 with trigger keys l1_hlt_cosmics2026/v17, and l1_trg_circulating2026/v1. 
+<!--- 
+- Fw tag in condDB: [L1Menu_Collisions2025_v1_1_1-d2_xml](https://cms-conddb.cern.ch/cmsDbBrowser/list/Prod/tags/L1Menu_Collisions2025_v1_3_0-d1_xml) 
+---!>
+
